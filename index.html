@@ -2158,9 +2158,9 @@ function updatePlanBadge(){ document.querySelectorAll('[data-plancount]').forEac
 // ——— Mapa ———
 let map, layer, mapReady = false, pendingVenue = null, tileLayer = null, constMode = false;
 const TILESETS = () => [
-  { u: theme === 'dark' ? 'https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png' : 'https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', sub: 'abcd', a: '© współtwórcy <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>, © <a href="https://carto.com/attributions">CARTO</a>', dark: false },
   { u: 'https://tile.openstreetmap.org/{z}/{x}/{y}.png', sub: '', a: '© współtwórcy <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>', dark: theme === 'dark' },
-].filter((t, i) => i === 0 || /^https?:$/.test(location.protocol));
+  { u: 'https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}', sub: '', a: 'Podkład: Esri, © współtwórcy OpenStreetMap i inni', dark: theme === 'dark' },
+].filter(() => /^https?:$/.test(location.protocol));
 const HOSTED_URL = 'https://lucid-academy.github.io/kultura-torun/';
 function startTiles(i){
   if (!map) return;
@@ -2181,12 +2181,16 @@ function startTiles(i){
 }
 function initMap(){
   if (mapReady || typeof L === 'undefined') return;
-  map = L.map('map', { zoomControl: true, scrollWheelZoom: true });
-  const all = Object.values(VENUES).filter(v => v.lat).map(v => [v.lat, v.lng]);
-  map.fitBounds(all, { padding: [36, 36], maxZoom: 16, animate: false });
+  map = L.map('map', { zoomControl: true, scrollWheelZoom: true }).setView([53.0112, 18.6010], 15);
   L.control.scale({ imperial: false, position: 'bottomleft' }).addTo(map);
   layer = L.layerGroup().addTo(map); mapReady = true;
   startTiles(0); drawMap();
+}
+let mapFitted = false;
+function fitAll(){
+  const ks = new Set(filtered().map(e => e.v)); ks.add('rynek');
+  const pts = [...ks].map(k => VENUES[k]).filter(v => v && v.lat).map(v => [v.lat, v.lng]);
+  if (pts.length > 1) map.fitBounds(pts, { padding: [40, 40], maxZoom: 16, animate: false });
 }
 function drawMap(){
   if (!mapReady) return;
@@ -2711,7 +2715,7 @@ function route(){
   VIEWS.forEach(x => $('v-'+x).classList.toggle('on', x === v));
   document.querySelectorAll('.rail a, .bottombar a').forEach(a => a.setAttribute('aria-current', a.getAttribute('href') === '#'+v ? 'page' : 'false'));
   if (v === 'start') renderStart();
-  if (v === 'mapa') { initMap(); setTimeout(() => { map && map.invalidateSize(); drawMap(); }, 80); }
+  if (v === 'mapa') { initMap(); setTimeout(() => { if (!map) return; map.invalidateSize(); if (!mapFitted && !ROUTE) { fitAll(); mapFitted = true; } drawMap(); }, 120); }
   if (v === 'plan') { initPlanner(); renderSaved(); }
   closePanels();
   window.scrollTo({ top: 0, behavior: 'instant' in window ? 'instant' : 'auto' });
