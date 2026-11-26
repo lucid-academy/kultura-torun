@@ -25,7 +25,7 @@ END:DAYLIGHT
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:e8-20261122@kultura-torun-demo
-DTSTAMP:20261126T151807Z
+DTSTAMP:20261126T164620Z
 DTSTART;TZID=Europe/Warsaw:20261122T150000
 DTEND;TZID=Europe/Warsaw:20261122T160000
 SUMMARY:Tup tup idzie noc — koncert dla dzieci i rodziców
@@ -36,7 +36,7 @@ URL:https://torun.pl/pl/aktualnosc/weekend-w-toruniu-586
 END:VEVENT
 BEGIN:VEVENT
 UID:e9-20261122@kultura-torun-demo
-DTSTAMP:20261126T151807Z
+DTSTAMP:20261126T164620Z
 DTSTART;TZID=Europe/Warsaw:20261122T163000
 DTEND;TZID=Europe/Warsaw:20261122T173000
 SUMMARY:Tup tup idzie noc — koncert dla dzieci i rodziców
@@ -47,7 +47,7 @@ URL:https://torun.pl/pl/aktualnosc/weekend-w-toruniu-586
 END:VEVENT
 BEGIN:VEVENT
 UID:e134-20261127@kultura-torun-demo
-DTSTAMP:20261126T151807Z
+DTSTAMP:20261126T164620Z
 DTSTART;TZID=Europe/Warsaw:20261127T190000
 DTEND;TZID=Europe/Warsaw:20261127T210000
 SUMMARY:Pink Floyd Tribute — The Echoes Project
@@ -57,7 +57,7 @@ URL:https://odnowa.umk.pl/
 END:VEVENT
 BEGIN:VEVENT
 UID:e135-20261128@kultura-torun-demo
-DTSTAMP:20261126T151807Z
+DTSTAMP:20261126T164620Z
 DTSTART;TZID=Europe/Warsaw:20261128T190000
 DTEND;TZID=Europe/Warsaw:20261128T210000
 SUMMARY:Meteroids
@@ -67,7 +67,7 @@ URL:https://odnowa.umk.pl/
 END:VEVENT
 BEGIN:VEVENT
 UID:e103-20261129@kultura-torun-demo
-DTSTAMP:20261126T151807Z
+DTSTAMP:20261126T164620Z
 DTSTART;TZID=Europe/Warsaw:20261129T130000
 DTEND;TZID=Europe/Warsaw:20261129T160000
 SUMMARY:Koncert Wokalistów Studia Wokalnego Działowa-Art
@@ -78,7 +78,7 @@ URL:https://www.tak.torun.pl/hub/harmonogram/
 END:VEVENT
 BEGIN:VEVENT
 UID:e136-20261130@kultura-torun-demo
-DTSTAMP:20261126T151807Z
+DTSTAMP:20261126T164620Z
 DTSTART;TZID=Europe/Warsaw:20261130T190000
 DTEND;TZID=Europe/Warsaw:20261130T210000
 SUMMARY:Dom o Zielonych Progach
@@ -88,7 +88,7 @@ URL:https://odnowa.umk.pl/
 END:VEVENT
 BEGIN:VEVENT
 UID:e55-20261203@kultura-torun-demo
-DTSTAMP:20261126T151807Z
+DTSTAMP:20261126T164620Z
 DTSTART;TZID=Europe/Warsaw:20261203T190000
 DTEND;TZID=Europe/Warsaw:20261203T210000
 SUMMARY:Pod dachami Paryża 2
@@ -98,7 +98,7 @@ URL:https://jordanki.torun.pl/event/pod-dachami-paryza/
 END:VEVENT
 BEGIN:VEVENT
 UID:e139-20261203@kultura-torun-demo
-DTSTAMP:20261126T151807Z
+DTSTAMP:20261126T164620Z
 DTSTART;TZID=Europe/Warsaw:20261203T190000
 DTEND;TZID=Europe/Warsaw:20261203T210000
 SUMMARY:Daria ze Śląska — „Halo. Co jest grane?” Tour
@@ -108,7 +108,7 @@ URL:https://odnowa.umk.pl/wydarzenie/daria-ze-slaska-2/
 END:VEVENT
 BEGIN:VEVENT
 UID:e54-20261204@kultura-torun-demo
-DTSTAMP:20261126T151807Z
+DTSTAMP:20261126T164620Z
 DTSTART;TZID=Europe/Warsaw:20261204T190000
 DTEND;TZID=Europe/Warsaw:20261204T210000
 SUMMARY:Richard Bona — koncert z kwintetem
@@ -118,7 +118,7 @@ URL:https://artus.torun.pl/wydarzenia/
 END:VEVENT
 BEGIN:VEVENT
 UID:e56-20261208@kultura-torun-demo
-DTSTAMP:20261126T151807Z
+DTSTAMP:20261126T164620Z
 DTSTART;TZID=Europe/Warsaw:20261208T120000
 DTEND;TZID=Europe/Warsaw:20261208T130000
 SUMMARY:Taneczna Mikołajkowa Misja — przeboje z „KPop Demon Hunters
@@ -129,7 +129,7 @@ URL:https://jordanki.torun.pl/event_type/koncert/feed/
 END:VEVENT
 BEGIN:VEVENT
 UID:e57-20261210@kultura-torun-demo
-DTSTAMP:20261126T151807Z
+DTSTAMP:20261126T164620Z
 DTSTART;TZID=Europe/Warsaw:20261210T170000
 DTEND;TZID=Europe/Warsaw:20261210T190000
 SUMMARY:Męskie Brzmienia — mocne uderzenie
@@ -140,7 +140,7 @@ URL:https://jordanki.torun.pl/event/meskie-brzmienia-mocne-uderzenie/
 END:VEVENT
 BEGIN:VEVENT
 UID:e172-20261211@kultura-torun-demo
-DTSTAMP:20261126T151807Z
+DTSTAMP:20261126T164620Z
 DTSTART;VALUE=DATE:20261211
 DTEND;VALUE=DATE:20261212
 SUMMARY:Zofia Konicka z zespołem — slam poetycki z muzyką
@@ -153,7 +153,7 @@ URL:https://gra.fm/grudzien-pelen-atrakcji-w-ksiaznicy-kopernikanskiej-spr
 END:VEVENT
 BEGIN:VEVENT
 UID:e59-20261212@kultura-torun-demo
-DTSTAMP:20261126T151807Z
+DTSTAMP:20261126T164620Z
 DTSTART;TZID=Europe/Warsaw:20261212T180000
 DTEND;TZID=Europe/Warsaw:20261212T200000
 SUMMARY:Ciechowski symfonicznie
@@ -164,7 +164,7 @@ URL:https://jordanki.torun.pl/ckk-jordanki/nadchodzace-wydarzenia/page/2/
 END:VEVENT
 BEGIN:VEVENT
 UID:e60-20261213@kultura-torun-demo
-DTSTAMP:20261126T151807Z
+DTSTAMP:20261126T164620Z
 DTSTART;TZID=Europe/Warsaw:20261213T170000
 DTEND;TZID=Europe/Warsaw:20261213T190000
 SUMMARY:Alicja Majewska i Włodzimierz Korcz — „Jubileusz 50 lat”
@@ -175,7 +175,7 @@ URL:https://jordanki.torun.pl/ckk-jordanki/nadchodzace-wydarzenia/page/2/
 END:VEVENT
 BEGIN:VEVENT
 UID:e62-20261214@kultura-torun-demo
-DTSTAMP:20261126T151807Z
+DTSTAMP:20261126T164620Z
 DTSTART;TZID=Europe/Warsaw:20261214T180000
 DTEND;TZID=Europe/Warsaw:20261214T200000
 SUMMARY:Poznaj muzykę. Muzyka Podhala — folklor i tradycja
@@ -186,7 +186,7 @@ URL:https://jordanki.torun.pl/ckk-jordanki/nadchodzace-wydarzenia/page/2/
 END:VEVENT
 BEGIN:VEVENT
 UID:e67-20261218@kultura-torun-demo
-DTSTAMP:20261126T151807Z
+DTSTAMP:20261126T164620Z
 DTSTART;TZID=Europe/Warsaw:20261218T173000
 DTEND;TZID=Europe/Warsaw:20261218T193000
 SUMMARY:Koncert Królewski — Majestat Klasyki
@@ -197,7 +197,7 @@ URL:https://jordanki.torun.pl/ckk-jordanki/nadchodzace-wydarzenia/page/2/
 END:VEVENT
 BEGIN:VEVENT
 UID:e68-20261218@kultura-torun-demo
-DTSTAMP:20261126T151807Z
+DTSTAMP:20261126T164620Z
 DTSTART;TZID=Europe/Warsaw:20261218T200000
 DTEND;TZID=Europe/Warsaw:20261218T220000
 SUMMARY:Pop Opera — od opery do musicalu
@@ -208,7 +208,7 @@ URL:https://jordanki.torun.pl/ckk-jordanki/nadchodzace-wydarzenia/page/2/
 END:VEVENT
 BEGIN:VEVENT
 UID:e141-20261219@kultura-torun-demo
-DTSTAMP:20261126T151807Z
+DTSTAMP:20261126T164620Z
 DTSTART;TZID=Europe/Warsaw:20261219T190000
 DTEND;TZID=Europe/Warsaw:20261219T210000
 SUMMARY:Koncert Specjalny Pamięci Grzegorza Ciechowskiego
@@ -220,7 +220,7 @@ URL:https://odnowa.umk.pl/wydarzenie/koncert-specjalny-pamieci-grzegorza-c
 END:VEVENT
 BEGIN:VEVENT
 UID:e71-20261220@kultura-torun-demo
-DTSTAMP:20261126T151807Z
+DTSTAMP:20261126T164620Z
 DTSTART;TZID=Europe/Warsaw:20261220T150000
 DTEND;TZID=Europe/Warsaw:20261220T160000
 SUMMARY:„O sroczce\, która za morze odlecieć nie chciała”\, czyli k
@@ -232,7 +232,7 @@ URL:https://jordanki.torun.pl/ckk-jordanki/nadchodzace-wydarzenia/page/2/
 END:VEVENT
 BEGIN:VEVENT
 UID:e72-20261220@kultura-torun-demo
-DTSTAMP:20261126T151807Z
+DTSTAMP:20261126T164620Z
 DTSTART;TZID=Europe/Warsaw:20261220T163000
 DTEND;TZID=Europe/Warsaw:20261220T173000
 SUMMARY:„O sroczce\, która za morze odlecieć nie chciała”\, czyli k
@@ -244,7 +244,7 @@ URL:https://jordanki.torun.pl/ckk-jordanki/nadchodzace-wydarzenia/page/2/
 END:VEVENT
 BEGIN:VEVENT
 UID:e74-20261221@kultura-torun-demo
-DTSTAMP:20261126T151807Z
+DTSTAMP:20261126T164620Z
 DTSTART;TZID=Europe/Warsaw:20261221T190000
 DTEND;TZID=Europe/Warsaw:20261221T210000
 SUMMARY:Varius Manx & Kasia Stankiewicz — SUPER EGO TOUR
@@ -255,7 +255,7 @@ URL:https://jordanki.torun.pl/ckk-jordanki/nadchodzace-wydarzenia/page/2/
 END:VEVENT
 BEGIN:VEVENT
 UID:e75-20261222@kultura-torun-demo
-DTSTAMP:20261126T151807Z
+DTSTAMP:20261126T164620Z
 DTSTART;TZID=Europe/Warsaw:20261222T193000
 DTEND;TZID=Europe/Warsaw:20261222T213000
 SUMMARY:Sławek Uniatowski — Magic Christmas Jazz Night
@@ -266,7 +266,7 @@ URL:https://jordanki.torun.pl/ckk-jordanki/nadchodzace-wydarzenia/page/2/
 END:VEVENT
 BEGIN:VEVENT
 UID:e76-20261227@kultura-torun-demo
-DTSTAMP:20261126T151807Z
+DTSTAMP:20261126T164620Z
 DTSTART;TZID=Europe/Warsaw:20261227T153000
 DTEND;TZID=Europe/Warsaw:20261227T173000
 SUMMARY:Noworoczny Koncert Wiedeński z Gwiazdami
@@ -277,7 +277,7 @@ URL:https://jordanki.torun.pl/ckk-jordanki/nadchodzace-wydarzenia/page/2/
 END:VEVENT
 BEGIN:VEVENT
 UID:e77-20261228@kultura-torun-demo
-DTSTAMP:20261126T151807Z
+DTSTAMP:20261126T164620Z
 DTSTART;TZID=Europe/Warsaw:20261228T170000
 DTEND;TZID=Europe/Warsaw:20261228T190000
 SUMMARY:TGD Kolędy Świata — trasa 2026/2027
@@ -288,7 +288,7 @@ URL:https://jordanki.torun.pl/ckk-jordanki/nadchodzace-wydarzenia/page/2/
 END:VEVENT
 BEGIN:VEVENT
 UID:e78-20261228@kultura-torun-demo
-DTSTAMP:20261126T151807Z
+DTSTAMP:20261126T164620Z
 DTSTART;TZID=Europe/Warsaw:20261228T190000
 DTEND;TZID=Europe/Warsaw:20261228T210000
 SUMMARY:Bridgerton — muzyka instrumentalna przy świecach
@@ -299,7 +299,7 @@ URL:https://jordanki.torun.pl/ckk-jordanki/nadchodzace-wydarzenia/page/2/
 END:VEVENT
 BEGIN:VEVENT
 UID:e79-20261229@kultura-torun-demo
-DTSTAMP:20261126T151807Z
+DTSTAMP:20261126T164620Z
 DTSTART;TZID=Europe/Warsaw:20261229T200000
 DTEND;TZID=Europe/Warsaw:20261229T220000
 SUMMARY:Piotr Cugowski — Koncert świąteczny
@@ -310,7 +310,7 @@ URL:https://jordanki.torun.pl/ckk-jordanki/nadchodzace-wydarzenia/page/2/
 END:VEVENT
 BEGIN:VEVENT
 UID:e80-20261231@kultura-torun-demo
-DTSTAMP:20261126T151807Z
+DTSTAMP:20261126T164620Z
 DTSTART;TZID=Europe/Warsaw:20261231T170000
 DTEND;TZID=Europe/Warsaw:20261231T190000
 SUMMARY:Wielka Gala Sylwestrowa / Taneczne przeboje wszech czasów
@@ -321,7 +321,7 @@ URL:https://jordanki.torun.pl/ckk-jordanki/nadchodzace-wydarzenia/page/2/
 END:VEVENT
 BEGIN:VEVENT
 UID:e81-20261231@kultura-torun-demo
-DTSTAMP:20261126T151807Z
+DTSTAMP:20261126T164620Z
 DTSTART;TZID=Europe/Warsaw:20261231T203000
 DTEND;TZID=Europe/Warsaw:20261231T223000
 SUMMARY:Wielka Gala Sylwestrowa / Taneczne przeboje wszech czasów

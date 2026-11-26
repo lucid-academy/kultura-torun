@@ -1491,6 +1491,212 @@ ul.clean li{margin:.25rem 0;font-size:.88rem}
 .dir p{margin:.2rem 0;color:var(--muted)}
 .dir small{color:var(--faint)}
 
+/* ——— v6: panel ——— */
+.khl{display:grid;grid-template-rows:repeat(3,minmax(0,1fr));gap:.6rem}
+@media (max-width:1100px){.khl{grid-template-rows:none;grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media (max-width:760px){.khl{grid-template-columns:minmax(0,1fr)}}
+.kh{display:grid;grid-template-columns:auto minmax(0,1fr) auto;gap:.3rem .9rem;align-items:center;text-align:left;background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:.75rem 1rem;color:var(--text);transition:border-color .2s,transform .2s,box-shadow .2s;position:relative;overflow:hidden}
+.kh:hover{border-color:var(--violet-soft);transform:translateY(-2px);box-shadow:0 10px 30px color-mix(in srgb,var(--violet) 18%,transparent)}
+.kh .v{font-size:2rem;font-weight:700;line-height:1;min-width:3.2ch;font-variant-numeric:tabular-nums}
+.kh .v small{font-size:.85rem;color:var(--muted);font-weight:600}
+.kh .l{font-size:.82rem;color:var(--muted);line-height:1.4}
+.kh .l b{color:var(--text)}
+.kh .go{font-size:.7rem;color:var(--cyan);white-space:nowrap;font-weight:700}
+@media (max-width:1100px){.kh{grid-template-columns:auto minmax(0,1fr)}.kh .go{grid-column:1 / -1}}
+.lead2{margin:-.2rem 0 .6rem;font-size:.88rem;color:var(--muted);max-width:90ch;line-height:1.55}
+.lead2 b{color:var(--text)}
+.aspects{display:flex;flex-wrap:wrap;gap:.4rem;margin-bottom:.9rem}
+.aspects span{border:1px solid var(--line2);background:var(--surface2);border-radius:10px;padding:.3rem .6rem;font-size:.74rem;color:var(--muted)}
+.aspects b{color:var(--text);margin-right:.3rem}
+.ck.k3{border-color:color-mix(in srgb,var(--bad) 55%,var(--line));background:color-mix(in srgb,var(--bad) 8%,var(--surface2))}
+.ck.k3 .v{color:var(--bad)}
+.ck.k2{border-color:color-mix(in srgb,var(--warn) 55%,var(--line));background:color-mix(in srgb,var(--warn) 7%,var(--surface2))}
+.ck.k2 .v{color:var(--warn)}
+.ck .l b{color:var(--text)}
+.ctools{display:flex;justify-content:space-between;align-items:center;gap:.6rem;flex-wrap:wrap;margin-bottom:.6rem}
+.ctools .ctabs{margin:0}
+.cfilt{display:flex;align-items:center;gap:.5rem;flex-wrap:wrap}
+.cfilt .sel{width:auto;padding:.35rem .55rem;font-size:.8rem}
+.hint{display:flex;gap:.45rem;align-items:flex-start;font-size:.78rem;color:var(--muted);margin:.1rem 0 .55rem;line-height:1.45}
+.hint .hi-ic{flex:none;width:18px;height:18px;border-radius:6px;display:inline-flex;align-items:center;justify-content:center;background:color-mix(in srgb,var(--cyan) 18%,transparent);color:var(--cyan);font-size:.72rem;font-weight:800;animation:hintp 2.4s ease-in-out infinite}
+@keyframes hintp{0%,100%{box-shadow:0 0 0 0 color-mix(in srgb,var(--cyan) 40%,transparent)}50%{box-shadow:0 0 0 5px transparent}}
+.crow>button{grid-template-columns:1rem 7rem minmax(0,1fr) auto}
+.chev{display:inline-block;color:var(--cyan);font-size:.8rem;transition:transform .2s}
+.crow.open .chev,.qmx tr.q.open .chev{transform:rotate(90deg)}
+.crow>button:hover .chev{transform:translateX(2px)}
+.crow.open>button:hover .chev{transform:rotate(90deg)}
+.cbadge .more{font-size:.68rem;color:var(--cyan);font-weight:700;margin-left:.2rem}
+.crow.open .cbadge .more{display:none}
+.mtrack{background:linear-gradient(90deg,color-mix(in srgb,var(--line2) 70%,transparent) 1px,transparent 1px) 0 0/12.5% 100%,var(--bg2);border:1px solid var(--line)}
+.mtrack i{height:8px;border-radius:4px}
+.mtrack i.c3{background:#ff6b6b;box-shadow:0 0 8px rgba(255,107,107,.45)}
+.mtrack i.c2{background:#ffc53d}
+.mtrack i.c1{background:#9aa5c4}
+:root[data-theme="light"] .mtrack i.c3{background:#d92d2d;box-shadow:none}
+:root[data-theme="light"] .mtrack i.c2{background:#d18a00}
+:root[data-theme="light"] .mtrack i.c1{background:#7d87a3}
+.gr{height:30px;background:linear-gradient(90deg,color-mix(in srgb,var(--line2) 70%,transparent) 1px,transparent 1px) 0 0/12.5% 100%}
+.gr b{gap:.4rem;border-width:1.5px}
+.gr b em{font-style:normal;font-weight:400;opacity:.75;font-size:.64rem}
+.gr b.c3{background:color-mix(in srgb,#ff6b6b 32%,var(--surface));border-color:#ff6b6b}
+.gr b.c2{background:color-mix(in srgb,#ffc53d 28%,var(--surface));border-color:#ffc53d}
+.gr b.c1{background:color-mix(in srgb,#9aa5c4 22%,var(--surface));border-color:#9aa5c4}
+:root[data-theme="light"] .gr b.c3{border-color:#d92d2d}
+:root[data-theme="light"] .gr b.c2{border-color:#d18a00}
+.glg i.c3{background:#ff6b6b}.glg i.c2{background:#ffc53d}
+.pr{grid-template-columns:3.6rem minmax(0,1fr)}
+.psc{display:flex;flex-direction:column;align-items:center;gap:.2rem}
+.psc b{font-size:1.25rem;line-height:1;font-variant-numeric:tabular-nums}
+.vs{color:var(--faint);margin:0 .2rem}
+.bar100{height:6px;border-radius:3px;background:var(--bg2);margin:.4rem 0 .35rem;overflow:hidden}
+.bar100 i{display:block;height:100%;border-radius:3px;background:linear-gradient(90deg,#ffc53d,#ff6b6b);transform-origin:left;animation:gx .8s cubic-bezier(.2,.8,.2,1) both}
+.asps{display:flex;flex-wrap:wrap;gap:.3rem}
+.asp{font-size:.68rem;border-radius:6px;padding:.08rem .4rem;border:1px solid var(--line2);color:var(--muted);white-space:nowrap}
+.asp.y{color:var(--text);border-color:color-mix(in srgb,var(--bad) 45%,var(--line2));background:color-mix(in srgb,var(--bad) 10%,transparent)}
+.asp.m{border-style:dashed}
+.asp.n{opacity:.7}
+.asp.t{border-color:transparent;color:var(--faint);padding-left:0}
+.pdate{font-size:.72rem;font-weight:700;color:var(--muted);margin:.35rem 0 -.1rem;text-transform:uppercase;letter-spacing:.05em}
+.linkbtn[disabled]{cursor:default;color:var(--cyan)}
+.chk{grid-template-columns:repeat(4,minmax(0,1fr))}
+.chk .w2{grid-column:span 1}
+@media (max-width:900px){.chk{grid-template-columns:repeat(2,minmax(0,1fr))}}
+.fbt{border:1px solid var(--line2);background:var(--surface);border-radius:8px;padding:.18rem .55rem;font-size:.72rem;color:var(--text);white-space:nowrap}
+.fbt:hover{border-color:var(--cyan)}
+.fbt[aria-pressed="true"]{background:var(--cyan);border-color:var(--cyan);color:#062033;font-weight:700}
+.xf .xp:first-child{border-color:var(--cyan)}
+.covlist{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.3fr);gap:.8rem;margin-bottom:1rem}
+@media (max-width:860px){.covlist{grid-template-columns:minmax(0,1fr)}}
+.covlist>div{border:1px solid var(--line);border-radius:12px;padding:.7rem .85rem;background:var(--surface2)}
+.covlist h4{margin:0 0 .4rem;font-size:.86rem;display:flex;align-items:center;gap:.45rem}
+.covlist .dot{width:10px;height:10px;border-radius:50%;display:inline-block}
+.covlist .dot.ok{background:var(--ok)}.covlist .dot.part{background:var(--warn)}
+.covlist p{margin:0;font-size:.82rem;color:var(--muted);line-height:1.6}
+.covlist ul{margin:0;padding-left:1.05rem;font-size:.8rem;color:var(--muted)}
+.covlist li{margin:.15rem 0}
+.covlist li b{color:var(--text);font-weight:600}
+.cvpart{border-color:color-mix(in srgb,var(--warn) 40%,var(--line))!important}
+.qmx td.nm .chev{margin-right:.35rem}
+.full{position:relative;margin:1rem 0;border-radius:calc(var(--radius) + 4px);padding:1.2rem 1.3rem 1.3rem;border:1px solid color-mix(in srgb,var(--violet-soft) 55%,var(--line));background:radial-gradient(600px 260px at 0% 0%,color-mix(in srgb,var(--violet) 22%,transparent),transparent 70%),var(--surface)}
+.fgrid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:.6rem}
+@media (max-width:1100px){.fgrid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:560px){.fgrid{grid-template-columns:minmax(0,1fr)}}
+.fc{display:flex;flex-direction:column;gap:.3rem;background:color-mix(in srgb,var(--surface2) 88%,transparent);border:1px solid var(--line);border-radius:14px;padding:.8rem .85rem;transition:transform .2s,border-color .2s}
+.fc:hover{transform:translateY(-2px);border-color:var(--violet-soft)}
+.fc .fi{width:32px;height:32px;border-radius:10px;display:flex;align-items:center;justify-content:center;background:var(--chip-on);color:var(--violet-soft);font-weight:800;font-size:.95rem}
+.fc b{font-size:.92rem}
+.fc p{margin:0;font-size:.78rem;color:var(--muted);line-height:1.45}
+.fc .now{margin-top:auto;font-size:.68rem;color:var(--cyan);font-family:'JetBrains Mono',monospace;padding-top:.3rem}
+.fc.rep{background:linear-gradient(160deg,color-mix(in srgb,var(--violet) 22%,var(--surface2)),var(--surface2));border-color:var(--violet-soft)}
+.mgrid{grid-template-columns:repeat(4,minmax(0,1fr))}
+@media (max-width:1100px){.mgrid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:560px){.mgrid{grid-template-columns:minmax(0,1fr)}}
+.mc .mi{grid-row:span 2}
+
+
+/* ——— v6: struktura okresu, bilety ——— */
+.mixwrap{margin:.2rem 0 .8rem}
+.mixwrap:empty{display:none}
+.mixh{display:flex;align-items:center;gap:.45rem;font-size:.76rem;color:var(--muted);margin-bottom:.35rem;flex-wrap:wrap}
+.mixh .hi-ic{flex:none;width:18px;height:18px;border-radius:6px;display:inline-flex;align-items:center;justify-content:center;background:color-mix(in srgb,var(--cyan) 18%,transparent);color:var(--cyan);font-size:.72rem;font-weight:800}
+.mixclr{background:none;border:0;padding:0;color:var(--cyan);font-size:.76rem;text-decoration:underline}
+.mixbar{display:flex;gap:2px;height:22px;border-radius:6px;overflow:hidden}
+.mixbar button{border:0;background:var(--c);color:#0b0b0b;font-size:.66rem;font-weight:800;padding:0;min-width:4px;cursor:pointer;transition:flex-grow .6s cubic-bezier(.2,.8,.2,1),opacity .25s,filter .15s}
+.mixbar button:hover{filter:brightness(1.15)}
+.mixwrap.sel .mixbar button[aria-pressed="false"]{opacity:.3}
+.mixleg{display:flex;flex-wrap:wrap;gap:.3rem;margin-top:.45rem}
+.mixleg button{display:inline-flex;align-items:center;gap:.35rem;border:1px solid var(--line);background:var(--surface2);border-radius:999px;padding:.15rem .55rem;font-size:.72rem;color:var(--text);transition:opacity .25s,border-color .15s}
+.mixleg button:hover{border-color:var(--violet-soft)}
+.mixleg button i{width:8px;height:8px;border-radius:50%}
+.mixleg button b{font-family:'JetBrains Mono',monospace;font-weight:500;color:var(--muted)}
+.mixleg button[aria-pressed="true"]{background:var(--chip-on);border-color:var(--violet-soft)}
+.mixwrap.sel .mixleg button[aria-pressed="false"]{opacity:.55}
+.buy{margin:.8rem 0 .2rem;display:flex;flex-direction:column;gap:.35rem}
+.buy .buyb{align-self:flex-start;background:linear-gradient(135deg,var(--cyan),color-mix(in srgb,var(--cyan) 60%,var(--violet)));border:0;color:#062033;font-weight:800}
+:root[data-theme="light"] .buy .buyb{color:#fff}
+.buy small{font-size:.72rem;color:var(--faint);line-height:1.4}
+
+
+/* ——— v6: O portalu ——— */
+.pitch{position:relative;overflow:hidden;border-radius:calc(var(--radius) + 6px);padding:2.2rem 2.2rem 2rem;border:1px solid var(--line);background:radial-gradient(700px 320px at 100% 0%,color-mix(in srgb,var(--cyan) 16%,transparent),transparent 70%),radial-gradient(700px 360px at 0% 100%,color-mix(in srgb,var(--violet) 30%,transparent),transparent 70%),var(--surface);margin-bottom:1rem}
+.pitch::after{content:"";position:absolute;inset:0;background-image:linear-gradient(color-mix(in srgb,var(--line) 55%,transparent) 1px,transparent 1px),linear-gradient(90deg,color-mix(in srgb,var(--line) 55%,transparent) 1px,transparent 1px);background-size:44px 44px;mask-image:radial-gradient(600px 300px at 70% 30%,#000,transparent 75%);-webkit-mask-image:radial-gradient(600px 300px at 70% 30%,#000,transparent 75%);pointer-events:none;opacity:.6}
+.pitch>*{position:relative;z-index:1}
+.kicker{font-family:'JetBrains Mono',monospace;font-size:.78rem;color:var(--cyan);letter-spacing:.02em}
+.pitch h2{font-size:clamp(1.7rem,3.2vw,2.6rem);line-height:1.12;margin:.5rem 0 .7rem;max-width:22ch;letter-spacing:-.01em}
+.grad{background:linear-gradient(90deg,var(--violet-soft),var(--cyan));-webkit-background-clip:text;background-clip:text;color:transparent}
+.plead{font-size:1rem;color:var(--muted);max-width:62ch;margin:0 0 1.1rem;line-height:1.6}
+.pstats{display:flex;gap:1.6rem;flex-wrap:wrap;margin-bottom:1.2rem;font-size:.84rem;color:var(--muted)}
+.pstats b{display:block;font-size:1.7rem;color:var(--text);line-height:1.1;font-variant-numeric:tabular-nums}
+.pact{display:flex;gap:.6rem;flex-wrap:wrap}
+.pact .btn{padding:.65rem 1.1rem;font-size:.9rem}
+.feats{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:.8rem;margin-bottom:1rem}
+@media (max-width:1100px){.feats{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:560px){.feats{grid-template-columns:minmax(0,1fr)}}
+.feat{position:relative;display:flex;flex-direction:column;gap:.4rem;text-decoration:none;color:var(--text);background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:1rem 1rem .9rem;overflow:hidden;transition:transform .25s cubic-bezier(.2,.8,.2,1),border-color .2s,box-shadow .25s}
+.feat::before{content:"";position:absolute;inset:0;background:radial-gradient(240px circle at var(--mx,50%) var(--my,0%),color-mix(in srgb,var(--violet) 22%,transparent),transparent 65%);opacity:0;transition:opacity .25s;pointer-events:none}
+.feat:hover{transform:translateY(-3px);border-color:var(--violet-soft);box-shadow:0 16px 40px color-mix(in srgb,var(--violet) 20%,transparent)}
+.feat:hover::before{opacity:1}
+.feat>*{position:relative}
+.feat .fi{width:40px;height:40px;border-radius:12px;display:flex;align-items:center;justify-content:center;background:linear-gradient(135deg,color-mix(in srgb,var(--violet) 40%,transparent),color-mix(in srgb,var(--cyan) 25%,transparent));color:var(--text);margin-bottom:.2rem}
+.feat .fi svg{width:21px;height:21px}
+.feat b{font-size:.98rem;line-height:1.3}
+.feat p{margin:0;font-size:.8rem;color:var(--muted);line-height:1.5}
+.feat .see{margin-top:auto;padding-top:.4rem;font-size:.74rem;font-weight:700;color:var(--cyan)}
+.persona{margin-bottom:1rem}
+.persona .pk{display:inline-block;font-size:.68rem;font-weight:800;letter-spacing:.12em;text-transform:uppercase;color:var(--violet-soft);border:1px solid color-mix(in srgb,var(--violet-soft) 50%,transparent);border-radius:6px;padding:.12rem .5rem;margin-bottom:.5rem}
+.persona .pk.cy{color:var(--cyan);border-color:color-mix(in srgb,var(--cyan) 50%,transparent)}
+ul.ticks{list-style:none;margin:0;padding:0}
+ul.ticks li{position:relative;padding:.3rem 0 .3rem 1.6rem;font-size:.9rem;line-height:1.45}
+ul.ticks li::before{content:"✓";position:absolute;left:0;top:.28rem;width:1.1rem;height:1.1rem;border-radius:50%;background:color-mix(in srgb,var(--ok) 20%,transparent);color:var(--ok);font-size:.68rem;font-weight:800;display:flex;align-items:center;justify-content:center}
+.deploy{margin-bottom:1rem}
+.steps{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:.8rem;counter-reset:st}
+@media (max-width:900px){.steps{grid-template-columns:minmax(0,1fr)}}
+.step{position:relative;border:1px solid var(--line);border-radius:14px;padding:.9rem 1rem;background:var(--surface2);display:flex;flex-direction:column;gap:.35rem}
+.step .sn{width:30px;height:30px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:700;font-family:'JetBrains Mono',monospace;background:var(--line2);color:var(--text)}
+.step b{font-size:.95rem}
+.step p{margin:0;font-size:.8rem;color:var(--muted);line-height:1.5}
+.step .tag{align-self:flex-start;margin-top:.3rem}
+.step.rec{border-color:var(--cyan);background:linear-gradient(160deg,color-mix(in srgb,var(--cyan) 12%,var(--surface2)),var(--surface2));box-shadow:0 0 0 3px color-mix(in srgb,var(--cyan) 10%,transparent)}
+.step.rec .sn{background:linear-gradient(135deg,var(--violet),var(--cyan));color:#fff}
+.tag.rec{color:var(--cyan);border-color:color-mix(in srgb,var(--cyan) 50%,transparent)}
+@media (min-width:901px){.step:not(:last-child)::after{content:"→";position:absolute;right:-.72rem;top:50%;transform:translateY(-50%);color:var(--cyan);font-size:1rem;z-index:2;background:var(--surface);border-radius:50%;width:1.3rem;height:1.3rem;display:flex;align-items:center;justify-content:center}}
+.why2{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:.8rem;margin-top:1rem;padding-top:1rem;border-top:1px solid var(--line)}
+@media (max-width:1000px){.why2{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:560px){.why2{grid-template-columns:minmax(0,1fr)}}
+.why2 b{display:block;font-size:.86rem;margin-bottom:.2rem}
+.why2 span{font-size:.78rem;color:var(--muted);line-height:1.5}
+#v-o-projekcie details.box table{margin-top:.6rem}
+
+
+/* ——— v6: ruch ——— */
+.aurora{position:fixed;inset:0;pointer-events:none;z-index:0;overflow:hidden}
+.aurora i{position:absolute;width:60vmax;height:60vmax;border-radius:50%;filter:blur(90px);opacity:.10;animation:drift 70s ease-in-out infinite alternate;will-change:transform}
+.aurora i:nth-child(1){background:var(--violet);top:-28vmax;right:-18vmax}
+.aurora i:nth-child(2){background:var(--cyan);bottom:-34vmax;left:6vmax;animation-duration:95s;opacity:.06}
+:root[data-theme="light"] .aurora i{opacity:.05}
+@keyframes drift{to{transform:translate(-9vmax,7vmax) scale(1.12)}}
+.app{position:relative;z-index:1}
+.sky{position:absolute;inset:0;width:100%;height:100%;z-index:0;display:block}
+.hero h1,.hero .sub,.hero form,.hero .examples,.hero .qchips{position:relative;z-index:1}
+.hero .deco{z-index:0;opacity:.45}
+.orb{transform-box:view-box;transform-origin:150px 150px;animation:orbit 30s linear infinite}
+.orb.o2{animation-duration:48s;animation-direction:reverse}
+.orb.o3{animation-duration:75s}
+@keyframes orbit{to{transform:rotate(360deg)}}
+.motionbtn{position:absolute;right:1rem;bottom:.8rem;z-index:2;background:none;border:0;color:var(--faint);font-family:'JetBrains Mono',monospace;font-size:.66rem;letter-spacing:.02em;padding:.2rem .3rem;border-radius:6px}
+.motionbtn:hover{color:var(--text)}
+@media (max-width:760px){.motionbtn{position:static;margin-top:.6rem}}
+.motion-off .aurora i,.motion-off .orb,.motion-off .hint .hi-ic{animation-play-state:paused}
+.kh,.fc,.cta2{position:relative;overflow:hidden}
+.kh::after,.fc::after,.cta2::after{content:"";position:absolute;inset:0;border-radius:inherit;pointer-events:none;background:radial-gradient(220px circle at var(--mx,-200px) var(--my,-200px),color-mix(in srgb,var(--violet-soft) 16%,transparent),transparent 70%);opacity:0;transition:opacity .25s}
+.kh:hover::after,.fc:hover::after,.cta2:hover::after{opacity:1}
+.view.on .feat{animation:pop .55s both}
+.view.on .feat:nth-child(2){animation-delay:.05s}.view.on .feat:nth-child(3){animation-delay:.1s}.view.on .feat:nth-child(4){animation-delay:.15s}.view.on .feat:nth-child(5){animation-delay:.2s}.view.on .feat:nth-child(6){animation-delay:.25s}.view.on .feat:nth-child(7){animation-delay:.3s}.view.on .feat:nth-child(8){animation-delay:.35s}
+.view.on .step{animation:pop .5s both}.view.on .step:nth-child(2){animation-delay:.1s}.view.on .step:nth-child(3){animation-delay:.2s}
+.hero h1{background:linear-gradient(90deg,var(--text) 40%,var(--violet-soft) 70%,var(--cyan));-webkit-background-clip:text;background-clip:text;color:transparent;background-size:200% 100%;animation:shine 9s ease-in-out infinite alternate}
+@keyframes shine{from{background-position:0% 0}to{background-position:60% 0}}
+.motion-off .hero h1{animation:none}
+
 :root[data-theme="light"] .tile .cat,:root[data-theme="light"] .er .ct,:root[data-theme="light"] .dbody .ct{color:color-mix(in srgb,var(--cc) 50%,#111)}
 </style>
 </head>
@@ -1512,6 +1718,8 @@ ul.clean li{margin:.25rem 0;font-size:.88rem}
   <symbol id="i-user" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="3.5"/><path d="M5 20a7 7 0 0 1 14 0"/></symbol>
   <symbol id="i-more" viewBox="0 0 24 24" fill="currentColor"><circle cx="5" cy="12" r="1.8"/><circle cx="12" cy="12" r="1.8"/><circle cx="19" cy="12" r="1.8"/></symbol>
   <symbol id="i-museum" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9.5 12 4l9 5.5M5 10.5v7M9.5 10.5v7M14.5 10.5v7M19 10.5v7M3 20h18"/></symbol>
+  <symbol id="i-clash" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9"><circle cx="9" cy="12" r="5.5"/><circle cx="15" cy="12" r="5.5"/></symbol>
+  <symbol id="i-data" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round"><ellipse cx="12" cy="6" rx="7" ry="2.8"/><path d="M5 6v6c0 1.5 3.1 2.8 7 2.8s7-1.3 7-2.8V6M5 12v6c0 1.5 3.1 2.8 7 2.8s7-1.3 7-2.8v-6"/></symbol>
   <symbol id="i-search" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></symbol>
 </svg>
 
@@ -1526,7 +1734,7 @@ ul.clean li{margin:.25rem 0;font-size:.88rem}
     <a href="#wydzial"><svg><use href="#i-chart"/></svg>Kultura w liczbach</a>
     <a href="#instytucje"><svg><use href="#i-add"/></svg>Instytucje</a>
   </div>
-  <a href="#o-projekcie"><svg><use href="#i-info"/></svg>O demo</a>
+  <a href="#o-projekcie"><svg><use href="#i-info"/></svg>O portalu</a>
   <div class="grow"></div>
   <button class="ri" data-size title="Większy tekst"><svg><use href="#i-text"/></svg>Tekst</button>
   <button class="ri" data-theme-t title="Zmień motyw"><svg><use href="#i-moon"/></svg><span data-theme-label>Jasny</span></button>
@@ -1545,11 +1753,12 @@ ul.clean li{margin:.25rem 0;font-size:.88rem}
   <a href="#wydzial"><svg style="color:var(--cyan)"><use href="#i-chart"/></svg>Kultura w liczbach — panel dla Wydziału Kultury</a>
   <a href="#instytucje"><svg style="color:var(--cyan)"><use href="#i-add"/></svg>Dla instytucji — dodawanie i kontrola</a>
   <h4 style="color:var(--faint);margin-top:.8rem">Więcej</h4>
-  <a href="#o-projekcie"><svg><use href="#i-info"/></svg>O demo</a>
+  <a href="#o-projekcie"><svg><use href="#i-info"/></svg>O portalu</a>
   <button data-theme-t><svg><use href="#i-moon"/></svg><span>Zmień motyw</span></button>
   <button data-size><svg><use href="#i-text"/></svg>Większy tekst</button>
 </div>
 
+<div class="aurora" aria-hidden="true"><i></i><i></i></div>
 <div class="app">
 <main>
 
@@ -1557,7 +1766,8 @@ ul.clean li{margin:.25rem 0;font-size:.88rem}
 <section class="view" id="v-start" aria-label="Odkrywaj">
   <div class="hero">
     <div class="hero-brand"><small>Demo przygotowane przez</small><a class="la" href="https://www.lucidacademy.pl" target="_blank" rel="noopener" aria-label="Lucid Academy"><img class="m" src="data:image/png;base64,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" alt=""><img class="n" src="data:image/png;base64,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" alt="Lucid Academy"></a></div>
-    <svg class="deco" viewBox="0 0 300 300" aria-hidden="true"><g fill="none" stroke="currentColor" style="color:var(--violet-soft)"><circle cx="150" cy="150" r="60" opacity=".35"/><circle cx="150" cy="150" r="95" opacity=".22"/><circle cx="150" cy="150" r="130" opacity=".12"/></g><circle cx="210" cy="95" r="9" fill="#22D3EE" opacity=".8"/><circle cx="92" cy="200" r="6" fill="#B794FF" opacity=".8"/></svg>
+    <canvas class="sky" id="sky" aria-hidden="true"></canvas>
+    <svg class="deco" viewBox="0 0 300 300" aria-hidden="true"><g fill="none" stroke="currentColor" style="color:var(--violet-soft)"><circle cx="150" cy="150" r="60" opacity=".35"/><circle cx="150" cy="150" r="95" opacity=".22"/><circle cx="150" cy="150" r="130" opacity=".12"/></g><g class="orb o1"><circle cx="210" cy="150" r="7" fill="#22D3EE"/></g><g class="orb o2"><circle cx="150" cy="55" r="5.5" fill="#B794FF"/></g><g class="orb o3"><circle cx="20" cy="150" r="4" fill="#22D3EE" opacity=".7"/></g></svg>
     <h1>Kultura w Toruniu</h1>
     <p class="sub" id="heroSub"></p>
     <form class="search" id="heroForm" role="search">
@@ -1572,6 +1782,7 @@ ul.clean li{margin:.25rem 0;font-size:.88rem}
       <button data-q="bezpłatne warsztaty w tym tygodniu">bezpłatne warsztaty w tym tygodniu</button>
     </div>
     <div class="qchips" id="qchips"></div>
+    <button class="motionbtn" id="motionBtn" aria-pressed="false">❚❚ zatrzymaj ruch tła</button>
   </div>
   <div class="nowbar" id="nowbar" aria-label="Trwa teraz"></div>
   <div class="citycta"><span class="ci"><svg><use href="#i-chart"/></svg></span><div><b>Dla Wydziału Kultury i instytucji</b><span>Statystyki oferty miasta, kolizje terminów i to, co portal pozwoli mierzyć po uruchomieniu. Formularz dla instytucji sprawdza duplikaty już po wpisaniu tytułu.</span></div><div class="acts"><a class="btn cy" href="#wydzial">Kultura w liczbach →</a><a class="btn" href="#instytucje">Dla instytucji</a></div></div>
@@ -1596,6 +1807,7 @@ ul.clean li{margin:.25rem 0;font-size:.88rem}
   </div>
   <div class="active" id="activeChips"></div>
   <div class="strip" id="strip" aria-label="Kalendarz dni"></div>
+  <div class="mixwrap" id="progMix"></div>
   <div class="summary" id="summary"></div>
   <div id="list"></div>
 </section>
@@ -1604,6 +1816,7 @@ ul.clean li{margin:.25rem 0;font-size:.88rem}
 <section class="view" id="v-mapa" aria-label="Mapa">
   <div class="vh"><div><h2>Mapa</h2><p id="mapSub"></p></div><div class="seg" id="quickMap" role="group" aria-label="Zakres dat na mapie"></div></div>
   <div data-purpose="mapa"></div>
+  <div class="mixwrap" id="mapMix"></div>
   <div class="mapwrap">
     <div id="map" role="region" aria-label="Mapa wydarzeń"><div class="map-note" id="mapNote"></div><div class="route-note" id="routeNote"></div></div>
     <div class="panel">
@@ -1744,30 +1957,21 @@ ul.clean li{margin:.25rem 0;font-size:.88rem}
       <div class="hs-txt" id="hsTxt"></div>
       <div class="hs-seg" id="hsSeg"></div>
     </div>
-    <div class="panel cov rv">
-      <div class="ph"><h3 class="sec">Ile programu mamy</h3><span class="mini" id="covSum"></span></div>
-      <div class="covbar" id="covBar"></div>
-      <div class="covgrid" id="cov"></div>
-      <p class="mini" style="margin:.7rem 0 0">Wnioski w panelu dotyczą zebranych źródeł. Tam, gdzie programu brakuje, liczby mogą być zaniżone — przy takich wnioskach jest to zaznaczone.</p>
-    </div>
-  </div>
-
-  <div class="measure rv" id="measure">
-    <div class="mhead">
-      <div><span class="cityflag">Po uruchomieniu</span><h3>Co miasto zacznie mierzyć</h3><p>Dziś urząd zna ofertę z planów instytucji. Portal pokaże także, jak mieszkańcy z niej korzystają — zbiorczo, bez danych osobowych i bez plików cookie śledzących użytkowników.</p></div>
-      <button class="btn cy" id="mShow" aria-expanded="false" aria-controls="mSample">Pokaż przykładowe wykresy</button>
-    </div>
-    <div class="mgrid" id="mGrid"></div>
-    <div id="mSample" hidden></div>
+    <div class="khl rv" id="khl"></div>
   </div>
 
   <div class="panel rv" id="clashP">
     <div class="ph"><h3 class="sec">Wieczory, w które instytucje konkurują o widza</h3><span class="mini">oraz weekendowe popołudnia · w zebranych programach</span></div>
+    <p class="lead2">Nakładanie się terminów w mieście jest normalne. Kłopot zaczyna się wtedy, gdy dwa wydarzenia trafiają do <b>tej samej publiczności</b>. Dla każdej pary nakładających się wydarzeń portal liczy wskaźnik wspólnej publiczności:</p>
+    <div class="aspects"><span><b>Odbiorcy</b> dzieci, dorośli czy seniorzy</span><span><b>Rodzaj</b> ten sam lub pokrewny</span><span><b>Cena</b> oba bezpłatne lub oba płatne</span><span><b>Okolica</b> ta sama dzielnica lub blisko</span></div>
     <div class="ckpis" id="cKpi"></div>
-    <div class="seg seg-sm ctabs" id="cTabs" role="tablist" aria-label="Widok kolizji">
-      <button data-ct="days" aria-pressed="true">Terminy z kolizjami</button>
-      <button data-ct="pairs" aria-pressed="false">Pary instytucji</button>
-      <button data-ct="check" aria-pressed="false">Sprawdź termin</button>
+    <div class="ctools">
+      <div class="seg seg-sm ctabs" id="cTabs" role="tablist" aria-label="Widok kolizji">
+        <button data-ct="days" aria-pressed="true">Terminy</button>
+        <button data-ct="pairs" aria-pressed="false">Pary instytucji</button>
+        <button data-ct="check" aria-pressed="false">Sprawdź termin</button>
+      </div>
+      <div class="cfilt"><label for="cInst" class="mini">Instytucja</label><select class="sel" id="cInst"></select><label class="toggle inline"><input type="checkbox" id="cStrong"> tylko silne</label></div>
     </div>
     <div id="cBody"></div>
     <p class="mini" id="cNote" style="margin:.7rem 0 0"></p>
@@ -1775,7 +1979,7 @@ ul.clean li{margin:.25rem 0;font-size:.88rem}
 
   <div class="panel rv" id="offerP">
     <div class="ph"><h3 class="sec">Oferta w zebranych źródłach</h3><div class="xf" id="xf"></div></div>
-    <p class="mini" style="margin:-.3rem 0 .4rem">Kliknij dzień, rodzaj, dzień tygodnia albo grupę odbiorców — pozostałe wykresy przeliczą się dla wybranego wycinka.</p>
+    <p class="hint"><span class="hi-ic" aria-hidden="true">↯</span>Kliknij dzień, rodzaj, dzień tygodnia albo grupę odbiorców — pozostałe wykresy przeliczą się dla wybranego wycinka.</p>
     <div class="dwrap"><div class="days30" id="days"></div><div class="dlab" id="daysL"></div></div>
     <div class="dayinfo" id="dayInfo" aria-live="polite"></div>
     <div class="offer3">
@@ -1786,15 +1990,17 @@ ul.clean li{margin:.25rem 0;font-size:.88rem}
     <p class="mini" id="offerNote" style="margin:.8rem 0 0"></p>
   </div>
 
-  <div class="panel rv">
-    <div class="ph"><h3 class="sec">Instytucje w liczbach</h3><span class="mini">kliknij wiersz, żeby rozwinąć</span></div>
+  <div class="panel rv" id="instP">
+    <div class="ph"><h3 class="sec">Instytucje w liczbach</h3><span class="mini">kliknij wiersz, żeby rozwinąć · „Filtruj” zawęża wykresy i kolizje do instytucji</span></div>
     <div style="overflow-x:auto"><table class="score" id="score"></table></div>
     <p class="mini" style="margin:.6rem 0 0">Wyprzedane — stan biletów w dniu zbierania danych (26.11.2026). Karta JO — instytucja jest partnerem programu Karty Miejskiej JO; wysokość zniżki ustala instytucja.</p>
   </div>
 
-  <div class="panel rv">
-    <div class="ph"><h3 class="sec">Jakość danych od instytucji</h3><span class="mini">kliknij instytucję, żeby zobaczyć analizę</span></div>
+  <div class="panel rv" id="dataP">
+    <div class="ph"><h3 class="sec">Dane od instytucji</h3><span class="mini">ile programu udało się zebrać i czego w nim brakuje</span></div>
+    <div class="covlist" id="cov"></div>
     <div class="qtop" id="qTop"></div>
+    <p class="hint" style="margin-top:.2rem"><span class="hi-ic" aria-hidden="true">↯</span>Kliknij instytucję w tabeli, żeby zobaczyć krótką analizę: czego brakuje i co pomoże.</p>
     <div style="overflow-x:auto"><table class="qmx" id="qmx"></table></div>
     <p class="mini" id="qNote" style="margin:.6rem 0 0"></p>
   </div>
@@ -1802,6 +2008,20 @@ ul.clean li{margin:.25rem 0;font-size:.88rem}
   <div class="panel rv">
     <div class="ph"><h3 class="sec">Gdzie oferta wydaje się rzadsza — do weryfikacji</h3><span class="mini">hipotezy z zebranych źródeł, nie stwierdzenia</span></div>
     <div class="insights" id="gaps"></div>
+  </div>
+
+  <div class="full rv" id="fullA">
+    <div class="mhead"><div><span class="cityflag">W pełnej wersji</span><h3>Analiza oferty kulturalnej miasta</h3><p>Gdy instytucje regularnie publikują program w portalu, panel przestaje być podglądem, a staje się narzędziem do planowania polityki kulturalnej. Co można z niego wyciągnąć:</p></div></div>
+    <div class="fgrid" id="fGrid"></div>
+  </div>
+
+  <div class="measure rv" id="measure">
+    <div class="mhead">
+      <div><span class="cityflag">Po uruchomieniu</span><h3>Co miasto zacznie mierzyć</h3><p>Cztery wskaźniki, których dziś urząd nie ma — zbiorczo, bez danych osobowych i bez plików cookie śledzących użytkowników.</p></div>
+      <button class="btn cy" id="mShow" aria-expanded="false" aria-controls="mSample">Pokaż przykładowe wykresy</button>
+    </div>
+    <div class="mgrid" id="mGrid"></div>
+    <div id="mSample" hidden></div>
   </div>
 
   <details class="box"><summary>Szkic zapowiedzi „Weekend w Toruniu” <small>generowany z bazy</small></summary>
@@ -1812,12 +2032,48 @@ ul.clean li{margin:.25rem 0;font-size:.88rem}
 </section>
 
 <!-- O PROJEKCIE -->
-<section class="view" id="v-o-projekcie" aria-label="O demo">
-  <div class="vh"><div><h2>O demo</h2><p>Serwis zbierający ofertę kulturalną Torunia z wielu źródeł. Przygotowany przez Lucid Academy.</p></div></div>
-  <div class="two">
-    <div class="panel">
-      <h3 class="sec">Czym różni się od obecnych rozwiązań</h3>
-      <table class="t cmp">
+<section class="view" id="v-o-projekcie" aria-label="O portalu">
+  <div class="pitch">
+    <span class="kicker">&gt; propozycja dla Torunia · Lucid Academy</span>
+    <h2>Jeden portal kultury dla Torunia — <span class="grad">dla mieszkańców i dla urzędu</span></h2>
+    <p class="plead">Cała oferta miejskich i niezależnych instytucji w jednym miejscu, droga do biletu w dwóch kliknięciach i narzędzia, dzięki którym Wydział Kultury widzi i koordynuje ofertę miasta.</p>
+    <div class="pstats"><span><b id="pN"></b> wydarzeń w demie</span><span><b id="nInst"></b> instytucji kultury</span><span><b id="pSrc"></b> serwisów źródłowych</span></div>
+    <div class="pact"><a class="btn pri" href="#start">Portal dla mieszkańca →</a><a class="btn cy" href="#wydzial">Panel dla miasta →</a></div>
+  </div>
+
+  <div class="feats" id="feats">
+    <a class="feat" href="#program"><span class="fi"><svg><use href="#i-cal"/></svg></span><b>Cała oferta w jednym miejscu</b><p>Program kilkunastu instytucji, mapa i wyszukiwanie zwykłym językiem — „coś dla dzieci w niedzielę”.</p><span class="see">Program →</span></a>
+    <a class="feat" href="#program" data-buydemo><span class="fi"><svg><use href="#i-ticket"/></svg></span><b>Od wydarzenia do biletu</b><p>„Kup bilet” prowadzi prosto do kasy instytucji. W pełnej wersji zakup w okienku portalu, z wolnymi miejscami na żywo.</p><span class="see">Zobacz wydarzenie →</span></a>
+    <a class="feat" href="#plan"><span class="fi"><svg><use href="#i-plan"/></svg></span><b>Wydarzenia, które się łączą</b><p>Planer dnia łączy spektakl z muzeum po drodze, a podpowiedzi „Może też…” i „Dla Ciebie” prowadzą do kolejnych wydarzeń.</p><span class="see">Plan dnia →</span></a>
+    <a class="feat" href="#wydzial" data-goclash><span class="fi"><svg><use href="#i-clash"/></svg></span><b>Koordynacja terminów</b><p>Kolizje dla tej samej publiczności i sprawdzenie terminu, zanim instytucja go ogłosi.</p><span class="see">Kolizje →</span></a>
+    <a class="feat" href="#wydzial"><span class="fi"><svg><use href="#i-chart"/></svg></span><b>Kultura w liczbach</b><p>Oferta, popyt i kompletność danych na bieżąco, a w pełnej wersji analiza oferty i raport kwartalny.</p><span class="see">Panel →</span></a>
+    <a class="feat" href="#instytucje"><span class="fi"><svg><use href="#i-add"/></svg></span><b>Mniej pracy dla instytucji</b><p>Program pobierany ze stron albo wpisywany raz. Duplikaty i braki wyłapywane przed publikacją.</p><span class="see">Dla instytucji →</span></a>
+    <a class="feat" href="#instytucje" data-osiedle><span class="fi"><svg><use href="#i-user"/></svg></span><b>Szkoły i osiedla</b><p>Jedno zapytanie grupy do kilku instytucji naraz i prosty formularz dla rad okręgów, klubów i parafii.</p><span class="see">Formularze →</span></a>
+    <a class="feat" href="#program" data-feeds><span class="fi"><svg><use href="#i-data"/></svg></span><b>Karta JO i otwarte dane</b><p>Oznaczenie instytucji honorujących Kartę JO, program w kalendarzu telefonu, dane dla torun.pl i mediów.</p><span class="see">Kalendarze →</span></a>
+  </div>
+
+  <div class="two persona">
+    <div class="panel"><span class="pk">Mieszkaniec</span><ul class="ticks"><li>widzi całą ofertę bez przeglądania kilkunastu stron,</li><li>od razu wie, co jest bezpłatne, dla dzieci i gdzie są jeszcze miejsca,</li><li>układa dzień i dostaje podpowiedzi kolejnych wydarzeń,</li><li>może poprosić o powiadomienie, gdy wyprzedany spektakl dostanie nowy termin.</li></ul></div>
+    <div class="panel"><span class="pk cy">Urząd i instytucje</span><ul class="ticks"><li>widzą kolizje terminów, zanim je ogłoszą,</li><li>mają statystyki oferty i popytu bez ręcznego zbierania,</li><li>publikują raz — wydarzenie trafia do portalu, na torun.pl i do kalendarzy mieszkańców,</li><li>dostają analizę oferty i raport kwartalny do strategii kultury.</li></ul></div>
+  </div>
+
+  <div class="panel deploy">
+    <h3 class="sec">Wdrożenie skrojone pod Toruń</h3>
+    <p class="mini" style="margin:-.3rem 0 .9rem">Portal rośnie etapami. Każdy etap działa samodzielnie i można go ocenić, zanim zapadnie decyzja o kolejnym.</p>
+    <div class="steps">
+      <div class="step"><span class="sn">1</span><b>Portal i panel od razu</b><p>Program, mapa, plan dnia i panel dla Wydziału. Przycisk „Kup bilet” prowadzi do kasy online danej instytucji — bez umów i bez integracji.</p><span class="tag">w demie</span></div>
+      <div class="step rec"><span class="sn">2</span><b>Zakup w portalu, w systemach instytucji</b><p>Portal łączy się z systemami biletowymi, których instytucje już używają: zakup w okienku portalu, wolne miejsca na żywo, sprzedaż i rozliczenia dalej po stronie instytucji.</p><span class="tag rec">rekomendujemy</span></div>
+      <div class="step"><span class="sn">3</span><b>Wspólny koszyk — jeśli miasto zechce</b><p>Jedna płatność za bilety kilku instytucji, rozdzielana automatycznie przez operatora płatności, ze zniżką z Kartą JO naliczaną od razu. Wymaga umów pośrednictwa, regulaminu i zasad zwrotów.</p><span class="tag">możliwe</span></div>
+    </div>
+    <div class="why2">
+      <div><b>Instytucje zostają przy swoich systemach</b><span>Portal łączy się z tym, co już działa, zamiast to zastępować — bez migracji kas i przyzwyczajeń zespołów.</span></div>
+      <div><b>Zakres ustalamy razem</b><span>Z Wydziałem i z każdą instytucją osobno: od tego, które pola są wymagane, po to, jak wygląda raport.</span></div>
+      <div><b>Dane należą do miasta</b><span>Otwarte formaty (iCal, JSON) i pełny eksport — bez uzależnienia od jednego dostawcy.</span></div>
+      <div><b>Zespół na miejscu, w Toruniu</b><span>Spotkania z instytucjami, szkolenia i szybkie zmiany w trakcie, bez kolejki zgłoszeń.</span></div>
+    </div>
+  </div>
+
+  <details class="box"><summary>Czym portal różni się od obecnych rozwiązań</summary><table class="t cmp">
         <tr><td>Skąd dane</td><td>Automatycznie ze stron instytucji (miejskich, wojewódzkich, niezależnych) i z formularza organizatorów, z kontrolą duplikatów.</td></tr>
         <tr><td>Struktura</td><td>Cena, wiek, dostępność, status biletów i dzielnica jako osobne pola — można po nich filtrować. W kalendarzu miejskim cena jest częścią opisu.</td></tr>
         <tr><td>Wyszukiwanie</td><td>Zwykłym językiem. W demie na regułach, w wersji docelowej na modelu językowym.</td></tr>
@@ -1826,24 +2082,17 @@ ul.clean li{margin:.25rem 0;font-size:.88rem}
         <tr><td>Dla szkół</td><td>Oferta dla grup zorganizowanych i jedno zapytanie do kilku instytucji naraz.</td></tr>
         <tr><td>Dla osiedli</td><td>Prosty formularz dla rad okręgów, klubów osiedlowych, parafii i stowarzyszeń — bez zakładania konta.</td></tr>
         <tr><td>Karta Miejska JO</td><td>Oznaczenie i filtr wydarzeń instytucji, które honorują Kartę JO ze statusem Mieszkańca.</td></tr>
-      </table>
-    </div>
-    <div class="panel">
-      <h3 class="sec">Demo a wersja docelowa</h3>
-      <table class="t">
+      </table></details>
+  <details class="box"><summary>Demo a wersja docelowa</summary><table class="t">
         <tr><th>W demie</th><th>W wersji docelowej</th></tr>
         <tr><td>Dane zebrane jednorazowo (22–26.11.2026)</td><td>Codzienna aktualizacja</td></tr>
-        <tr><td><span id="nInst"></span> instytucji i serwis miasta</td><td>Także filie bibliotek, domy kultury, galerie, kluby, NGO, rady okręgów</td></tr>
+        <tr><td><span data-ninst></span> instytucji i serwis miasta</td><td>Także filie bibliotek, domy kultury, galerie, kluby, NGO, rady okręgów</td></tr>
         <tr><td>Preferencje w jednej przeglądarce</td><td>Rekomendacje z zachowań wielu mieszkańców — za zgodą, zgodnie z RODO</td></tr>
         <tr><td>Okładki generowane</td><td>Zdjęcia dostarczane przez instytucje</td></tr>
         <tr><td>Pliki kalendarza (iCal) i dane JSON z dnia zbierania</td><td>Codziennie aktualizowane API, widżet na strony instytucji, integracja z torun.pl i aplikacją Miasto Toruń</td></tr>
-      </table>
-      <div class="callout">Dostępność cyfrowa: projekt zakłada zgodność z WCAG 2.1 AA, wymaganą od podmiotów publicznych. Już w demie: tryb jasny i ciemny, większy tekst, obsługa klawiaturą.</div>
-    </div>
-  </div>
-  <div class="panel" style="margin-top:1rem">
-    <h3 class="sec">Otwarte dane: jedna baza, wiele miejsc</h3>
-    <p class="mini" style="margin:-.3rem 0 .4rem">Instytucja wpisuje wydarzenie raz — trafia ono wszędzie tam, gdzie mieszkańcy go szukają. Tak działa m.in. wspólna baza wydarzeń Helsinek (Linked Events) i krakowski Karnet.</p>
+      </table><div class="callout">Dostępność cyfrowa: projekt zakłada zgodność z WCAG 2.1 AA, wymaganą od podmiotów publicznych. Już w demie: tryb jasny i ciemny, większy tekst, obsługa klawiaturą.</div></details>
+  <details class="box"><summary>Otwarte dane: jedna baza, wiele miejsc</summary>
+    <p class="mini" style="margin:.6rem 0 .4rem">Instytucja wpisuje wydarzenie raz — trafia ono wszędzie tam, gdzie mieszkańcy go szukają. Tak działa m.in. wspólna baza wydarzeń Helsinek (Linked Events) i krakowski Karnet.</p>
     <div class="flow">
       <div class="fb"><b>Instytucje i organizatorzy</b>formularz w portalu, import ze stron, eksport z systemów biletowych</div>
       <span class="arr" aria-hidden="true">→</span>
@@ -1852,14 +2101,11 @@ ul.clean li{margin:.25rem 0;font-size:.88rem}
       <div class="outs"><div class="fb"><b>Portal dla mieszkańców</b></div><div class="fb"><b>torun.pl, Visit Toruń, aplikacja miejska</b></div><div class="fb"><b>Kalendarze mieszkańców</b>subskrypcja iCal</div><div class="fb"><b>Media, szkoły, deweloperzy</b>dane JSON</div><div class="fb"><b>Kultura w liczbach</b>panel dla Wydziału Kultury</div></div>
     </div>
     <div class="feeds" id="odFeeds"></div>
-  </div>
-  <div class="panel" style="margin-top:1rem">
-    <h3 class="sec">Kierunki rozwoju — do rozmowy</h3>
-    <div class="dirs">
+  </details>
+  <details class="box"><summary>Kierunki rozwoju — do rozmowy</summary><div style="margin-top:.7rem"><div class="dirs">
       <div class="dir"><b>Kultura bez barier finansowych</b><p>Pula niesprzedanych miejsc udostępniana osobom w trudnej sytuacji — przez MOPR i organizacje pozarządowe — i rezerwowana w portalu. Instytucja nic nie traci, a miasto widzi, kto korzysta.</p><small>Wzorce: Kulturpass w Austrii (bezpłatny wstęp do ponad 1200 instytucji), UiTPAS we Flandrii (zniżki dla osób o niskich dochodach i punkty za udział).</small></div>
       <div class="dir"><b>Karta Miejska JO jako klucz do statystyk</b><p>Jeśli zniżka z Kartą JO byłaby naliczana przy zakupie przez portal, miasto zobaczyłoby zbiorczo, z jakiej oferty korzystają mieszkańcy ze statusem — bez danych osobowych.</p><small>Wzorzec: Urbancard Premium we Wrocławiu — 20% zniżki w 19 miejskich instytucjach kultury.</small></div>
-    </div>
-  </div>
+    </div></div></details>
   <details class="box"><summary>Źródła danych</summary><ul class="clean" id="srcList"></ul><p class="mini">Godziny, ceny i dostępność biletów mogą się zmienić — obowiązują informacje organizatora.</p></details>
 </section>
 
@@ -2464,7 +2710,7 @@ function similar(e, n){
 // ——— Motyw, tekst, toast ———
 const root = document.documentElement;
 let theme = 'dark'; try { theme = localStorage.getItem('kt-theme') || 'dark'; } catch(_) {}
-const setTheme = t => { theme = t; root.dataset.theme = t; document.querySelectorAll('[data-theme-label]').forEach(x => x.textContent = t === 'dark' ? 'Jasny' : 'Ciemny'); try{localStorage.setItem('kt-theme', t);}catch(_){} if (map) startTiles(0); };
+const setTheme = t => { theme = t; root.dataset.theme = t; document.querySelectorAll('[data-theme-label]').forEach(x => x.textContent = t === 'dark' ? 'Jasny' : 'Ciemny'); try{localStorage.setItem('kt-theme', t);}catch(_){} if (map) startTiles(0); if (window.__skyKick) window.__skyKick(); };
 document.querySelectorAll('[data-theme-t]').forEach(b => b.onclick = () => setTheme(theme === 'dark' ? 'light' : 'dark'));
 document.querySelectorAll('[data-size]').forEach(b => b.onclick = () => { root.dataset.size = root.dataset.size === 'large' ? '' : 'large'; });
 const toast = msg => { const t = $('toast'); t.textContent = msg; t.classList.add('on'); clearTimeout(t._h); t._h = setTimeout(() => t.classList.remove('on'), 3400); };
@@ -2477,7 +2723,12 @@ $('heroSub').textContent = 'Program '+nInstAll+' instytucji kultury w jednym mie
 const DEC_TXT = 'Program na grudzień jest jeszcze niepełny — nie znaleźliśmy jeszcze grudniowej rozpiski m.in. '+DEC_PENDING.map(x => x.short).join(', ')+' (stan na 26.11.2026). Lista będzie się uzupełniać.';
 const decLine = () => '<div class="decline"><svg><use href="#i-info"/></svg><span>'+esc(DEC_TXT)+'</span></div>';
 $('footFine').textContent = 'Wersja demonstracyjna. Dane zebrane 22–26.11.2026 z '+domains.size+' serwisów (strony instytucji i torun.pl); przy każdym wydarzeniu i miejscu jest link do źródła. Program na grudzień jest jeszcze niepełny, bo część instytucji nie opublikowała rozpiski. Okładki są generowane — w wersji docelowej instytucje dodają własne zdjęcia. Podkład mapy © współtwórcy OpenStreetMap.';
-$('nInst').textContent = nInstAll;
+$('nInst').textContent = nInstAll; document.querySelectorAll('[data-ninst]').forEach(x => x.textContent = nInstAll); $('pN').textContent = single().length; $('pSrc').textContent = domains.size;
+document.addEventListener('click', ev => {
+  if (ev.target.closest('[data-buydemo]')) { ev.preventDefault(); const e = upcoming().find(x => x.st !== 'soldout' && x.free !== true && x.price && x.s != null); location.hash = '#program'; if (e) setTimeout(() => openDetail(e.id), 350); return; }
+  if (ev.target.closest('[data-goclash]')) { setTimeout(() => { const c = $('clashP'); if (c) c.scrollIntoView({ behavior: 'smooth', block: 'start' }); }, 350); return; }
+  if (ev.target.closest('[data-feeds]')) { ev.preventDefault(); location.hash = '#program'; setTimeout(() => openFeeds(), 350); return; }
+});
 
 if (window.innerWidth <= 760) { $('heroQ').placeholder = 'Czego szukasz?'; $('q').placeholder = 'Np. „teatr 12 grudnia”'; }
 // ——— Stan filtrów ———
@@ -2660,8 +2911,17 @@ function render(){
     list.forEach(e => { if (e.d !== cur) { flush(); cur = e.d; buf = []; } buf.push(e); }); flush();
     out.innerHTML = html;
   }
+  renderMix();
   if (mapReady) drawMap();
 }
+function renderMix(){
+  const saved = S.cats; S.cats = new Set(); const base = filtered(); S.cats = saved;
+  const cc = {}; base.forEach(e => { cc[e.c] = (cc[e.c] || 0) + 1; });
+  const parts = Object.entries(cc).sort((a, b) => b[1] - a[1]); const tot = base.length || 1;
+  const html = parts.length ? '<div class="mixh"><span class="hi-ic" aria-hidden="true">↯</span>Struktura wybranego okresu — kliknij rodzaj, żeby zawęzić listę i mapę'+(S.cats.size ? ' · <button class="mixclr" data-mixclr>pokaż wszystkie rodzaje</button>' : '')+'</div><div class="mixbar">'+parts.map(([k, n]) => '<button data-mix="'+k+'" aria-pressed="'+S.cats.has(k)+'" style="flex:'+n+';--c:'+CATS[k].c+'" title="'+esc(CATS[k].n)+': '+n+'">'+(n / tot >= .09 ? Math.round(n / tot * 100)+'%' : '')+'</button>').join('')+'</div><div class="mixleg">'+parts.map(([k, n]) => '<button data-mix="'+k+'" aria-pressed="'+S.cats.has(k)+'"><i style="background:'+CATS[k].c+'"></i>'+esc(CATS[k].n)+' <b>'+n+'</b></button>').join('')+'</div>' : '';
+  ['progMix', 'mapMix'].forEach(id => { const el = $(id); if (el) { el.innerHTML = html; el.classList.toggle('sel', S.cats.size > 0); } });
+}
+document.addEventListener('click', ev => { const m = ev.target.closest('[data-mix]'); if (m) { const k = m.dataset.mix; S.cats.has(k) ? S.cats.delete(k) : S.cats.add(k); syncUI(); render(); return; } if (ev.target.closest('[data-mixclr]')) { S.cats.clear(); syncUI(); render(); } });
 $('activeChips').addEventListener('click', ev => { const b = ev.target.closest('[data-rm]'); if (!b) return; if (b.dataset.rm === 'all') resetFilters(); else activeList()[+b.dataset.rm][1](); hideNL(); syncUI(); render(); });
 
 // ——— Odkrywaj ———
@@ -2740,6 +3000,13 @@ function gcal(e){
   return 'https://calendar.google.com/calendar/render?'+p.toString();
 }
 let WAIT = new Set(); try { WAIT = new Set(JSON.parse(localStorage.getItem('kt-wait') || '[]')); } catch(_) {}
+function buyBox(e){
+  if (e.st === 'soldout' || e.pending) return '';
+  const u = (SOURCES[e.src[0]] || {}).u; if (!u || u.charAt(0) === '#') return '';
+  if (e.free === true && !e.reg) return '';
+  const lab = e.free === true ? 'Zapisy u organizatora' : 'Kup bilet';
+  return '<div class="buy"><a class="btn buyb" href="'+esc(u)+'" target="_blank" rel="noopener" data-buy="'+esc(e.inst || '')+'"><svg><use href="#i-ticket"/></svg>'+lab+' ↗</a><small>Sprzedaż prowadzi instytucja — portal przenosi do jej kasy online'+(e.price ? ' · '+esc(e.price) : '')+'. Po uruchomieniu każde przejście trafia do statystyk zainteresowania.</small></div>';
+}
 function waitBox(e, others){
   const free = others.filter(x => x.st !== 'soldout');
   const on = WAIT.has(e.tkey);
@@ -2766,6 +3033,7 @@ function openDetail(id){
     (e.st === 'soldout' && !e.ongoing ? waitBox(e, others) : '')+
     '<div class="ev-tags" style="display:flex;gap:.3rem;flex-wrap:wrap">'+tagsFor(e)+'</div>'+
     (e.note ? '<p style="font-size:.9rem;color:var(--muted)">'+esc(e.note)+'</p>' : '')+
+    buyBox(e)+
     '<div class="dacts">'+(e.ongoing?'':'<button class="btn pri" data-plan="'+e.id+'">'+(PLAN.has(e.id)?'✓ W planie':'+ Do planu')+'</button>')+(g?'<a class="btn" href="'+esc(g)+'" target="_blank" rel="noopener">Do kalendarza</a>':'')+(e.V.lat?'<button class="btn" data-showmap="'+e.v+'">Pokaż na mapie</button>':'')+'</div>'+
     '<div class="dsrc">Źródło: '+e.src.map(k => '<a href="'+esc(SOURCES[k].u)+'" target="_blank" rel="noopener">'+esc(SOURCES[k].n)+'</a>').join(' · ')+(e.src.length>1?' (połączono '+e.src.length+' źródła)':'')+' · sprawdzono '+fmtDM(srcDate(e))+'.2026'+(e.org && EXT_ORG.includes(e.org) ? '<br>Organizator: '+esc(e.org) : '')+'</div>'+
     (sim.length ? '<div class="similar"><h4>Może też…</h4>'+sim.map(x => '<button class="mini-row" data-ev="'+x.id+'"><span class="th">'+cover(x.c, x.t)+'</span><span><b>'+esc(x.t)+'</b><small>'+fmtShort(x.d)+(x.h?' · '+x.h:'')+' · '+esc(x.V.n)+'</small></span></button>').join('')+'</div>' : '')+
@@ -3436,7 +3704,9 @@ document.addEventListener('click', ev => {
   const DEC_SET = new Set(DEC_PENDING.map(x => x.inst));
   const DEC_NAMES = DEC_PENDING.map(x => x.short).join(', ');
   const reduce = !!(window.matchMedia && matchMedia('(prefers-reduced-motion: reduce)').matches);
-  const plD = n => n === 1 ? 'dzień' : 'dni';
+  const shortI = i => String(i).replace('Teatr im. Wilama Horzycy', 'Teatr Horzycy').replace('Centrum Kultury Dwór Artusa', 'Dwór Artusa').replace('Toruńska Orkiestra Symfoniczna', 'TOS').replace('Toruńska Agenda Kulturalna', 'TAK').replace('Książnica Kopernikańska', 'Książnica').replace('ACKiS Od Nowa (UMK)', 'Od Nowa');
+  const isJO = i => typeof JO_PARTNERS !== 'undefined' && JO_PARTNERS.includes(i);
+  const go = id => { const el = $(id); if (el) el.scrollIntoView({ behavior: reduce ? 'auto' : 'smooth', block: 'start' }); };
 
   // ——— Ruch: odliczanie, rosnące słupki, pojawianie się sekcji ———
   function countUp(el, to){ if (reduce) { el.textContent = to; return; } const t0 = performance.now(); const f = t => { const k = Math.min(1, (t - t0) / 1200); el.textContent = Math.round(to * (1 - Math.pow(1 - k, 3))); if (k < 1) requestAnimationFrame(f); }; requestAnimationFrame(f); }
@@ -3444,10 +3714,10 @@ document.addEventListener('click', ev => {
     root.querySelectorAll('[data-w]').forEach(x => { x.style.width = x.dataset.w; });
     root.querySelectorAll('[data-h]').forEach(x => { x.style.height = x.dataset.h; });
     root.querySelectorAll('[data-fg]').forEach(x => { x.style.flexGrow = x.dataset.fg; });
-    root.querySelectorAll('[data-count]').forEach(x => { if (!x._c) { x._c = 1; countUp(x, +x.dataset.count); } });
+    root.querySelectorAll('[data-count]').forEach(x => { if (x._c !== x.dataset.count) { x._c = x.dataset.count; countUp(x, +x.dataset.count); } });
   }
   const growSoon = root => requestAnimationFrame(() => requestAnimationFrame(() => grow(root)));
-  const io = 'IntersectionObserver' in window ? new IntersectionObserver(ents => ents.forEach(en => { if (en.isIntersecting) { en.target.classList.add('seen'); growSoon(en.target); io.unobserve(en.target); } }), { threshold: 0.08 }) : null;
+  const io = 'IntersectionObserver' in window ? new IntersectionObserver(ents => ents.forEach(en => { if (en.isIntersecting) { en.target.classList.add('seen'); growSoon(en.target); io.unobserve(en.target); } }), { threshold: 0.06 }) : null;
   document.querySelectorAll('#v-wydzial .rv').forEach(el => { if (io) io.observe(el); else { el.classList.add('seen'); grow(el); } });
   const refresh = el => { const sec = el.closest('.rv'); if (!sec || sec.classList.contains('seen')) growSoon(el); };
 
@@ -3468,111 +3738,56 @@ document.addEventListener('click', ev => {
     return ['ok', ALL.some(e => instOf(e) === i) ? 'program do końca grudnia' : 'stałe miejsce — godziny otwarcia do końca grudnia'];
   };
   const covOk = INSTS.filter(i => covOf(i)[0] === 'ok'), covPart = INSTS.filter(i => covOf(i)[0] === 'part');
-  $('covSum').textContent = covOk.length+' z '+INSTS.length+' z pełnym programem do 31.12';
-  $('covBar').innerHTML = '<div style="flex:0 1 0px;background:var(--ok)" data-fg="'+covOk.length+'"'+tipAttr('Pełny program do 31.12', covOk.length+' '+plI(covOk.length))+'></div><div style="flex:0 1 0px;background:var(--warn)" data-fg="'+covPart.length+'"'+tipAttr('Program częściowy', covPart.length+' '+plI(covPart.length))+'></div>';
-  $('cov').innerHTML = covPart.concat(covOk).map(i => { const [k, why] = covOf(i); return '<span class="cv '+k+'"'+tipAttr(i, (k === 'ok' ? '✓ ' : '◔ ')+why)+'><i></i>'+esc(i)+'</span>'; }).join('');
 
-  // ——— Co będzie mierzone ———
-  const MET = [
-    ['Czego mieszkańcy szukają — i czego nie znajdują', 'Wyszukiwania bez wyników pokazują potrzeby, na które program dziś nie odpowiada.', 'z portalu'],
-    ['Zainteresowanie wydarzeniami i instytucjami', 'Wyświetlenia, zapisy do planu dnia i do kalendarza — według rodzaju, instytucji i dzielnicy.', 'z portalu'],
-    ['Przejścia do kas i zapisów', 'Ile osób przeszło z portalu do sprzedaży biletów lub do zapisów. To nie sprzedaż, ale dobry jej wskaźnik.', 'z portalu'],
-    ['Popyt większy niż liczba miejsc', 'Ile osób czeka na kolejny termin wyprzedanego wydarzenia — argument przy planowaniu repertuaru.', 'z portalu'],
-    ['Zapytania grup szkolnych i przedszkolnych', 'Liczba zapytań, oczekiwane terminy, czas odpowiedzi instytucji, szkoły spoza centrum.', 'z portalu'],
-    ['Skąd mieszkańcy planują wyjścia', 'Dzielnica, z której ktoś planuje dzień — tylko gdy sam ją poda w planerze.', 'z portalu'],
-    ['Kolizje terminów w czasie', 'Czy wspólny kalendarz zmniejsza liczbę wieczorów, w które instytucje konkurują o tego samego widza.', 'z bazy wydarzeń'],
-    ['Kompletność i wyprzedzenie programów', 'Z jakim wyprzedzeniem instytucje publikują program i ile wymaganych pól wypełniają.', 'z bazy wydarzeń'],
-    ['Frekwencja i sprzedaż biletów', 'Wymaga danych z systemów biletowych instytucji albo z Karty Miejskiej JO — portal sam ich nie zmierzy.', 'wymaga danych instytucji', 1],
-  ];
-  $('mGrid').innerHTML = MET.map((m, i) => '<div class="mc'+(m[3] ? ' ext' : '')+'"><span class="mi">'+String(i + 1).padStart(2, '0')+'</span><b>'+esc(m[0])+'</b><p>'+esc(m[1])+'</p><span class="src">'+esc(m[2])+'</span></div>').join('');
-
-  // Wykresy przykładowe (SVG, bez bibliotek)
-  const C1 = () => isLight() ? '#5B1FE0' : '#A07BFF', C2 = () => isLight() ? '#0E7490' : '#22D3EE';
-  const fmtN = n => String(n).replace(/\B(?=(\d{3})+(?!\d))/g, ' ');
-  function lineChart(labels, series, opt){
-    const W = 320, H = 170, L = 34, R = 10, T = 12, B = 22, w = W - L - R, h = H - T - B;
-    const max = opt.max || Math.max(...series.flatMap(s => s.v)) * 1.1, min = opt.min || 0;
-    const X = i => L + i * w / (labels.length - 1), Y = v => T + h - (v - min) / (max - min) * h;
-    let s = '<svg viewBox="0 0 '+W+' '+H+'" role="img" aria-label="'+esc(opt.aria)+'">';
-    for (let k = 0; k <= 3; k++) { const v = min + (max - min) * k / 3, y = Y(v); s += '<line class="gl" x1="'+L+'" x2="'+(W - R)+'" y1="'+y.toFixed(1)+'" y2="'+y.toFixed(1)+'"/><text x="'+(L - 5)+'" y="'+(y + 3).toFixed(1)+'" text-anchor="end">'+(opt.pct ? Math.round(v)+'%' : fmtN(Math.round(v / (opt.k || 1)))+(opt.k ? ' tys.' : ''))+'</text>'; }
-    labels.forEach((l, i) => { if (i % (opt.every || 1) === 0 || i === labels.length - 1) s += '<text x="'+X(i).toFixed(1)+'" y="'+(H - 6)+'" text-anchor="middle">'+esc(l)+'</text>'; });
-    series.forEach((ser, si) => {
-      const pts = ser.v.map((v, i) => [X(i), Y(v)]);
-      let len = 0; for (let i = 1; i < pts.length; i++) len += Math.hypot(pts[i][0] - pts[i - 1][0], pts[i][1] - pts[i - 1][1]);
-      const d = pts.map((p, i) => (i ? 'L' : 'M')+p[0].toFixed(1)+' '+p[1].toFixed(1)).join(' ');
-      if (opt.area && si === 0) s += '<path class="ar" d="'+d+' L'+pts[pts.length - 1][0].toFixed(1)+' '+(T + h)+' L'+L+' '+(T + h)+'Z" fill="'+ser.c+'" fill-opacity=".14"/>';
-      s += '<path class="ln" style="--len:'+Math.ceil(len)+'" d="'+d+'" stroke="'+ser.c+'"/>';
-      pts.forEach((p, i) => { s += '<circle class="dt" cx="'+p[0].toFixed(1)+'" cy="'+p[1].toFixed(1)+'" r="7" fill="transparent"'+tipAttr(ser.n+' · '+labels[i], (opt.pct ? ser.v[i]+'%' : fmtN(ser.v[i]))+' (przykład)')+'/>'; });
-      const lp = pts[pts.length - 1]; s += '<circle class="dt" cx="'+lp[0].toFixed(1)+'" cy="'+lp[1].toFixed(1)+'" r="3.5" fill="'+ser.c+'"/>';
-    });
-    return s + '</svg>';
-  }
-  function hbars(items, opt){
-    const W = 320, rowH = 22, H = items.length * rowH + 4, L = opt.L || 150, max = Math.max(...items.map(x => x[1]));
-    let s = '<svg viewBox="0 0 '+W+' '+H+'" role="img" aria-label="'+esc(opt.aria)+'">';
-    items.forEach((x, i) => { const y = 2 + i * rowH, bw = (W - L - 40) * x[1] / max; s += '<text class="lb" x="0" y="'+(y + 14)+'">'+esc(x[0])+'</text><rect class="hb" style="animation-delay:'+(i * 70)+'ms" x="'+L+'" y="'+(y + 4)+'" width="'+bw.toFixed(1)+'" height="13" rx="3" fill="'+opt.c+'"'+tipAttr(x[0], fmtN(x[1])+(opt.unit || '')+' (przykład)')+'/><text class="v" x="'+(L + bw + 5).toFixed(1)+'" y="'+(y + 14)+'">'+fmtN(x[1])+(opt.unit || '')+'</text>'; });
-    return s + '</svg>';
-  }
-  function vbars(items, opt){
-    const W = 320, H = 170, B = 22, T = 16, h = H - B - T, max = Math.max(...items.map(x => x[1])) * 1.08, bw = (W - 20) / items.length;
-    let s = '<svg viewBox="0 0 '+W+' '+H+'" role="img" aria-label="'+esc(opt.aria)+'"><line class="gl" x1="0" x2="'+W+'" y1="'+(T + h)+'" y2="'+(T + h)+'"/>';
-    items.forEach((x, i) => { const bh = h * x[1] / max, xx = 10 + i * bw + bw * 0.2; s += '<rect class="vb" style="animation-delay:'+(i * 80)+'ms" x="'+xx.toFixed(1)+'" y="'+(T + h - bh).toFixed(1)+'" width="'+(bw * 0.6).toFixed(1)+'" height="'+bh.toFixed(1)+'" rx="3" fill="'+opt.c+'"'+tipAttr(x[0], fmtN(x[1])+' (przykład)')+'/><text class="v" x="'+(xx + bw * 0.3).toFixed(1)+'" y="'+(T + h - bh - 4).toFixed(1)+'" text-anchor="middle">'+x[1]+'</text><text x="'+(xx + bw * 0.3).toFixed(1)+'" y="'+(H - 6)+'" text-anchor="middle">'+esc(x[0])+'</text>'; });
-    return s + '</svg>';
-  }
-  function sampleHTML(){
-    const card = (t, sub, svg, lg) => '<div class="sc"><span class="ribbon">PRZYKŁAD</span><h5>'+esc(t)+'</h5><div class="sub">'+esc(sub)+'</div>'+svg+(lg || '')+'</div>';
-    const wk = ['t1','t2','t3','t4','t5','t6','t7','t8','t9','t10'];
-    const mies = ['m1','m2','m3','m4','m5','m6'];
-    return '<div class="sbanner"><b>DANE PRZYKŁADOWE</b><span>Tak mogą wyglądać wykresy po uruchomieniu portalu. Liczby są wymyślone na potrzeby pokazu — prawdziwe pojawią się po pierwszych tygodniach działania.</span></div><div class="sgrid6">'+
-      card('Odwiedziny portalu i przejścia do kas', 'tygodniowo, pierwsze 10 tygodni', lineChart(wk, [{ n: 'Odwiedziny', v: [1800, 2400, 2900, 3300, 3900, 4100, 4600, 5200, 6100, 6900], c: C1() }, { n: 'Przejścia do kas i zapisów', v: [210, 290, 360, 420, 510, 540, 620, 700, 860, 990], c: C2() }], { aria: 'Odwiedziny i przejścia do kas tygodniowo, dane przykładowe', every: 3, max: 7500 }), '<div class="lg"><span><i style="background:'+C1()+'"></i>Odwiedziny</span><span><i style="background:'+C2()+'"></i>Przejścia do kas i zapisów</span></div>')+
-      card('Czego szukano i nie znaleziono', 'najczęstsze wyszukiwania bez wyników, miesiąc', hbars([['seniorzy, wieczorem', 64], ['ceramika dla dorosłych', 58], ['koncert dla niemowląt', 47], ['stand-up na Podgórzu', 31], ['spektakl po angielsku', 26], ['potańcówka', 22]], { c: C2(), aria: 'Wyszukiwania bez wyników, dane przykładowe', L: 150 }))+
-      card('Czekają na kolejny termin', 'osoby zapisane przy wyprzedanych wydarzeniach', hbars([['spektakl dla szkół', 142], ['spektakl dla dzieci 2–5 lat', 96], ['koncert świąteczny', 74], ['warsztaty piernikowe', 51], ['spotkanie autorskie', 18]], { c: C1(), aria: 'Osoby czekające na kolejny termin, dane przykładowe', L: 150 }))+
-      card('Skąd planowane są wyjścia', 'dzielnica startu podana w planerze, % planów', hbars([['Stare Miasto', 18], ['Chełmińskie Przedm.', 14], ['Bydgoskie Przedm.', 13], ['Rubinkowo', 11], ['Na Skarpie', 10], ['Bielany', 9], ['Mokre', 8], ['Podgórz', 6]], { c: C2(), unit: '%', aria: 'Dzielnice startu, dane przykładowe', L: 130 }))+
-      card('Zapytania od grup szkolnych', 'miesięcznie po uruchomieniu', vbars(mies.map((m, i) => [m, [12, 28, 41, 37, 55, 63][i]]), { c: C1(), aria: 'Zapytania grup szkolnych miesięcznie, dane przykładowe' }))+
-      card('Kompletność zgłoszeń instytucji', 'średni odsetek wypełnionych pól, miesięcznie', lineChart(mies, [{ n: 'Kompletność', v: [58, 64, 71, 77, 84, 89], c: C2() }], { aria: 'Kompletność zgłoszeń, dane przykładowe', pct: 1, min: 40, max: 100, area: 1 }))+
-      '</div><p class="snote">Jak to działa: statystyki zbiorcze z portalu (narzędzie analityczne bez plików cookie, dane przechowywane w UE), raport miesięczny dla wydziału i dla każdej instytucji, eksport do arkusza. Żadne dane nie dotyczą konkretnych osób.</p>';
-  }
-  $('mShow').onclick = () => {
-    const box = $('mSample'), open = box.hidden;
-    box.hidden = !open; $('mShow').setAttribute('aria-expanded', open); $('mShow').textContent = open ? 'Ukryj przykładowe wykresy' : 'Pokaż przykładowe wykresy';
-    if (open) { box.innerHTML = sampleHTML(); setTimeout(() => box.scrollIntoView({ behavior: reduce ? 'auto' : 'smooth', block: 'nearest' }), 60); }
-  };
-
-  // ——— Kolizje terminów ———
+  // ——— Kolizje: wskaźnik wspólnej publiczności ———
   const CG = { teatr: 'scena', taniec: 'scena', standup: 'scena', muzyka: 'muzyka', film: 'film', literatura: 'słowo', spotkanie: 'słowo', nauka: 'słowo', warsztaty: 'warsztaty', wystawa: 'zwiedzanie', zwiedzanie: 'zwiedzanie', festiwal: 'festiwal' };
   const AG = e => e.aud.includes('dzieci') ? 'dzieci' : e.aud.includes('seniorzy') ? 'seniorzy' : 'dorośli';
   const AGN = { dzieci: 'dzieci i rodziny', seniorzy: 'seniorzy', 'dorośli': 'dorośli' };
+  const priceK = e => e.free === true ? 'free' : (e.price && (priceNum(e.price) != null || /płatne|zł/.test(e.price))) ? 'paid' : null;
   const T0 = 15 * 60, T1 = 23 * 60;
-  const LVL = { 3: 'ten sam odbiorca, podobny rodzaj', 2: 'ten sam odbiorca', 1: 'inni odbiorcy' };
-  function pairOf(a, b){
-    if (instOf(a) === instOf(b) || a.tkey === b.tkey) return null;
+  function judge(a, b){
     const ov = Math.min(a.s + a.dur, b.s + b.dur) - Math.max(a.s, b.s);
     if (ov < 30) return null;
-    const sameA = AG(a) === AG(b), sameC = a.c === b.c || CG[a.c] === CG[b.c];
-    return { a, b, ov, lvl: sameA && sameC ? 3 : sameA ? 2 : 1 };
+    const aud = AG(a) === AG(b);
+    const cat = a.c === b.c ? 2 : CG[a.c] === CG[b.c] ? 1 : 0;
+    const pa = priceK(a), pb = priceK(b), price = pa && pb ? (pa === pb ? 2 : 0) : 1;
+    let area = 1; if (a.V && b.V) { if (a.V.d && a.V.d === b.V.d) area = 2; else if (a.V.lat && b.V.lat) area = walkMin(a.V, b.V).m / 1.3 <= 1200 ? 2 : 0; }
+    const sc = aud ? 40 + [0, 20, 30][cat] + [0, 7, 15][price] + [0, 6, 15][area] : Math.min(35, [0, 20, 30][cat] + [0, 4, 8][price] + [0, 3, 6][area]);
+    return { ov, aud, cat, price, area, sc, lvl: !aud ? 1 : sc >= 70 ? 3 : 2 };
   }
+  function pairOf(a, b){ if (instOf(a) === instOf(b) || a.tkey === b.tkey) return null; const j = judge(a, b); return j ? Object.assign({ a, b }, j) : null; }
   const evening = ALL.filter(e => e.s != null && e.s + e.dur > T0);
   const byDay = {}; evening.forEach(e => (byDay[e.d] = byDay[e.d] || []).push(e));
-  const DAYS = Object.entries(byDay).map(([d, evs]) => {
+  const DAYS_ALL = Object.entries(byDay).map(([d, evs]) => {
     evs.sort((x, y) => x.s - y.s); const P = [];
     for (let i = 0; i < evs.length; i++) for (let j = i + 1; j < evs.length; j++) { const p = pairOf(evs[i], evs[j]); if (p) P.push(p); }
-    const sc = P.reduce((s, p) => s + (p.lvl === 3 ? 3 : p.lvl === 2 ? 1.5 : 0.3) * Math.min(p.ov, 120) / 60, 0);
-    return { d, evs, P, sc, n3: P.filter(p => p.lvl === 3).length, n2: P.filter(p => p.lvl === 2).length };
-  }).filter(x => x.n3 + x.n2 > 0).sort((a, b) => b.sc - a.sc);
-  const strongPairs = DAYS.flatMap(x => x.P.filter(p => p.lvl >= 2));
+    return { d, evs, P };
+  });
+  const PAIRS = DAYS_ALL.flatMap(x => x.P);
   const pairKey = p => [instOf(p.a), instOf(p.b)].sort((x, y) => x.localeCompare(y, 'pl')).join(' × ');
-  const PC = {}; strongPairs.forEach(p => { const k = pairKey(p); PC[k] = (PC[k] || 0) + 1; });
-  const topPair = Object.entries(PC).sort((a, b) => b[1] - a[1])[0];
-  const daysWithEve = Object.keys(byDay).length;
-  const n3all = strongPairs.filter(p => p.lvl === 3).length;
-  $('cKpi').innerHTML =
-    '<div class="ck"><div class="v" data-count="'+DAYS.length+'">0</div><div class="l">dni z kolizją — wydarzenia różnych instytucji dla tego samego odbiorcy w tym samym czasie (na '+daysWithEve+' dni z ofertą po 15:00)</div></div>'+
-    '<div class="ck"><div class="v"><span data-count="'+n3all+'">0</span><small>z '+strongPairs.length+'</small></div><div class="l">par wydarzeń, które konkurują najmocniej: ten sam odbiorca i podobny rodzaj, np. dwa koncerty dla dorosłych</div></div>'+
-    (topPair ? '<div class="ck"><div class="v" data-count="'+topPair[1]+'">0</div><div class="l">kolizji między: <b>'+esc(topPair[0])+'</b> — najczęściej spotykająca się para</div></div>' : '');
-  const shortI = i => i.replace('Teatr im. Wilama Horzycy', 'Teatr Horzycy').replace('Centrum Kultury Dwór Artusa', 'Dwór Artusa').replace('Toruńska Orkiestra Symfoniczna', 'TOS').replace('Toruńska Agenda Kulturalna', 'TAK').replace('Książnica Kopernikańska', 'Książnica').replace('ACKiS Od Nowa (UMK)', 'Od Nowa');
+  let FI = '';            // filtr instytucji — wspólny dla kolizji i wykresów oferty
+  let onlyStrong = false;
+  const pin = p => !FI || instOf(p.a) === FI || instOf(p.b) === FI;
+  const vis = p => p.lvl >= (onlyStrong ? 3 : 2) && pin(p);
+  const strongAll = PAIRS.filter(p => p.lvl === 3), medAll = PAIRS.filter(p => p.lvl === 2);
+
+  // ——— Najważniejsze (obok liczby głównej) ———
+  const soldAll = ALL.filter(e => e.st === 'soldout').length;
+  const soldBy = {}; ALL.forEach(e => { const i = instOf(e); soldBy[i] = soldBy[i] || [0, 0]; soldBy[i][1]++; if (e.st === 'soldout') soldBy[i][0]++; });
+  const soldTop = Object.entries(soldBy).filter(([, v]) => v[0] >= 2).sort((a, b) => b[1][0] / b[1][1] - a[1][0] / a[1][1]).slice(0, 2);
+  $('khl').innerHTML =
+    '<button class="kh" data-go="clashP"><span class="v" data-count="'+strongAll.length+'">0</span><span class="l">par wydarzeń, które najpewniej walczą o <b>tę samą publiczność</b> — ten sam odbiorca, podobny rodzaj, w tym samym czasie</span><span class="go">kolizje ↓</span></button>'+
+    '<button class="kh" data-go="instP"><span class="v"><span data-count="'+pct(soldAll, N)+'">0</span>%</span><span class="l">terminów bez wolnych miejsc w dniu zbierania danych'+(soldTop.length ? ' — najwięcej: '+soldTop.map(([i, v]) => esc(shortI(i))+' ('+pct(v[0], v[1])+'%)').join(', ') : '')+'</span><span class="go">instytucje ↓</span></button>'+
+    '<button class="kh" data-go="dataP"><span class="v"><span data-count="'+covOk.length+'">0</span><small> z '+INSTS.length+'</small></span><span class="l">instytucji z pełnym programem do 31.12 — przy pozostałych wnioski mogą być zaniżone</span><span class="go">dane ↓</span></button>';
+  $('khl').addEventListener('click', ev => { const b = ev.target.closest('[data-go]'); if (b) go(b.dataset.go); });
+
+  // ——— Kolizje: widoki ———
   const xPos = m => Math.max(0, Math.min(100, (m - T0) / (T1 - T0) * 100));
-  const axis = '<div class="gax">'+[15, 16, 17, 18, 19, 20, 21, 22, 23].map(h => '<span>'+h+'</span>').join('')+'</div>';
-  const evLvl = (x, e) => Math.max(0, ...x.P.filter(p => p.a === e || p.b === e).map(p => p.lvl));
+  const axis = '<div class="gax">'+[15, 16, 17, 18, 19, 20, 21, 22, 23].map(h => '<span>'+h+':00</span>').join('')+'</div>';
+  const LV = { 3: 'silna', 2: 'średnia', 1: 'słaba' };
+  const chip = (ok, label) => '<span class="asp '+(ok === 2 ? 'y' : ok === 1 ? 'm' : 'n')+'">'+(ok === 2 ? '✓' : ok === 1 ? '~' : '✗')+' '+label+'</span>';
+  const why = p => chip(p.aud ? 2 : 0, 'odbiorcy: '+(p.aud ? AGN[AG(p.a)] : AGN[AG(p.a)]+' / '+AGN[AG(p.b)])) + chip(p.cat, p.cat === 2 ? 'ten sam rodzaj' : p.cat === 1 ? 'pokrewny rodzaj' : 'inny rodzaj') + chip(p.price, p.price === 2 ? 'podobna cena' : p.price === 1 ? 'cena nieznana' : 'bezpłatne / płatne') + chip(p.area, p.area === 2 ? 'blisko siebie' : p.area === 1 ? 'miejsce nieznane' : 'różne części miasta');
+  const pairCard = p => '<div class="pr"><div class="psc"><b>'+p.sc+'</b><span class="pill l'+p.lvl+'">'+LV[p.lvl]+'</span></div><div><div><button class="linkbtn" data-ev="'+p.a.id+'"><b>'+esc(p.a.h+' '+p.a.t)+'</b></button> <span class="mini">'+esc(shortI(instOf(p.a)))+'</span> <span class="vs">↔</span> <button class="linkbtn" data-ev="'+p.b.id+'"><b>'+esc(p.b.h+' '+p.b.t)+'</b></button> <span class="mini">'+esc(shortI(instOf(p.b)))+'</span></div><div class="bar100"><i style="width:'+p.sc+'%"></i></div><div class="asps">'+why(p)+'<span class="asp t">wspólnie ok. '+p.ov+' min</span>'+(p.a.st === 'soldout' || p.b.st === 'soldout' ? '<span class="asp t">jedno wyprzedane</span>' : '')+'</div></div></div>';
   function altDays(d, grp, from){
     const out = [];
     for (let k = -3; k <= 3; k++) {
@@ -3583,73 +3798,96 @@ document.addEventListener('click', ev => {
     return out.sort((a, b) => a[1] - b[1] || Math.abs(diffDays(a[0], d)) - Math.abs(diffDays(b[0], d))).slice(0, 3);
   }
   const covWarn = d => d >= '2026-12-01' && DEC_PENDING.length ? '<p class="mini" style="color:var(--warn);margin:.5rem 0 0">Grudzień: w zebranych źródłach brakuje jeszcze programów — '+esc(DEC_NAMES)+'. Kolizji może być więcej.</p>' : '';
+  const daysF = () => DAYS_ALL.map(x => { const P = x.P.filter(vis); const sc = P.reduce((s, p) => s + p.sc * Math.min(p.ov, 120) / 120, 0); return { d: x.d, evs: x.evs, Pall: x.P, P, sc, n3: P.filter(p => p.lvl === 3).length, n2: P.filter(p => p.lvl === 2).length }; }).filter(x => x.P.length).sort((a, b) => b.sc - a.sc);
+  const evLvl = (x, e) => Math.max(1, ...x.P.filter(p => p.a === e || p.b === e).map(p => p.lvl));
   function dayDetail(x){
     const evs = x.evs.filter(e => x.P.some(p => p.a === e || p.b === e));
-    const P = x.P.slice().sort((a, b) => b.lvl - a.lvl || b.ov - a.ov);
-    const best = P[0]; const grp = AG(best.a);
-    const alts = altDays(x.d, grp);
-    return '<div class="glg"><span><i style="background:var(--bad)"></i>ten sam odbiorca i podobny rodzaj</span><span><i style="background:var(--warn)"></i>ten sam odbiorca</span><span><i style="background:var(--line2)"></i>inni odbiorcy</span></div>'+axis+
-      evs.map((e, i) => { const l = evLvl(x, e); const L = xPos(e.s), Rr = xPos(e.s + e.dur); return '<div class="gr"><b data-ev="'+e.id+'" style="left:'+L.toFixed(1)+'%;width:'+Math.max(6, Rr - L).toFixed(1)+'%;--cc:'+(l === 3 ? 'var(--bad)' : l === 2 ? 'var(--warn)' : 'var(--line2)')+';animation-delay:'+(i * 60)+'ms"'+tipAttr(e.h+'–'+hhmm(Math.min(e.s + e.dur, 1439))+' · '+e.t, instOf(e)+' · '+CATS[e.c].n+' · '+AGN[AG(e)]+(e.st === 'soldout' ? '\nbrak wolnych miejsc' : '')+(e.h2 ? '' : '\nczas trwania orientacyjny'))+'>'+esc(e.h+' '+e.t)+'</b></div>'; }).join('')+
-      '<div class="pairs">'+P.filter(p => p.lvl >= 2).slice(0, 6).map(p => '<div class="pr"><span class="pill l'+p.lvl+'">'+(p.lvl === 3 ? 'silna' : 'średnia')+'</span><div><b>'+esc(p.a.h+' '+p.a.t)+'</b> ('+esc(shortI(instOf(p.a)))+') ↔ <b>'+esc(p.b.h+' '+p.b.t)+'</b> ('+esc(shortI(instOf(p.b)))+')<small>wspólnie ok. '+p.ov+' min · odbiorcy: '+AGN[AG(p.a)]+' · '+esc(CATS[p.a.c].n.toLowerCase())+(p.a.c !== p.b.c ? ' / '+esc(CATS[p.b.c].n.toLowerCase()) : '')+(p.a.st === 'soldout' || p.b.st === 'soldout' ? ' · jedno z wydarzeń było wyprzedane' : '')+'</small></div></div>').join('')+'</div>'+
-      (alts.length ? '<div class="alt">Luźniejsze wieczory w tym tygodniu dla odbiorców „'+AGN[grp]+'”: '+alts.map(([dd, n]) => '<button data-chk="'+dd+'|'+grp+'">'+fmtShort(dd)+' · '+n+' '+plW(n)+' po 17:00</button>').join('')+'</div>' : '')+covWarn(x.d);
+    const P = x.P.slice().sort((a, b) => b.sc - a.sc || b.ov - a.ov);
+    const grp = AG(P[0].a), alts = altDays(x.d, grp);
+    return '<div class="glg"><span><i class="c3"></i>w silnej kolizji</span><span><i class="c2"></i>w średniej kolizji</span><span class="mini">· klik w pasek otwiera wydarzenie</span></div>'+axis+
+      evs.map((e, i) => { const l = evLvl(x, e); const L = xPos(e.s), Rr = xPos(e.s + e.dur); return '<div class="gr"><b class="c'+l+'" data-ev="'+e.id+'" style="left:'+L.toFixed(1)+'%;width:'+Math.max(7, Rr - L).toFixed(1)+'%;animation-delay:'+(i * 60)+'ms"'+tipAttr(e.h+'–'+hhmm(Math.min(e.s + e.dur, 1439))+' · '+e.t, instOf(e)+' · '+CATS[e.c].n+' · '+AGN[AG(e)]+(e.st === 'soldout' ? '\nbrak wolnych miejsc' : '')+(e.h2 ? '' : '\nczas trwania orientacyjny'))+'>'+esc(e.h+' '+e.t)+'<em>'+esc(shortI(instOf(e)))+'</em></b></div>'; }).join('')+
+      '<div class="pairs">'+P.slice(0, 6).map(pairCard).join('')+'</div>'+
+      (alts.length ? '<div class="alt">Spokojniejsze wieczory w tym tygodniu dla odbiorców „'+AGN[grp]+'”: '+alts.map(([dd, n]) => '<button data-chk="'+dd+'|'+grp+'">'+fmtShort(dd)+' · '+n+' '+plW(n)+' po 17:00</button>').join('')+'</div>' : '')+covWarn(x.d);
   }
-  let showAllDays = false;
+  let showAllDays = false, DL = [];
   function renderDays(){
-    const list = showAllDays ? DAYS : DAYS.slice(0, 8);
-    $('cBody').innerHTML = (DAYS.length ? list.map((x, i) => {
+    DL = daysF(); const list = showAllDays ? DL : DL.slice(0, 8);
+    $('cBody').innerHTML = (DL.length ? '<p class="hint"><span class="hi-ic" aria-hidden="true">↯</span>Terminy od najmocniejszej kolizji. Kliknij wiersz, żeby zobaczyć, które wydarzenia się nakładają i dlaczego.</p>' + list.map((x, i) => {
       const inv = x.evs.filter(e => x.P.some(p => p.a === e || p.b === e));
-      return '<div class="crow'+(TODAY_REAL && x.d < TODAY ? ' pastc' : '')+'" data-ci="'+i+'"><button aria-expanded="false"><span class="d">'+cap(fmtShort(x.d))+'<small>'+inv.length+' '+plW(inv.length)+' w kolizji'+(TODAY_REAL && x.d < TODAY ? ' · minął' : '')+'</small></span><span class="mtrack" style="height:'+(inv.length * 8 + 6)+'px">'+inv.map((e, k) => { const l = evLvl(x, e), L = xPos(e.s), Rr = xPos(e.s + e.dur); return '<i class="l'+l+'" style="left:'+L.toFixed(1)+'%;width:'+Math.max(3, Rr - L).toFixed(1)+'%;top:'+(3 + k * 8)+'px;animation-delay:'+(i * 50 + k * 30)+'ms"></i>'; }).join('')+'</span><span class="cbadge">'+(x.n3 ? '<span class="pill l3">'+x.n3+' silne</span>' : '')+(x.n2 ? '<span class="pill l2">'+x.n2+' średnie</span>' : '')+'</span></button><div class="cdet"></div></div>';
-    }).join('') : '<p class="mini">W zebranych programach nie ma dni, w których wydarzenia różnych instytucji dla tego samego odbiorcy nakładają się w czasie.</p>')+
-    (DAYS.length > 8 ? '<button class="mbtn" id="cAll" style="margin-top:.6rem">'+(showAllDays ? 'Pokaż mniej' : 'Pokaż wszystkie ('+DAYS.length+')')+'</button>' : '');
-    $('cNote').textContent = 'Kolizja: dwa wydarzenia różnych instytucji, które zaczynają się po 15:00 i nakładają co najmniej 30 minut. Siła zależy od tego, czy są dla tych samych odbiorców i czy to podobny rodzaj. Czas trwania jest orientacyjny, jeśli źródło nie podaje godziny zakończenia. Kliknij termin, żeby zobaczyć szczegóły.';
+      const past = TODAY_REAL && x.d < TODAY;
+      return '<div class="crow'+(past ? ' pastc' : '')+'" data-ci="'+i+'"><button aria-expanded="false"><span class="chev" aria-hidden="true">▸</span><span class="d">'+cap(fmtShort(x.d))+'<small>'+inv.length+' '+plW(inv.length)+(past ? ' · minął' : '')+'</small></span><span class="mtrack" style="height:'+(inv.length * 11 + 8)+'px">'+inv.map((e, k) => { const l = evLvl(x, e), L = xPos(e.s), Rr = xPos(e.s + e.dur); return '<i class="c'+l+'" style="left:'+L.toFixed(1)+'%;width:'+Math.max(3, Rr - L).toFixed(1)+'%;top:'+(4 + k * 11)+'px;animation-delay:'+(i * 50 + k * 30)+'ms"></i>'; }).join('')+'</span><span class="cbadge">'+(x.n3 ? '<span class="pill l3">'+x.n3+' '+(x.n3 === 1 ? 'silna' : 'silne')+'</span>' : '')+(x.n2 ? '<span class="pill l2">'+x.n2+' '+(x.n2 === 1 ? 'średnia' : 'średnie')+'</span>' : '')+'<span class="more">szczegóły</span></span></button><div class="cdet"></div></div>';
+    }).join('') : '<p class="mini">Brak kolizji dla wybranych ustawień w zebranych programach.</p>')+
+    (DL.length > 8 ? '<button class="mbtn" id="cAll" style="margin-top:.6rem">'+(showAllDays ? 'Pokaż mniej' : 'Pokaż wszystkie terminy ('+DL.length+')')+'</button>' : '');
+    const first = $('cBody').querySelector('.crow:not(.pastc)') || $('cBody').querySelector('.crow');
+    if (first) toggleRow(first, true);
+    $('cNote').textContent = 'Kolizja: dwa wydarzenia różnych instytucji, które zaczynają się po 15:00 i nakładają co najmniej 30 minut. Wskaźnik 0–100: odbiorcy (warunek konieczny), rodzaj, cena i okolica. Silna — od 70 punktów. Czas trwania jest orientacyjny, jeśli źródło nie podaje godziny zakończenia.';
   }
-  let pairSel = topPair ? topPair[0] : null;
+  function toggleRow(r, open){ r.classList.toggle('open', open); r.querySelector('button').setAttribute('aria-expanded', open); const det = r.querySelector('.cdet'); if (open && !det.innerHTML) det.innerHTML = dayDetail(DL[(showAllDays ? 0 : 0) + +r.dataset.ci]); }
+  let pairSel = null;
   function renderPairs(){
-    const insts = [...new Set(strongPairs.flatMap(p => [instOf(p.a), instOf(p.b)]))];
-    const tot = i => strongPairs.filter(p => instOf(p.a) === i || instOf(p.b) === i).length;
+    const SP = PAIRS.filter(vis); const PC = {}; SP.forEach(p => { const k = pairKey(p); PC[k] = (PC[k] || 0) + 1; });
+    const insts = [...new Set(SP.flatMap(p => [instOf(p.a), instOf(p.b)]))];
+    const tot = i => SP.filter(p => instOf(p.a) === i || instOf(p.b) === i).length;
     insts.sort((a, b) => tot(b) - tot(a));
     const mx = Math.max(1, ...Object.values(PC));
-    let t = '<div class="pmxw"><table class="pmx"><thead><tr><th></th>'+insts.map(i => '<th><span>'+esc(shortI(i))+'</span></th>').join('')+'</tr></thead><tbody>';
-    insts.forEach(r => { t += '<tr><th>'+esc(shortI(r))+'</th>'+insts.map(c => { if (r === c) return '<td class="self"></td>'; const k = [r, c].sort((x, y) => x.localeCompare(y, 'pl')).join(' × '), n = PC[k] || 0; const p = n ? Math.round(18 + 82 * n / mx) : 0; return n ? '<td class="'+(p >= 55 ? 'hi' : '')+(k === pairSel ? ' pkon' : '')+'" style="--p:'+p+'%" data-pk="'+esc(k)+'"'+tipAttr(k, n+' '+(n === 1 ? 'kolizja' : n < 5 ? 'kolizje' : 'kolizji'))+'>'+n+'</td>' : '<td class="z">·</td>'; }).join('')+'</tr>'; });
+    if (!pairSel || !PC[pairSel]) pairSel = (Object.entries(PC).sort((a, b) => b[1] - a[1])[0] || [null])[0];
+    let t = '<p class="hint"><span class="hi-ic" aria-hidden="true">↯</span>Im ciemniejsze pole, tym częściej dwie instytucje trafiają do tej samej publiczności w tym samym czasie. Kliknij pole, żeby zobaczyć terminy.</p><div class="pmxw"><table class="pmx"><thead><tr><th></th>'+insts.map(i => '<th><span>'+esc(shortI(i))+'</span></th>').join('')+'</tr></thead><tbody>';
+    insts.forEach(r => { t += '<tr><th>'+esc(shortI(r))+'</th>'+insts.map(c => { if (r === c) return '<td class="self"></td>'; const k = [r, c].sort((x, y) => x.localeCompare(y, 'pl')).join(' × '), n = PC[k] || 0; const p = n ? Math.round(18 + 82 * n / mx) : 0; return n ? '<td class="'+(p >= 55 ? 'hi' : '')+(k === pairSel ? ' pkon' : '')+'" style="--p:'+p+'%" data-pk="'+esc(k)+'"'+tipAttr(k, n+' '+(n === 1 ? 'kolizja' : n < 5 ? 'kolizje' : 'kolizji')+' · kliknij')+'>'+n+'</td>' : '<td class="z">·</td>'; }).join('')+'</tr>'; });
     t += '</tbody></table></div>';
-    const sel = pairSel ? strongPairs.filter(p => pairKey(p) === pairSel).sort((a, b) => a.a.d.localeCompare(b.a.d)) : [];
-    $('cBody').innerHTML = t + (sel.length ? '<div class="plist"><h4 style="margin:.2rem 0 .3rem;font-size:.9rem">'+esc(pairSel)+' · '+sel.length+'</h4><div class="pairs">'+sel.map(p => '<div class="pr"><span class="pill l'+p.lvl+'">'+fmtShort(p.a.d)+'</span><div><b>'+esc(p.a.h+' '+p.a.t)+'</b> ↔ <b>'+esc(p.b.h+' '+p.b.t)+'</b><small>wspólnie ok. '+p.ov+' min · '+esc(LVL[p.lvl])+'</small></div></div>').join('')+'</div></div>' : '');
-    $('cNote').textContent = 'Liczba kolizji dla tego samego odbiorcy między parami instytucji. Kliknij komórkę, żeby zobaczyć terminy. Dane z zebranych programów.';
+    const sel = pairSel ? SP.filter(p => pairKey(p) === pairSel).sort((a, b) => a.a.d.localeCompare(b.a.d)) : [];
+    $('cBody').innerHTML = t + (sel.length ? '<div class="plist"><h4 style="margin:.4rem 0 .3rem;font-size:.92rem">'+esc(pairSel)+' · '+sel.length+'</h4><div class="pairs">'+sel.map(p => '<div class="pdate">'+cap(fmtShort(p.a.d))+'</div>'+pairCard(p)).join('')+'</div></div>' : '');
+    $('cNote').textContent = 'Liczba kolizji silnych i średnich między parami instytucji (z filtrami powyżej). Dane z zebranych programów.';
   }
-  const CK = { d: '', h: '19:00', dur: 120, c: 'muzyka', a: 'dorośli' };
+  const CK = { d: '', h: '19:00', dur: 120, c: 'muzyka', a: 'dorośli', p: 'paid', v: '' };
   { let d = TODAY; while (dow(d) !== 6) d = add(d, 1); CK.d = d <= RANGE_END ? d : TODAY; }
   function renderCheck(){
-    $('cBody').innerHTML = '<div class="chk"><div><label for="ckD">Data</label><input class="inp" type="date" id="ckD" min="'+RANGE_START+'" max="'+RANGE_END+'" value="'+CK.d+'"></div><div><label for="ckH">Godzina</label><input class="inp" type="time" id="ckH" value="'+CK.h+'"></div><div><label for="ckL">Czas trwania</label><select class="sel" id="ckL">'+[60, 90, 120, 150, 180].map(m => '<option value="'+m+'"'+(m === CK.dur ? ' selected' : '')+'>'+(m / 60).toString().replace('.', ',')+' h</option>').join('')+'</select></div><div><label for="ckC">Rodzaj</label><select class="sel" id="ckC">'+Object.entries(CATS).map(([k, c]) => '<option value="'+k+'"'+(k === CK.c ? ' selected' : '')+'>'+esc(c.n)+'</option>').join('')+'</select></div><div><label for="ckA">Dla kogo</label><select class="sel" id="ckA">'+Object.entries(AGN).map(([k, n]) => '<option value="'+k+'"'+(k === CK.a ? ' selected' : '')+'>'+esc(cap(n))+'</option>').join('')+'</select></div></div><div id="ckOut"></div>';
-    ['ckD', 'ckH', 'ckL', 'ckC', 'ckA'].forEach(id => $(id).addEventListener('input', () => { CK.d = $('ckD').value; CK.h = $('ckH').value; CK.dur = +$('ckL').value; CK.c = $('ckC').value; CK.a = $('ckA').value; runCheck(); }));
+    const vs = Object.entries(VENUES).filter(([k, v]) => v.lat && v.a && !/^os\d/.test(k)).sort((a, b) => a[1].n.localeCompare(b[1].n, 'pl'));
+    $('cBody').innerHTML = '<p class="hint"><span class="hi-ic" aria-hidden="true">↯</span>Wpisz planowany termin — portal porówna go z programem wszystkich instytucji i oceni, czy to ta sama publiczność.</p><div class="chk"><div><label for="ckD">Data</label><input class="inp" type="date" id="ckD" min="'+RANGE_START+'" max="'+RANGE_END+'" value="'+CK.d+'"></div><div><label for="ckH">Godzina</label><input class="inp" type="time" id="ckH" value="'+CK.h+'"></div><div><label for="ckL">Czas trwania</label><select class="sel" id="ckL">'+[60, 90, 120, 150, 180].map(m => '<option value="'+m+'"'+(m === CK.dur ? ' selected' : '')+'>'+(m / 60).toString().replace('.', ',')+' h</option>').join('')+'</select></div><div><label for="ckC">Rodzaj</label><select class="sel" id="ckC">'+Object.entries(CATS).map(([k, c]) => '<option value="'+k+'"'+(k === CK.c ? ' selected' : '')+'>'+esc(c.n)+'</option>').join('')+'</select></div><div><label for="ckA">Dla kogo</label><select class="sel" id="ckA">'+Object.entries(AGN).map(([k, n]) => '<option value="'+k+'"'+(k === CK.a ? ' selected' : '')+'>'+esc(cap(n))+'</option>').join('')+'</select></div><div><label for="ckP">Wstęp</label><select class="sel" id="ckP"><option value="paid"'+(CK.p === 'paid' ? ' selected' : '')+'>Płatny</option><option value="free"'+(CK.p === 'free' ? ' selected' : '')+'>Bezpłatny</option></select></div><div class="w2"><label for="ckV">Miejsce</label><select class="sel" id="ckV"><option value="">— nie wiem jeszcze —</option>'+vs.map(([k, v]) => '<option value="'+k+'"'+(k === CK.v ? ' selected' : '')+'>'+esc(v.n)+'</option>').join('')+'</select></div></div><div id="ckOut"></div>';
+    ['ckD', 'ckH', 'ckL', 'ckC', 'ckA', 'ckP', 'ckV'].forEach(id => $(id).addEventListener('input', () => { CK.d = $('ckD').value; CK.h = $('ckH').value; CK.dur = +$('ckL').value; CK.c = $('ckC').value; CK.a = $('ckA').value; CK.p = $('ckP').value; CK.v = $('ckV').value; runCheck(); }));
     runCheck();
-    $('cNote').textContent = 'Narzędzie dla instytucji przed ustaleniem terminu. Porównuje proponowany termin z programem wszystkich instytucji w bazie — w wersji docelowej działa też w formularzu dodawania wydarzenia.';
+    $('cNote').textContent = 'Narzędzie dla instytucji przed ustaleniem terminu. W wersji docelowej działa też w formularzu dodawania wydarzenia.';
   }
   function runCheck(){
     const out = $('ckOut'); if (!CK.d || !CK.h) { out.innerHTML = ''; return; }
-    const v = { s: mins(CK.h), dur: CK.dur, c: CK.c, aud: CK.a === 'dorośli' ? [] : [CK.a], tkey: '__new', inst: '__new', t: 'Twoje wydarzenie', h: CK.h, d: CK.d };
+    const V = CK.v ? VENUES[CK.v] : null;
+    const v = { id: '__new', s: mins(CK.h), dur: CK.dur, c: CK.c, aud: CK.a === 'dorośli' ? [] : [CK.a], tkey: '__new', inst: V ? V.inst : '__new', t: 'Twoje wydarzenie', h: CK.h, d: CK.d, free: CK.p === 'free' ? true : null, price: CK.p === 'paid' ? 'płatne' : null, V: V || {} };
     const day = ALL.filter(e => e.d === CK.d);
-    const P = day.filter(e => e.s != null).map(e => pairOf(v, e)).filter(Boolean).sort((a, b) => b.lvl - a.lvl || b.ov - a.ov);
+    const P = day.filter(e => e.s != null).map(e => pairOf(v, e)).filter(Boolean).sort((a, b) => b.sc - a.sc);
     const n3 = P.filter(p => p.lvl === 3).length, n2 = P.filter(p => p.lvl === 2).length;
     const k = n3 ? 'e' : n2 ? 'w' : 'ok';
-    const head = n3 ? 'Silna kolizja: '+n3+' '+plW(n3)+' dla tych samych odbiorców i podobnego rodzaju' : n2 ? 'Kolizja: '+n2+' '+plW(n2)+' dla tych samych odbiorców w tym czasie' : 'W zebranych programach termin nie koliduje z ofertą dla tych odbiorców';
-    const alts = n3 + n2 ? altDays(CK.d, CK.a, Math.max(0, mins(CK.h) - 90)).filter(a => a[1] === 0 || a[1] < n3 + n2) : [];
-    out.innerHTML = '<div class="verdict '+k+'"><b>'+esc(head)+'</b><p>'+cap(fmtLong(CK.d))+', '+CK.h+'–'+hhmm(Math.min(mins(CK.h) + CK.dur, 1439))+' · '+esc(CATS[CK.c].n.toLowerCase())+' · '+esc(AGN[CK.a])+'. Tego dnia w bazie: '+day.length+' '+plW(day.length)+'.</p>'+
-      (P.length ? '<div class="pairs">'+P.slice(0, 6).map(p => '<div class="pr"><span class="pill l'+p.lvl+'">'+(p.lvl === 3 ? 'silna' : p.lvl === 2 ? 'średnia' : 'słaba')+'</span><div><button class="linkbtn" data-ev="'+p.b.id+'"><b>'+esc(p.b.h+' '+p.b.t)+'</b></button> · '+esc(shortI(instOf(p.b)))+'<small>wspólnie ok. '+p.ov+' min · '+esc(LVL[p.lvl])+'</small></div></div>').join('')+'</div>' : '')+
+    const head = n3 ? 'Silna kolizja: '+n3+' '+plW(n3)+' dla tej samej publiczności' : n2 ? 'Średnia kolizja: '+n2+' '+plW(n2)+' dla tych samych odbiorców' : 'W zebranych programach termin nie koliduje z ofertą dla tej publiczności';
+    const alts = n3 + n2 ? altDays(CK.d, CK.a, Math.max(0, mins(CK.h) - 90)).filter(a => a[1] < n3 + n2) : [];
+    out.innerHTML = '<div class="verdict '+k+'"><b>'+esc(head)+'</b><p>'+cap(fmtLong(CK.d))+', '+CK.h+'–'+hhmm(Math.min(mins(CK.h) + CK.dur, 1439))+' · '+esc(CATS[CK.c].n.toLowerCase())+' · '+esc(AGN[CK.a])+(V ? ' · '+esc(V.n) : '')+'. Tego dnia w bazie: '+day.length+' '+plW(day.length)+'.</p>'+
+      (P.length ? '<div class="pairs">'+P.slice(0, 5).map(p => pairCard(Object.assign({}, p, { a: Object.assign({}, p.a, { id: '', t: 'Twoje wydarzenie' }) })).replace('data-ev=""', 'disabled')).join('')+'</div>' : '')+
       (alts.length ? '<div class="alt">Spokojniej w tym tygodniu: '+alts.map(([dd, n]) => '<button data-ckd="'+dd+'">'+fmtShort(dd)+' · '+n+' '+plW(n)+' dla tych odbiorców</button>').join('')+'</div>' : '')+
       covWarn(CK.d)+'<div class="alt"><button data-ckform>Przejdź do formularza z tym terminem →</button></div></div>';
   }
   let CT = 'days';
-  function renderClash(){ document.querySelectorAll('#cTabs button').forEach(b => b.setAttribute('aria-pressed', b.dataset.ct === CT)); if (CT === 'days') renderDays(); else if (CT === 'pairs') renderPairs(); else renderCheck(); }
+  function renderKpi(){
+    const S3 = PAIRS.filter(p => p.lvl === 3 && pin(p)), S2 = PAIRS.filter(p => p.lvl === 2 && pin(p));
+    const PC = {}; S3.concat(S2).forEach(p => { const k = pairKey(p); PC[k] = (PC[k] || 0) + 1; });
+    const tp = Object.entries(PC).sort((a, b) => b[1] - a[1])[0];
+    const s3d = new Set(S3.map(p => p.a.d)).size;
+    $('cKpi').innerHTML =
+      '<div class="ck k3"><div class="v" data-count="'+S3.length+'">0</div><div class="l"><b>silnych kolizji</b> — najpewniej ta sama publiczność: ten sam odbiorca i ten sam lub pokrewny rodzaj (w '+s3d+' '+(s3d === 1 ? 'dniu' : 'dniach')+')</div></div>'+
+      '<div class="ck k2"><div class="v" data-count="'+S2.length+'">0</div><div class="l"><b>średnich</b> — ci sami odbiorcy, ale inny rodzaj, np. spektakl i koncert dla dorosłych: publiczność może się częściowo pokrywać</div></div>'+
+      (tp ? '<div class="ck"><div class="v" data-count="'+tp[1]+'">0</div><div class="l">kolizji silnych i średnich między: <b>'+esc(tp[0].split(' × ').map(shortI).join(' × '))+'</b> — najczęstsza para'+(FI ? '' : ' w mieście')+'</div></div>' : '<div class="ck"><div class="l">Brak kolizji dla wybranej instytucji.</div></div>');
+    refresh($('cKpi'));
+  }
+  function renderClash(){ document.querySelectorAll('#cTabs button').forEach(b => b.setAttribute('aria-pressed', b.dataset.ct === CT)); renderKpi(); if (CT === 'days') renderDays(); else if (CT === 'pairs') renderPairs(); else renderCheck(); }
+  const ciInsts = [...new Set(PAIRS.filter(p => p.lvl >= 2).flatMap(p => [instOf(p.a), instOf(p.b)]))].sort((a, b) => a.localeCompare(b, 'pl'));
+  $('cInst').innerHTML = '<option value="">wszystkie</option>'+ciInsts.map(i => '<option value="'+esc(i)+'">'+esc(shortI(i))+'</option>').join('');
+  $('cInst').onchange = () => setFI($('cInst').value, true);
+  $('cStrong').onchange = () => { onlyStrong = $('cStrong').checked; renderClash(); };
   $('cTabs').addEventListener('click', ev => { const b = ev.target.closest('[data-ct]'); if (!b) return; CT = b.dataset.ct; renderClash(); });
   $('cBody').addEventListener('click', ev => {
-    const row = ev.target.closest('.crow>button'); if (row) { const r = row.parentElement, open = !r.classList.contains('open'); r.classList.toggle('open', open); row.setAttribute('aria-expanded', open); const det = r.querySelector('.cdet'); if (open && !det.innerHTML) det.innerHTML = dayDetail((showAllDays ? DAYS : DAYS.slice(0, 8))[+r.dataset.ci]); return; }
+    const row = ev.target.closest('.crow>button'); if (row) { const r = row.parentElement; toggleRow(r, !r.classList.contains('open')); return; }
     if (ev.target.closest('#cAll')) { showAllDays = !showAllDays; renderDays(); return; }
     const pk = ev.target.closest('[data-pk]'); if (pk) { pairSel = pk.dataset.pk; renderPairs(); return; }
     const ch = ev.target.closest('[data-chk]'); if (ch) { const [d, g] = ch.dataset.chk.split('|'); CK.d = d; CK.a = g; CT = 'check'; renderClash(); return; }
     const cd = ev.target.closest('[data-ckd]'); if (cd) { CK.d = cd.dataset.ckd; renderCheck(); return; }
     if (ev.target.closest('[data-ckform]')) { prefillAdd(CK.d, CK.h, CK.c, CK.a === 'dorośli' ? '' : CK.a); return; }
   });
-  renderClash();
 
   // ——— Oferta: wykresy, które filtrują się nawzajem ———
   const XF = { day: null, c: null, w: null, a: null };
@@ -3657,7 +3895,7 @@ document.addEventListener('click', ev => {
   const AUDG = [['dzieci', 'Dzieci i rodziny'], ['seniorzy', 'Seniorzy'], ['18+', 'Dorośli 18+'], ['all', 'Wszyscy (bez oznaczenia)']];
   const AUDC = { dzieci: ['#338ced', '#257de0'], seniorzy: ['#e76624', '#f47230'], '18+': ['#00a888', '#00b894'], all: ['#5b6585', '#8a93ab'] };
   const audCol = k => AUDC[k][isLight() ? 1 : 0];
-  const ok = (e, skip) => (skip === 'day' || !XF.day || e.d === XF.day) && (skip === 'c' || !XF.c || e.c === XF.c) && (skip === 'w' || XF.w == null || dow(e.d) === XF.w) && (skip === 'a' || !XF.a || audKey(e) === XF.a);
+  const ok = (e, skip) => (!FI || instOf(e) === FI) && (skip === 'day' || !XF.day || e.d === XF.day) && (skip === 'c' || !XF.c || e.c === XF.c) && (skip === 'w' || XF.w == null || dow(e.d) === XF.w) && (skip === 'a' || !XF.a || audKey(e) === XF.a);
   const catOrder = segParts.map(x => x[0]);
   const DLIST = []; for (let d = RANGE_START; d <= RANGE_END; d = add(d, 1)) DLIST.push(d);
   $('days').innerHTML = DLIST.map(d => '<button class="dc'+([0, 6].includes(dow(d)) ? ' wk' : '')+(d >= '2026-12-01' && DEC_PENDING.length ? ' part' : '')+(TODAY_REAL && d < TODAY ? ' past' : '')+(d === TODAY ? ' today' : '')+'" data-xd="'+d+'" aria-pressed="false"><span class="n"></span><b style="height:0"></b></button>').join('');
@@ -3669,7 +3907,7 @@ document.addEventListener('click', ev => {
   $('aud').innerHTML = AUDG.map(([k, n]) => '<button class="al" data-xa="'+k+'" aria-pressed="false"><span>'+esc(n)+'</span><span class="v"></span><div class="meter" style="--mc:'+audCol(k)+'"><i style="width:0"></i></div></button>').join('');
   function renderOffer(){
     const dayN = DLIST.map(d => ALL.filter(e => e.d === d && ok(e, 'day')).length), dmax = Math.max(1, ...dayN);
-    document.querySelectorAll('#days .dc').forEach((b, i) => { const n = dayN[i], d = DLIST[i]; b.querySelector('.n').textContent = n || ''; b.querySelector('b').dataset.h = Math.round(n / dmax * 82)+'%'; b.setAttribute('aria-pressed', XF.day === d); b.setAttribute('aria-label', fmtLong(d)+': '+n+' '+plW(n)); b.dataset.tip = cap(fmtLong(d))+' · '+n+' '+plW(n); b.dataset.tipb = (d >= '2026-12-01' && DEC_PENDING.length ? 'Brak jeszcze programów: '+DEC_NAMES : 'Kliknij, żeby zobaczyć listę'); });
+    document.querySelectorAll('#days .dc').forEach((b, i) => { const n = dayN[i], d = DLIST[i]; b.querySelector('.n').textContent = n || ''; b.querySelector('b').dataset.h = Math.round(n / dmax * 82)+'%'; b.setAttribute('aria-pressed', XF.day === d); b.setAttribute('aria-label', fmtLong(d)+': '+n+' '+plW(n)); b.dataset.tip = cap(fmtLong(d))+' · '+n+' '+plW(n); b.dataset.tipb = (d >= '2026-12-01' && DEC_PENDING.length ? 'Brak jeszcze programów: '+DEC_NAMES+'\n' : '')+'Kliknij, żeby zobaczyć listę'; });
     const cN = catOrder.map(k => ALL.filter(e => e.c === k && ok(e, 'c')).length), cmax = Math.max(1, ...cN);
     document.querySelectorAll('#byCat .rb').forEach((b, i) => { b.querySelector('.t b').dataset.w = (cN[i] / cmax * 78)+'%'; b.querySelector('.t span').textContent = cN[i]; b.setAttribute('aria-pressed', XF.c === catOrder[i]); });
     const wN = DOW_ORDER.map(w => ALL.filter(e => dow(e.d) === w && ok(e, 'w')).length), wmax = Math.max(1, ...wN);
@@ -3677,16 +3915,22 @@ document.addEventListener('click', ev => {
     const aN = AUDG.map(([k]) => ALL.filter(e => audKey(e) === k && ok(e, 'a')).length), aT = Math.max(1, aN.reduce((s, x) => s + x, 0));
     document.querySelectorAll('#aud .al').forEach((b, i) => { b.querySelector('.v').textContent = aN[i]+' · '+pct(aN[i], aT)+'%'; b.querySelector('.meter i').dataset.w = pct(aN[i], aT)+'%'; b.setAttribute('aria-pressed', XF.a === AUDG[i][0]); });
     $('byCat').classList.toggle('dimmed', !!XF.c); $('byDow').classList.toggle('dimmed', XF.w != null); $('aud').classList.toggle('dimmed', !!XF.a);
-    const act = []; if (XF.day) act.push(['day', fmtShort(XF.day)]); if (XF.c) act.push(['c', CATS[XF.c].n]); if (XF.w != null) act.push(['w', DOW[XF.w]]); if (XF.a) act.push(['a', AUDG.find(x => x[0] === XF.a)[1]]);
+    const act = []; if (FI) act.push(['i', shortI(FI)]); if (XF.day) act.push(['day', fmtShort(XF.day)]); if (XF.c) act.push(['c', CATS[XF.c].n]); if (XF.w != null) act.push(['w', DOW[XF.w]]); if (XF.a) act.push(['a', AUDG.find(x => x[0] === XF.a)[1]]);
     const sel = ALL.filter(e => ok(e)).length;
     $('xf').innerHTML = act.length ? act.map(([k, n]) => '<span class="xp">'+esc(n)+'<button data-xr="'+k+'" aria-label="Usuń filtr '+esc(n)+'">✕</button></span>').join('')+'<button class="mbtn xgo" data-xgo>Zobacz w programie →</button>' : '<span class="mini">cała oferta · '+N+' '+plW(N)+'</span>';
     const topW = wN.indexOf(Math.max(...wN));
-    $('offerNote').textContent = act.length ? 'Wybrany wycinek: '+sel+' '+plW(sel)+' ('+pct(sel, N)+'% oferty)'+(sel ? '. Najwięcej w '+(DOW_ORDER[topW] === 0 ? 'niedziele' : DOW_ORDER[topW] === 6 ? 'soboty' : DOWS[DOW_ORDER[topW]] + '.')+'.' : '.')+(XF.a === 'all' ? ' „Bez oznaczenia” to zwykle wydarzenia dla wszystkich — źródła rzadko podają odbiorców.' : '') : 'Pole „dla kogo” wypełnia niewiele źródeł, więc „bez oznaczenia” to najczęściej wydarzenia dla wszystkich.';
+    $('offerNote').textContent = act.length ? 'Wybrany wycinek: '+sel+' '+plW(sel)+' ('+pct(sel, N)+'% oferty)'+(sel ? '. Najwięcej: '+DOW[DOW_ORDER[topW]]+'.' : '.')+(XF.a === 'all' ? ' „Bez oznaczenia” to zwykle wydarzenia dla wszystkich — źródła rzadko podają odbiorców.' : '') : 'Pole „dla kogo” wypełnia niewiele źródeł, więc „bez oznaczenia” to najczęściej wydarzenia dla wszystkich.';
     if (XF.day) { const evs = ALL.filter(e => ok(e)).sort((a, b) => (a.s ?? 9999) - (b.s ?? 9999));
       $('dayInfo').innerHTML = '<h4>'+cap(fmtLong(XF.day))+' · '+evs.length+' '+plW(evs.length)+'</h4><div class="dl">'+(evs.length ? evs.map(e => '<span>'+(e.h || '—')+'</span><button data-ev="'+e.id+'">'+esc(e.t)+' <span class="mini">· '+esc(shortI(instOf(e)))+'</span></button>').join('') : '<span></span><span class="mini">Brak wpisów w zebranych źródłach.</span>')+'</div>'+(XF.day >= '2026-12-01' && DEC_PENDING.length ? '<p class="mini" style="color:var(--warn);margin:0 0 .5rem">Grudniowe programy części instytucji nie są jeszcze opublikowane ('+esc(DEC_NAMES)+').</p>' : '')+'<div class="acts"><button class="btn" data-xgo>Zobacz w programie</button><button class="btn pri" data-xadd="'+XF.day+'">Dodaj wydarzenie w tym dniu</button><button class="btn" data-chk="'+XF.day+'|dorośli">Sprawdź kolizje</button></div>';
       $('dayInfo').classList.add('on'); }
     else $('dayInfo').classList.remove('on');
     refresh($('offerP'));
+  }
+  function setFI(i, fromSelect){
+    FI = i || ''; $('cInst').value = ciInsts.includes(FI) ? FI : '';
+    document.querySelectorAll('#score [data-fi]').forEach(b => b.setAttribute('aria-pressed', b.dataset.fi === FI));
+    renderClash(); renderOffer();
+    if (!fromSelect && FI) toast('Wykresy i kolizje zawężone do: '+shortI(FI)+'. Filtr widać przy wykresach oferty.');
   }
   $('offerP').addEventListener('click', ev => {
     const t = ev.target;
@@ -3694,27 +3938,27 @@ document.addEventListener('click', ev => {
     const c = t.closest('[data-xc]'); if (c) { XF.c = XF.c === c.dataset.xc ? null : c.dataset.xc; renderOffer(); return; }
     const w = t.closest('[data-xw]'); if (w) { const v = +w.dataset.xw; XF.w = XF.w === v ? null : v; renderOffer(); return; }
     const a = t.closest('[data-xa]'); if (a) { XF.a = XF.a === a.dataset.xa ? null : a.dataset.xa; renderOffer(); return; }
-    const r = t.closest('[data-xr]'); if (r) { XF[r.dataset.xr] = null; renderOffer(); return; }
-    if (t.closest('[data-xgo]')) { resetFilters(); hideNL(); if (XF.c) S.cats.add(XF.c); if (XF.a && XF.a !== 'all') S.aud.add(XF.a); syncUI(); if (XF.day) setRange(XF.day, XF.day, ''); else setRange(TODAY, RANGE_END, 'wszystko'); location.hash = '#program'; if (XF.w != null) toast('Program nie filtruje po dniu tygodnia — pokazuję cały zakres.'); return; }
+    const r = t.closest('[data-xr]'); if (r) { if (r.dataset.xr === 'i') setFI(''); else { XF[r.dataset.xr] = null; renderOffer(); } return; }
+    if (t.closest('[data-xgo]')) { resetFilters(); hideNL(); if (XF.c) S.cats.add(XF.c); if (XF.a && XF.a !== 'all') S.aud.add(XF.a); if (FI) S.inst = FI; syncUI(); if (XF.day) setRange(XF.day, XF.day, ''); else setRange(TODAY, RANGE_END, 'wszystko'); location.hash = '#program'; if (XF.w != null) toast('Program nie filtruje po dniu tygodnia — pokazuję cały zakres.'); return; }
     const ad = t.closest('[data-xadd]'); if (ad) { prefillAdd(ad.dataset.xadd, '', XF.c || '', XF.a && XF.a !== 'all' ? XF.a : ''); return; }
-    const ch = t.closest('[data-chk]'); if (ch) { const [dd, g] = ch.dataset.chk.split('|'); CK.d = dd; CK.a = g; CT = 'check'; renderClash(); $('clashP').scrollIntoView({ behavior: reduce ? 'auto' : 'smooth', block: 'start' }); return; }
+    const ch = t.closest('[data-chk]'); if (ch) { const [dd, g] = ch.dataset.chk.split('|'); CK.d = dd; CK.a = g; CT = 'check'; renderClash(); go('clashP'); return; }
   });
-  renderOffer();
 
   // ——— Instytucje w liczbach ———
-  const isJO = i => typeof JO_PARTNERS !== 'undefined' && JO_PARTNERS.includes(i);
   const rows = [...new Set(ALL.map(instOf))].filter(i => i !== 'Miasto Toruń').map(i => { const ev = ALL.filter(e => instOf(e) === i); return { i, ev, n: ev.length, sold: ev.filter(e => e.st === 'soldout').length, kids: ev.filter(e => e.aud.includes('dzieci')).length, free: ev.filter(e => e.free === true).length }; }).sort((a, b) => b.n - a.n);
   const rmax = rows[0].n;
   const mm = (n, of, col) => '<div class="mini-m"><div class="meter" style="--mc:'+col+'"><i style="width:0" data-w="'+pct(n, of)+'%"></i></div><span>'+(n ? pct(n, of)+'%' : '—')+'</span></div>';
-  $('score').innerHTML = '<tr><th>Instytucja</th><th>Wydarzeń</th><th></th><th>Wyprzedane</th><th>Dla dzieci</th><th>Bezpłatne</th><th>Karta JO</th><th>Program do 31.12</th></tr>' + rows.map((r, k) => { const [cv, why] = covOf(r.i);
-    return '<tr class="ir" data-ir="'+k+'" tabindex="0"><td>'+esc(r.i)+'</td><td class="num">'+r.n+'</td><td style="width:18%;min-width:110px"><div class="bar" style="width:0" data-w="'+(r.n / rmax * 100)+'%"></div></td><td>'+mm(r.sold, r.n, 'var(--bad)')+'</td><td>'+mm(r.kids, r.n, audCol('dzieci'))+'</td><td>'+mm(r.free, r.n, 'var(--ok)')+'</td><td>'+(isJO(r.i) ? '<span class="jo">JO</span>' : '<span class="mini">—</span>')+'</td><td><span class="st '+cv+'"'+tipAttr(r.i, why)+'>'+(cv === 'ok' ? '✓ pełny' : '◔ częściowy')+'</span></td></tr><tr class="xr" data-xr2="'+k+'" hidden><td colspan="8"></td></tr>'; }).join('');
+  $('score').innerHTML = '<tr><th>Instytucja</th><th>Wydarzeń</th><th></th><th>Wyprzedane</th><th>Dla dzieci</th><th>Bezpłatne</th><th>Karta JO</th><th>Program do 31.12</th><th></th></tr>' + rows.map((r, k) => { const [cv, why2] = covOf(r.i);
+    return '<tr class="ir" data-ir="'+k+'" tabindex="0"><td>'+esc(r.i)+'</td><td class="num">'+r.n+'</td><td style="width:16%;min-width:100px"><div class="bar" style="width:0" data-w="'+(r.n / rmax * 100)+'%"></div></td><td>'+mm(r.sold, r.n, 'var(--bad)')+'</td><td>'+mm(r.kids, r.n, audCol('dzieci'))+'</td><td>'+mm(r.free, r.n, 'var(--ok)')+'</td><td>'+(isJO(r.i) ? '<span class="jo">JO</span>' : '<span class="mini">—</span>')+'</td><td><span class="st '+cv+'"'+tipAttr(r.i, why2)+'>'+(cv === 'ok' ? '✓ pełny' : '◔ częściowy')+'</span></td><td><button class="fbt" data-fi="'+esc(r.i)+'" aria-pressed="false" title="Zawęź wykresy i kolizje do tej instytucji">Filtruj</button></td></tr><tr class="xr" data-xr2="'+k+'" hidden><td colspan="9"></td></tr>'; }).join('');
   function instDetail(r){
     const cc = {}; r.ev.forEach(e => { cc[e.c] = (cc[e.c] || 0) + 1; }); const ce = Object.entries(cc).sort((a, b) => b[1] - a[1]);
     const nx = r.ev.filter(e => e.d >= TODAY && !isPast(e)).sort((a, b) => a.d.localeCompare(b.d) || (a.s ?? 9999) - (b.s ?? 9999)).slice(0, 4);
     const notes = (typeof DATA_NOTES !== 'undefined' && DATA_NOTES[r.i]) || [];
-    return '<div class="ixr"><div><h5>Rodzaje</h5><div class="segbar" style="height:14px">'+ce.map(([c, n]) => '<div style="flex:'+n+';background:'+CATS[c].c+'"'+tipAttr(CATS[c].n, n+' '+plW(n))+'></div>').join('')+'</div><div class="seglegend">'+ce.map(([c, n]) => '<span><i style="background:'+CATS[c].c+'"></i>'+esc(CATS[c].n)+' · '+n+'</span>').join('')+'</div></div><div class="nx"><h5>Najbliższe</h5>'+(nx.length ? nx.map(e => '<button data-ev="'+e.id+'"><span class="mono">'+fmtShort(e.d)+(e.h ? ' '+e.h : '')+'</span> · '+esc(e.t)+'</button>').join('') : '<span class="mini">Brak nadchodzących wpisów.</span>')+'<button class="mbtn" data-iprog="'+esc(r.i)+'" style="margin-top:.4rem">Cały program instytucji →</button></div><div><h5>Uwagi o danych</h5>'+(notes.length ? '<ul>'+notes.map(n => '<li>'+esc(n)+'</li>').join('')+'</ul>' : '<span class="mini">Bez uwag — dane kompletne w zebranych źródłach.</span>')+'</div></div>';
+    const cl = PAIRS.filter(p => p.lvl >= 2 && (instOf(p.a) === r.i || instOf(p.b) === r.i));
+    return '<div class="ixr"><div><h5>Rodzaje</h5><div class="segbar" style="height:14px">'+ce.map(([c, n]) => '<div style="flex:'+n+';background:'+CATS[c].c+'"'+tipAttr(CATS[c].n, n+' '+plW(n))+'></div>').join('')+'</div><div class="seglegend">'+ce.map(([c, n]) => '<span><i style="background:'+CATS[c].c+'"></i>'+esc(CATS[c].n)+' · '+n+'</span>').join('')+'</div><p class="mini" style="margin:.5rem 0 0">Kolizje z innymi instytucjami: '+cl.filter(p => p.lvl === 3).length+' silnych, '+cl.filter(p => p.lvl === 2).length+' średnich.</p></div><div class="nx"><h5>Najbliższe</h5>'+(nx.length ? nx.map(e => '<button data-ev="'+e.id+'"><span class="mono">'+fmtShort(e.d)+(e.h ? ' '+e.h : '')+'</span> · '+esc(e.t)+'</button>').join('') : '<span class="mini">Brak nadchodzących wpisów.</span>')+'<button class="mbtn" data-iprog="'+esc(r.i)+'" style="margin-top:.4rem">Cały program instytucji →</button></div><div><h5>Uwagi o danych</h5>'+(notes.length ? '<ul>'+notes.map(n => '<li>'+esc(n)+'</li>').join('')+'</ul>' : '<span class="mini">Bez uwag — dane kompletne w zebranych źródłach.</span>')+'</div></div>';
   }
   $('score').addEventListener('click', ev => {
+    const f = ev.target.closest('[data-fi]'); if (f) { setFI(FI === f.dataset.fi ? '' : f.dataset.fi); if (FI) go('clashP'); return; }
     const p = ev.target.closest('[data-iprog]'); if (p) { resetFilters(); hideNL(); S.inst = p.dataset.iprog; syncUI(); setRange(TODAY, RANGE_END, 'wszystko'); location.hash = '#program'; return; }
     if (ev.target.closest('[data-ev]')) return;
     const tr = ev.target.closest('tr.ir'); if (!tr) return;
@@ -3723,20 +3967,21 @@ document.addEventListener('click', ev => {
   });
   $('score').addEventListener('keydown', ev => { if ((ev.key === 'Enter' || ev.key === ' ') && ev.target.matches('tr.ir')) { ev.preventDefault(); ev.target.click(); } });
 
-  // ——— Jakość danych ———
+  // ——— Dane od instytucji ———
+  $('cov').innerHTML = '<div class="cvok"><h4><span class="dot ok"></span>Pełny program do 31.12 · '+covOk.length+'</h4><p>'+covOk.map(i => esc(shortI(i))).join(' · ')+'</p></div><div class="cvpart"><h4><span class="dot part"></span>Program częściowy · '+covPart.length+'</h4><ul>'+covPart.map(i => '<li><b>'+esc(shortI(i))+'</b> — '+esc(covOf(i)[1])+'</li>').join('')+'</ul></div>';
   const F = [
     ['Godzina', e => !!e.h, 'bez godziny rozpoczęcia'],
     ['Miejsce z adresem', e => !!e.V.a && !e.miss.includes('budynek'), 'bez adresu lub z niepewnym budynkiem'],
     ['Punkt na mapie', e => !!e.V.lat, 'bez współrzędnych (poza mapą)'],
     ['Cena lub „bezpłatne”', e => !!(e.price || e.free === true || e.reg), 'bez ceny i bez informacji „bezpłatne”'],
   ];
-  $('qTop').innerHTML = F.map(([n, f]) => { const v = pct(ALL.filter(f).length, N); return '<div class="qt"><span class="v" data-count="'+v+'">0</span><span class="l">'+esc(n)+' — % wydarzeń</span><div class="meter" style="--mc:var(--cyan)"><i style="width:0" data-w="'+v+'%"></i></div></div>'; }).join('');
+  $('qTop').innerHTML = F.map(([n, f]) => { const v = pct(ALL.filter(f).length, N); return '<div class="qt"><span class="v"><span data-count="'+v+'">0</span>%</span><span class="l">wydarzeń: '+esc(n.toLowerCase())+'</span><div class="meter" style="--mc:var(--cyan)"><i style="width:0" data-w="'+v+'%"></i></div></div>'; }).join('');
   const qRows = rows.filter(r => r.n >= 2);
   const rqFor = i => REVIEW_QUEUE.filter(q => SOURCES[q.src] && SOURCES[q.src].inst === i);
   $('qmx').innerHTML = '<tr><th>Instytucja</th>'+F.map(f => '<th>'+esc(f[0])+'</th>').join('')+'<th>Grudzień</th><th>Uwagi</th></tr>' + qRows.map((r, k) => {
     const cells = F.map(([, f]) => { const v = pct(r.ev.filter(f).length, r.n); const p = Math.round(8 + 80 * v / 100); return '<td class="'+(p >= 55 ? 'hi' : '')+'" style="--p:'+p+'%">'+v+'%</td>'; }).join('');
     const [cv] = covOf(r.i); const nn = ((typeof DATA_NOTES !== 'undefined' && DATA_NOTES[r.i]) || []).length + rqFor(r.i).length;
-    return '<tr class="q" data-q="'+k+'" tabindex="0"><td class="nm">'+esc(r.i)+'<small>'+r.n+' '+plW(r.n)+'</small></td>'+cells+'<td class="flag"><span class="st '+cv+'">'+(cv === 'ok' ? '✓' : '◔')+'</span></td><td class="flag">'+(nn ? '<span class="pill l2">'+nn+'</span>' : '<span class="mini">—</span>')+'</td></tr><tr class="qa" data-qa="'+k+'" hidden><td colspan="'+(F.length + 3)+'"></td></tr>';
+    return '<tr class="q" data-q="'+k+'" tabindex="0"><td class="nm"><span class="chev" aria-hidden="true">▸</span>'+esc(r.i)+'<small>'+r.n+' '+plW(r.n)+'</small></td>'+cells+'<td class="flag"><span class="st '+cv+'">'+(cv === 'ok' ? '✓' : '◔')+'</span></td><td class="flag">'+(nn ? '<span class="pill l2">'+nn+'</span>' : '<span class="mini">—</span>')+'</td></tr><tr class="qa" data-qa="'+k+'" hidden><td colspan="'+(F.length + 3)+'"></td></tr>';
   }).join('');
   function qAnalysis(r){
     const facts = F.map(([n, f, miss]) => { const m = r.ev.filter(e => !f(e)).length; return m ? m+' z '+r.n+' '+miss : null; }).filter(Boolean);
@@ -3745,7 +3990,7 @@ document.addEventListener('click', ev => {
     const txt = (notes.join(' ')+' '+facts.join(' ')).toLowerCase();
     const fix = [];
     if (/godzin/.test(txt)) fix.push('Godzina jako pole wymagane — w formularzu portalu nie da się jej pominąć.');
-    if (/współrzędn|poza mapą|filia|filiach/.test(txt)) fix.push('Jednorazowe dopisanie wszystkich lokalizacji instytucji (także filii) do bazy miejsc.');
+    if (/współrzędn|poza mapą/.test(txt)) fix.push('Jednorazowe dopisanie wszystkich lokalizacji instytucji (także filii) do bazy miejsc.');
     if (/cen/.test(txt)) fix.push('Cena albo „wstęp wolny” przy każdym wydarzeniu — od tego zależy filtr „bezpłatne”.');
     if (/system biletow|przyciskiem/.test(txt)) fix.push('Eksport repertuaru z systemu biletowego (plik lub API) zamiast przepisywania ze strony.');
     if (/grudzień|nieopublikowan|bez roku/.test(txt) || DEC_SET.has(r.i)) fix.push('Publikacja programu z wyprzedzeniem co najmniej 4 tygodni.');
@@ -3774,6 +4019,75 @@ document.addEventListener('click', ev => {
     '<div class="ins"><div class="iv" data-count="'+senior+'">0</div><div class="il">wydarzeń oznaczonych jako przeznaczone dla seniorów ('+pct(senior, N)+'% oferty)</div><div class="id">Odbiorców podaje tylko '+pct(audMarked, N)+'% wpisów, więc to może być kwestia oznaczania, nie oferty.</div><div class="cvn">Wspólny formularz z polem „dla kogo” pokaże, czy oferty dla seniorów faktycznie brakuje.</div></div>'+
     '<div class="ins"><div class="iv"><span data-count="'+pct(old, withD.length)+'">0</span>%</div><div class="il">wydarzeń w zebranych źródłach odbywa się na Starym Mieście</div><div class="id">'+(others.length ? 'Dalej: '+esc(others.slice(0, 3).map(([d, n]) => d+' ('+n+')').join(', '))+'. ' : '')+'Programów domów kultury, filii bibliotek, klubów osiedlowych i rad okręgów jeszcze nie zbieramy.</div><div class="cvn">Formularz dla organizatorów z osiedli pozwoli sprawdzić, ile oferty jest poza centrum.</div><a class="btn" href="#instytucje" data-osiedle>Formularz dla osiedli →</a></div>';
 
+  // ——— Analiza oferty w pełnej wersji ———
+  const priceKnown = pct(ALL.filter(e => e.price || e.free === true || e.reg).length, N);
+  const FULL = [
+    ['◎', 'Oferta na mapie miasta', 'Ile kultury jest w każdej dzielnicy i na każdym osiedlu, także w domach kultury, filiach bibliotek i klubach.', 'Dziś: '+pct(old, withD.length)+'% zebranych wydarzeń na Starym Mieście.'],
+    ['◐', 'Dla kogo jest kultura', 'Udział oferty dla dzieci, młodzieży, dorosłych i seniorów — w czasie i według instytucji.', 'Dziś: odbiorców podaje '+pct(audMarked, N)+'% wpisów.'],
+    ['▦', 'Kalendarz roku', 'Sezonowość, martwe tygodnie i kumulacje, np. w okresie świąt, ferii czy festiwali.', 'Dziś: dane z sześciu tygodni.'],
+    ['zł', 'Ceny i dostępność finansowa', 'Udział wydarzeń bezpłatnych, przeciętna cena biletu, zniżki z Kartą JO — według rodzaju i dzielnicy.', 'Dziś: cenę podaje '+priceKnown+'% wpisów.'],
+    ['↗', 'Popyt i niezaspokojone potrzeby', 'Wyprzedania, osoby czekające na kolejny termin i wyszukiwania bez wyników.', 'Dziś: '+pct(soldAll, N)+'% terminów wyprzedanych.'],
+    ['⇄', 'Koordynacja instytucji', 'Kolizje dla tej samej publiczności miesiąc do miesiąca i to, czy wspólny kalendarz je ogranicza.', 'Dziś: '+strongAll.length+' silnych kolizji.'],
+  ];
+  $('fGrid').innerHTML = FULL.map(f => '<div class="fc"><span class="fi">'+f[0]+'</span><b>'+esc(f[1])+'</b><p>'+esc(f[2])+'</p><span class="now">'+esc(f[3])+'</span></div>').join('') + '<div class="fc rep"><span class="fi">▤</span><b>Raport kwartalny</b><p>Gotowe zestawienie dla Wydziału, Rady Miasta i instytucji (PDF i arkusz) — materiał do strategii kultury i rozmów o budżetach.</p><span class="now">Generowany z tej samej bazy, bez ręcznego zbierania.</span></div>';
+
+  // ——— Co będzie mierzone ———
+  const MET = [
+    ['Kolizje dla tej samej publiczności', 'Czy wspólny kalendarz i sprawdzanie terminów zmniejszają liczbę wieczorów, w które instytucje konkurują o tego samego widza.'],
+    ['Zapełnianie programów', 'Kompletność programów i z jakim wyprzedzeniem instytucje je publikują — czy grudzień jest znany już w październiku.'],
+    ['Popyt większy niż liczba miejsc', 'Ile osób czeka na kolejny termin wyprzedanego wydarzenia — argument przy planowaniu repertuaru i dodatkowych spektakli.'],
+    ['Zainteresowanie ofertą', 'Odwiedziny, zapisy do planu, przejścia do kas biletowych i wyszukiwania bez wyników — według rodzaju i instytucji.'],
+  ];
+  $('mGrid').innerHTML = MET.map((m, i) => '<div class="mc"><span class="mi">'+String(i + 1).padStart(2, '0')+'</span><b>'+esc(m[0])+'</b><p>'+esc(m[1])+'</p></div>').join('');
+  const C1 = () => isLight() ? '#5B1FE0' : '#A07BFF', C2 = () => isLight() ? '#0E7490' : '#22D3EE';
+  const fmtN = n => String(n).replace(/\B(?=(\d{3})+(?!\d))/g, ' ');
+  function lineChart(labels, series, opt){
+    const W = 320, H = 170, L = 34, R = 10, T = 12, B = 22, w = W - L - R, h = H - T - B;
+    const max = opt.max || Math.max(...series.flatMap(s => s.v)) * 1.1, min = opt.min || 0;
+    const X = i => L + i * w / (labels.length - 1), Y = v => T + h - (v - min) / (max - min) * h;
+    let s = '<svg viewBox="0 0 '+W+' '+H+'" role="img" aria-label="'+esc(opt.aria)+'">';
+    for (let k = 0; k <= 3; k++) { const v = min + (max - min) * k / 3, y = Y(v); s += '<line class="gl" x1="'+L+'" x2="'+(W - R)+'" y1="'+y.toFixed(1)+'" y2="'+y.toFixed(1)+'"/><text x="'+(L - 5)+'" y="'+(y + 3).toFixed(1)+'" text-anchor="end">'+(opt.pct ? Math.round(v)+'%' : fmtN(Math.round(v)))+'</text>'; }
+    labels.forEach((l, i) => { if (i % (opt.every || 1) === 0 || i === labels.length - 1) s += '<text x="'+X(i).toFixed(1)+'" y="'+(H - 6)+'" text-anchor="middle">'+esc(l)+'</text>'; });
+    series.forEach((ser, si) => {
+      const pts = ser.v.map((v, i) => [X(i), Y(v)]);
+      let len = 0; for (let i = 1; i < pts.length; i++) len += Math.hypot(pts[i][0] - pts[i - 1][0], pts[i][1] - pts[i - 1][1]);
+      const d = pts.map((p, i) => (i ? 'L' : 'M')+p[0].toFixed(1)+' '+p[1].toFixed(1)).join(' ');
+      if (opt.area && si === 0) s += '<path class="ar" d="'+d+' L'+pts[pts.length - 1][0].toFixed(1)+' '+(T + h)+' L'+L+' '+(T + h)+'Z" fill="'+ser.c+'" fill-opacity=".14"/>';
+      s += '<path class="ln" style="--len:'+Math.ceil(len)+'" d="'+d+'" stroke="'+ser.c+'"/>';
+      pts.forEach((p, i) => { s += '<circle class="dt" cx="'+p[0].toFixed(1)+'" cy="'+p[1].toFixed(1)+'" r="7" fill="transparent"'+tipAttr(ser.n+' · '+labels[i], (opt.pct ? ser.v[i]+'%' : fmtN(ser.v[i]))+' (przykład)')+'/>'; });
+      const lp = pts[pts.length - 1]; s += '<circle class="dt" cx="'+lp[0].toFixed(1)+'" cy="'+lp[1].toFixed(1)+'" r="3.5" fill="'+ser.c+'"/>';
+    });
+    return s + '</svg>';
+  }
+  function hbars(items, opt){
+    const W = 320, rowH = 22, H = items.length * rowH + 4, L = opt.L || 150, max = Math.max(...items.map(x => x[1]));
+    let s = '<svg viewBox="0 0 '+W+' '+H+'" role="img" aria-label="'+esc(opt.aria)+'">';
+    items.forEach((x, i) => { const y = 2 + i * rowH, bw = (W - L - 40) * x[1] / max; s += '<text class="lb" x="0" y="'+(y + 14)+'">'+esc(x[0])+'</text><rect class="hb" style="animation-delay:'+(i * 70)+'ms" x="'+L+'" y="'+(y + 4)+'" width="'+bw.toFixed(1)+'" height="13" rx="3" fill="'+opt.c+'"'+tipAttr(x[0], fmtN(x[1])+(opt.unit || '')+' (przykład)')+'/><text class="v" x="'+(L + bw + 5).toFixed(1)+'" y="'+(y + 14)+'">'+fmtN(x[1])+(opt.unit || '')+'</text>'; });
+    return s + '</svg>';
+  }
+  function vbars(items, opt){
+    const W = 320, H = 170, B = 22, T = 16, h = H - B - T, max = Math.max(...items.map(x => x[1])) * 1.08, bw = (W - 20) / items.length;
+    let s = '<svg viewBox="0 0 '+W+' '+H+'" role="img" aria-label="'+esc(opt.aria)+'"><line class="gl" x1="0" x2="'+W+'" y1="'+(T + h)+'" y2="'+(T + h)+'"/>';
+    items.forEach((x, i) => { const bh = h * x[1] / max, xx = 10 + i * bw + bw * 0.2; s += '<rect class="vb" style="animation-delay:'+(i * 80)+'ms" x="'+xx.toFixed(1)+'" y="'+(T + h - bh).toFixed(1)+'" width="'+(bw * 0.6).toFixed(1)+'" height="'+bh.toFixed(1)+'" rx="3" fill="'+opt.c+'"'+tipAttr(x[0], fmtN(x[1])+' (przykład)')+'/><text class="v" x="'+(xx + bw * 0.3).toFixed(1)+'" y="'+(T + h - bh - 4).toFixed(1)+'" text-anchor="middle">'+x[1]+'</text><text x="'+(xx + bw * 0.3).toFixed(1)+'" y="'+(H - 6)+'" text-anchor="middle">'+esc(x[0])+'</text>'; });
+    return s + '</svg>';
+  }
+  function sampleHTML(){
+    const card = (t, sub, svg, lg) => '<div class="sc"><span class="ribbon">PRZYKŁAD</span><h5>'+esc(t)+'</h5><div class="sub">'+esc(sub)+'</div>'+svg+(lg || '')+'</div>';
+    const mies = ['m1','m2','m3','m4','m5','m6'], wk = ['t1','t2','t3','t4','t5','t6','t7','t8','t9','t10'];
+    return '<div class="sbanner"><b>DANE PRZYKŁADOWE</b><span>Tak mogą wyglądać wykresy po uruchomieniu portalu. Liczby są wymyślone na potrzeby pokazu — prawdziwe pojawią się po pierwszych tygodniach działania.</span></div><div class="sgrid6">'+
+      card('Silne kolizje miesięcznie', 'po wprowadzeniu sprawdzania terminów', vbars(mies.map((m, i) => [m, [23, 19, 14, 12, 9, 8][i]]), { c: C1(), aria: 'Silne kolizje miesięcznie, dane przykładowe' }))+
+      card('Kompletność programów', 'średni odsetek wypełnionych pól, miesięcznie', lineChart(mies, [{ n: 'Kompletność', v: [58, 64, 71, 77, 84, 89], c: C2() }], { aria: 'Kompletność zgłoszeń, dane przykładowe', pct: 1, min: 40, max: 100, area: 1 }))+
+      card('Czekają na kolejny termin', 'osoby zapisane przy wyprzedanych wydarzeniach', hbars([['spektakl dla szkół', 142], ['spektakl dla dzieci 2–5 lat', 96], ['koncert świąteczny', 74], ['warsztaty piernikowe', 51], ['spotkanie autorskie', 18]], { c: C1(), aria: 'Osoby czekające na kolejny termin, dane przykładowe', L: 158 }))+
+      card('Odwiedziny i przejścia do kas', 'tygodniowo, pierwsze 10 tygodni', lineChart(wk, [{ n: 'Odwiedziny', v: [1800, 2400, 2900, 3300, 3900, 4100, 4600, 5200, 6100, 6900], c: C1() }, { n: 'Przejścia do kas i zapisów', v: [210, 290, 360, 420, 510, 540, 620, 700, 860, 990], c: C2() }], { aria: 'Odwiedziny i przejścia do kas, dane przykładowe', every: 3, max: 7500 }), '<div class="lg"><span><i style="background:'+C1()+'"></i>Odwiedziny</span><span><i style="background:'+C2()+'"></i>Przejścia do kas i zapisów</span></div>')+
+      card('Czego szukano i nie znaleziono', 'wyszukiwania bez wyników, miesiąc', hbars([['seniorzy, wieczorem', 64], ['ceramika dla dorosłych', 58], ['koncert dla niemowląt', 47], ['stand-up na Podgórzu', 31], ['spektakl po angielsku', 26]], { c: C2(), aria: 'Wyszukiwania bez wyników, dane przykładowe', L: 150 }))+
+      '</div><p class="snote">Jak to działa: statystyki zbiorcze z portalu (narzędzie analityczne bez plików cookie, dane przechowywane w UE), raport miesięczny dla wydziału i dla każdej instytucji, eksport do arkusza. Żadne dane nie dotyczą konkretnych osób.</p>';
+  }
+  $('mShow').onclick = () => {
+    const box = $('mSample'), open = box.hidden;
+    box.hidden = !open; $('mShow').setAttribute('aria-expanded', open); $('mShow').textContent = open ? 'Ukryj przykładowe wykresy' : 'Pokaż przykładowe wykresy';
+    if (open) { box.innerHTML = sampleHTML(); setTimeout(() => box.scrollIntoView({ behavior: reduce ? 'auto' : 'smooth', block: 'nearest' }), 60); }
+  };
+
   // ——— Dymki ———
   const tip = $('vtip');
   const showTip = (el, x, y) => { tip.innerHTML = '<b>'+esc(el.dataset.tip)+'</b>'+(el.dataset.tipb ? esc(el.dataset.tipb) : ''); tip.classList.add('on'); const r = tip.getBoundingClientRect(); tip.style.left = Math.max(8, Math.min(window.innerWidth - r.width - 8, x + 14))+'px'; tip.style.top = Math.max(8, y - r.height - 10)+'px'; };
@@ -3801,6 +4115,8 @@ document.addEventListener('click', ev => {
   };
   $('wkSel').onchange = gen; gen();
   $('wkCopy').onclick = () => copy($('wkOut').textContent, 'Szkic skopiowany');
+
+  renderClash(); renderOffer();
 })();
 
 // ——— Opisy zakładek ———
@@ -3823,13 +4139,88 @@ document.addEventListener('click', e => {
 });
 Object.keys(PURPOSE).forEach(renderPurpose);
 
+
+// ——— Ruch tła: konstelacja miejsc kultury ———
+(function(){
+  const rootEl = document.documentElement;
+  let off = false; try { off = localStorage.getItem('kt-motion') === 'off'; } catch(_) {}
+  const reduceM = !!(window.matchMedia && matchMedia('(prefers-reduced-motion: reduce)').matches);
+  const btn = $('motionBtn');
+  const cv = $('sky'), hero = cv ? cv.parentElement : null, ctx = cv ? cv.getContext('2d') : null;
+  const VS = Object.entries(VENUES).filter(([k, v]) => v.lat && !/^os\d/.test(k));
+  const la = VS.map(([, v]) => v.lat), lo = VS.map(([, v]) => v.lng);
+  const la0 = Math.min(...la), la1 = Math.max(...la), lo0 = Math.min(...lo), lo1 = Math.max(...lo);
+  const cnt = {}; upcoming().filter(e => e.d <= add(TODAY, 6)).forEach(e => { cnt[e.v] = (cnt[e.v] || 0) + 1; });
+  let W = 0, H = 0, nodes = [], stars = [], mx = -1e4, my = -1e4, raf = 0, inView = true, hover = null;
+  const running = () => !off && !reduceM && inView && document.visibilityState === 'visible' && $('v-start').classList.contains('on');
+  function layout(){
+    if (!cv) return;
+    const r = hero.getBoundingClientRect(), dpr = Math.min(2, window.devicePixelRatio || 1);
+    W = r.width; H = r.height; cv.width = Math.round(W * dpr); cv.height = Math.round(H * dpr); ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+    const narrow = W < 760, cx = narrow ? W * 0.55 : W * 0.72, cy = H * 0.55, rx = narrow ? W * 0.42 : W * 0.24, ry = H * 0.4;
+    const kx = Math.cos(53.01 * Math.PI / 180), C = VENUES.rynek || { lat: (la0 + la1) / 2, lng: (lo0 + lo1) / 2 };
+    const pol = VS.map(([, v]) => { const dx = (v.lng - C.lng) * kx, dy = (C.lat - v.lat); return [Math.atan2(dy, dx), Math.hypot(dx, dy)]; });
+    const rmax = Math.max(...pol.map(p => p[1])) || 1;
+    nodes = VS.map(([k, v], i) => { const [ang, d] = pol[i], rr = Math.pow(d / rmax, .5); return { k, n: v.n, c: cnt[k] || 0, bx: cx + Math.cos(ang) * rr * rx, by: cy + Math.sin(ang) * rr * ry, ph: i * 1.7, x: 0, y: 0, near: 0 }; });
+    const rnd = rng(7331); stars = Array.from({ length: Math.round(W * H / 9000) }, () => ({ x: rnd() * W, y: rnd() * H, r: .4 + rnd() * 1.1, a: .15 + rnd() * .45, sp: .4 + rnd() * 1.2, ph: rnd() * 6.3 }));
+  }
+  function draw(t){
+    if (!ctx) return;
+    const light = theme === 'light', tt = t / 1000;
+    const NODE = light ? '14,116,144' : '34,211,238', LINK = light ? '91,31,224' : '160,123,255', STAR = light ? '60,70,110' : '230,235,255';
+    ctx.clearRect(0, 0, W, H);
+    stars.forEach(s => { const fade = Math.min(1, s.x / (W * .45) + .25); ctx.fillStyle = 'rgba('+STAR+','+(s.a * (.55 + .45 * Math.sin(tt * s.sp + s.ph)) * fade * (light ? .5 : 1)).toFixed(3)+')'; ctx.beginPath(); ctx.arc(s.x, s.y, s.r, 0, 6.283); ctx.fill(); });
+    hover = null; let best = 28;
+    nodes.forEach(n => { n.x = n.bx + Math.sin(tt * .35 + n.ph) * 4; n.y = n.by + Math.cos(tt * .3 + n.ph * 1.3) * 3; const dx = mx - n.x, dy = my - n.y, d = Math.hypot(dx, dy); n.near = d < 160 ? 1 - d / 160 : 0; if (n.near) { n.x += dx * .07 * n.near; n.y += dy * .07 * n.near; } if (d < best) { best = d; hover = n; } });
+    const LK = Math.max(70, Math.min(W * .075, 120));
+    ctx.lineWidth = 1;
+    for (let i = 0; i < nodes.length; i++) for (let j = i + 1; j < nodes.length; j++) {
+      const a = nodes[i], b = nodes[j], d = Math.hypot(a.x - b.x, a.y - b.y); if (d > LK) continue;
+      const al = (1 - d / LK) * (light ? .22 : .3) + Math.max(a.near, b.near) * .45;
+      ctx.strokeStyle = 'rgba('+LINK+','+al.toFixed(3)+')'; ctx.beginPath(); ctx.moveTo(a.x, a.y); ctx.lineTo(b.x, b.y); ctx.stroke();
+    }
+    nodes.forEach(n => { if (!n.near) return; ctx.strokeStyle = 'rgba('+NODE+','+(n.near * .5).toFixed(3)+')'; ctx.beginPath(); ctx.moveTo(mx, my); ctx.lineTo(n.x, n.y); ctx.stroke(); });
+    nodes.forEach(n => {
+      const r = 1.8 + Math.min(3.2, n.c * .3) + n.near * 2.2, pulse = n.c ? .5 + .5 * Math.sin(tt * 1.4 + n.ph) : 0;
+      const g = ctx.createRadialGradient(n.x, n.y, 0, n.x, n.y, r * 4.5); g.addColorStop(0, 'rgba('+NODE+','+(.28 + .25 * pulse + n.near * .3).toFixed(3)+')'); g.addColorStop(1, 'rgba('+NODE+',0)');
+      ctx.fillStyle = g; ctx.beginPath(); ctx.arc(n.x, n.y, r * 4.5, 0, 6.283); ctx.fill();
+      ctx.fillStyle = 'rgba('+NODE+','+(n.c ? .95 : .55)+')'; ctx.beginPath(); ctx.arc(n.x, n.y, r, 0, 6.283); ctx.fill();
+    });
+    if (hover) {
+      const txt = hover.n + (hover.c ? ' · ' + hover.c + ' ' + plW(hover.c) + ' w 7 dni' : ''); ctx.font = '600 11.5px Sora, system-ui, sans-serif';
+      const tw = ctx.measureText(txt).width, px = Math.min(W - tw - 18, hover.x + 12), py = Math.max(16, hover.y - 14);
+      ctx.fillStyle = light ? 'rgba(255,255,255,.92)' : 'rgba(10,15,31,.85)'; ctx.strokeStyle = 'rgba('+NODE+',.6)';
+      ctx.beginPath(); if (ctx.roundRect) ctx.roundRect(px - 7, py - 13, tw + 14, 20, 7); else ctx.rect(px - 7, py - 13, tw + 14, 20); ctx.fill(); ctx.stroke();
+      ctx.fillStyle = light ? '#121830' : '#EEF1FA'; ctx.fillText(txt, px, py + 1);
+    }
+    cv.style.cursor = hover ? 'pointer' : '';
+  }
+  const loop = t => { draw(t); raf = running() ? requestAnimationFrame(loop) : 0; };
+  function kick(){ if (!cv) return; if (running()) { if (!raf) raf = requestAnimationFrame(loop); } else { if (raf) { cancelAnimationFrame(raf); raf = 0; } draw(performance.now()); } }
+  window.__skyKick = () => { layout(); kick(); };
+  const apply = () => { rootEl.classList.toggle('motion-off', off || reduceM); if (btn) { btn.textContent = off ? '▶ włącz ruch tła' : '❚❚ zatrzymaj ruch tła'; btn.setAttribute('aria-pressed', off); btn.hidden = reduceM; } };
+  if (btn) btn.onclick = () => { off = !off; try { localStorage.setItem('kt-motion', off ? 'off' : 'on'); } catch(_) {} apply(); kick(); };
+  apply();
+  if (!cv) return;
+  layout();
+  if ('IntersectionObserver' in window) new IntersectionObserver(es => { inView = es[0].isIntersecting; kick(); }).observe(hero);
+  document.addEventListener('visibilitychange', kick);
+  window.addEventListener('resize', () => { layout(); kick(); });
+  hero.addEventListener('pointermove', e => { const r = cv.getBoundingClientRect(); mx = e.clientX - r.left; my = e.clientY - r.top; if (!running()) draw(performance.now()); });
+  hero.addEventListener('pointerleave', () => { mx = my = -1e4; if (!running()) draw(performance.now()); });
+  cv.addEventListener('click', () => { if (hover) { pendingVenue = hover.k; location.hash = '#mapa'; } });
+  kick();
+})();
+// Poświata pod kursorem na kartach
+{ let pend = null; document.addEventListener('pointermove', e => { const el = e.target.closest && e.target.closest('.feat,.kh,.fc,.cta2'); if (!el) return; pend = [el, e.clientX, e.clientY]; requestAnimationFrame(() => { if (!pend) return; const [x, cx, cy] = pend; pend = null; const r = x.getBoundingClientRect(); x.style.setProperty('--mx', (cx - r.left)+'px'); x.style.setProperty('--my', (cy - r.top)+'px'); }); }, { passive: true }); }
+
 // ——— Nawigacja ———
 const VIEWS = ['start','program','mapa','plan','instytucje','wydzial','o-projekcie'];
 function route(){
   const h = (location.hash || '#start').slice(1); const v = VIEWS.includes(h) ? h : 'start';
   VIEWS.forEach(x => $('v-'+x).classList.toggle('on', x === v));
   document.querySelectorAll('.rail a, .bottombar a').forEach(a => a.setAttribute('aria-current', a.getAttribute('href') === '#'+v ? 'page' : 'false'));
-  if (v === 'start') renderStart();
+  if (v === 'start') { renderStart(); if (window.__skyKick) setTimeout(window.__skyKick, 30); }
   if (v === 'mapa') { initMap(); setTimeout(() => { if (!map) return; map.invalidateSize(); if (!mapFitted && !ROUTE) { fitAll(); mapFitted = true; } drawMap(); }, 120); }
   if (v === 'plan') { initPlanner(); renderSaved(); }
   if (v === 'instytucje' && OS_TAB) { setAddTab('os'); OS_TAB = false; }

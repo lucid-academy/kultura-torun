@@ -25,7 +25,7 @@ END:DAYLIGHT
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:e95-20261123@kultura-torun-demo
-DTSTAMP:20261126T151807Z
+DTSTAMP:20261126T164620Z
 DTSTART;TZID=Europe/Warsaw:20261123T180000
 DTEND;TZID=Europe/Warsaw:20261123T190000
 SUMMARY:Cykliczne warsztaty wokalne
@@ -37,7 +37,7 @@ URL:https://www.tak.torun.pl/hub/harmonogram/
 END:VEVENT
 BEGIN:VEVENT
 UID:e98-20261124@kultura-torun-demo
-DTSTAMP:20261126T151807Z
+DTSTAMP:20261126T164620Z
 DTSTART;TZID=Europe/Warsaw:20261124T180000
 DTEND;TZID=Europe/Warsaw:20261124T200000
 SUMMARY:Warsztaty literackie dla dorosłych
@@ -49,7 +49,7 @@ URL:https://www.tak.torun.pl/hub/harmonogram/
 END:VEVENT
 BEGIN:VEVENT
 UID:e101-20261126@kultura-torun-demo
-DTSTAMP:20261126T151807Z
+DTSTAMP:20261126T164620Z
 DTSTART;TZID=Europe/Warsaw:20261126T160000
 DTEND;TZID=Europe/Warsaw:20261126T190000
 SUMMARY:Kurs Brydża
@@ -61,7 +61,7 @@ URL:https://www.tak.torun.pl/hub/harmonogram/
 END:VEVENT
 BEGIN:VEVENT
 UID:e159-20261126@kultura-torun-demo
-DTSTAMP:20261126T151807Z
+DTSTAMP:20261126T164620Z
 DTSTART;TZID=Europe/Warsaw:20261126T180000
 DTEND;TZID=Europe/Warsaw:20261126T193000
 SUMMARY:Samotność w Galaktyce — spotkanie z prof. Gracjanem Maciejewsk
@@ -72,7 +72,7 @@ URL:https://wydarzeniatorun.pl/
 END:VEVENT
 BEGIN:VEVENT
 UID:e145-20261127@kultura-torun-demo
-DTSTAMP:20261126T151807Z
+DTSTAMP:20261126T164620Z
 DTSTART;TZID=Europe/Warsaw:20261127T180000
 DTEND;TZID=Europe/Warsaw:20261127T193000
 SUMMARY:Na drogach duszy. Dźwiękowa podróż ze Stanisławem Przybyszews
@@ -85,7 +85,7 @@ URL:https://csw.torun.pl/literatura/na-drogach-duszy-dzwiekowa-podroz-ze-s
 END:VEVENT
 BEGIN:VEVENT
 UID:e160-20261127@kultura-torun-demo
-DTSTAMP:20261126T151807Z
+DTSTAMP:20261126T164620Z
 DTSTART;TZID=Europe/Warsaw:20261127T190000
 DTEND;TZID=Europe/Warsaw:20261127T203000
 SUMMARY:Dom\, w którym mieszkasz — spotkanie z Justyną Król-Filipiak
@@ -95,7 +95,7 @@ URL:https://wydarzeniatorun.pl/
 END:VEVENT
 BEGIN:VEVENT
 UID:e147-20261128@kultura-torun-demo
-DTSTAMP:20261126T151807Z
+DTSTAMP:20261126T164620Z
 DTSTART;TZID=Europe/Warsaw:20261128T160000
 DTEND;TZID=Europe/Warsaw:20261128T173000
 SUMMARY:Toruński Festiwal Książki: spotkanie z Sylwią Zientek („Mela
@@ -108,7 +108,7 @@ URL:https://csw.torun.pl/literatura/torunski-festiwal-ksiazki-spotkania-w-
 END:VEVENT
 BEGIN:VEVENT
 UID:e105-20261130@kultura-torun-demo
-DTSTAMP:20261126T151807Z
+DTSTAMP:20261126T164620Z
 DTSTART;TZID=Europe/Warsaw:20261130T180000
 DTEND;TZID=Europe/Warsaw:20261130T190000
 SUMMARY:Cykliczne warsztaty wokalne
@@ -120,7 +120,7 @@ URL:https://www.tak.torun.pl/hub/harmonogram/
 END:VEVENT
 BEGIN:VEVENT
 UID:e108-20261201@kultura-torun-demo
-DTSTAMP:20261126T151807Z
+DTSTAMP:20261126T164620Z
 DTSTART;TZID=Europe/Warsaw:20261201T180000
 DTEND;TZID=Europe/Warsaw:20261201T200000
 SUMMARY:Warsztaty literackie dla dorosłych
@@ -132,7 +132,7 @@ URL:https://www.tak.torun.pl/hub/harmonogram/
 END:VEVENT
 BEGIN:VEVENT
 UID:e162-20261201@kultura-torun-demo
-DTSTAMP:20261126T151807Z
+DTSTAMP:20261126T164620Z
 DTSTART;TZID=Europe/Warsaw:20261201T180000
 DTEND;TZID=Europe/Warsaw:20261201T193000
 SUMMARY:Felieton jako sztuka patrzenia na świat z dystansem — spotkanie
@@ -143,7 +143,7 @@ URL:https://wydarzeniatorun.pl/
 END:VEVENT
 BEGIN:VEVENT
 UID:e163-20261202@kultura-torun-demo
-DTSTAMP:20261126T151807Z
+DTSTAMP:20261126T164620Z
 DTSTART;TZID=Europe/Warsaw:20261202T180000
 DTEND;TZID=Europe/Warsaw:20261202T193000
 SUMMARY:Cierpliwe Genowefy\, bezwstydne Magdaleny — spotkanie z Anną Br
@@ -154,7 +154,7 @@ URL:https://wydarzeniatorun.pl/
 END:VEVENT
 BEGIN:VEVENT
 UID:e110-20261203@kultura-torun-demo
-DTSTAMP:20261126T151807Z
+DTSTAMP:20261126T164620Z
 DTSTART;TZID=Europe/Warsaw:20261203T160000
 DTEND;TZID=Europe/Warsaw:20261203T190000
 SUMMARY:Kurs Brydża
@@ -166,7 +166,7 @@ URL:https://www.tak.torun.pl/hub/harmonogram/
 END:VEVENT
 BEGIN:VEVENT
 UID:e154-20261203@kultura-torun-demo
-DTSTAMP:20261126T151807Z
+DTSTAMP:20261126T164620Z
 DTSTART;TZID=Europe/Warsaw:20261203T180000
 DTEND;TZID=Europe/Warsaw:20261203T193000
 SUMMARY:Czym uwodzi dizajn — spotkanie z Małgorzatą Czyńską
@@ -178,7 +178,7 @@ URL:https://csw.torun.pl/literatura/czym-uwodzi-dizajn-spotkanie-z-malgorz
 END:VEVENT
 BEGIN:VEVENT
 UID:e164-20261203@kultura-torun-demo
-DTSTAMP:20261126T151807Z
+DTSTAMP:20261126T164620Z
 DTSTART;VALUE=DATE:20261203
 DTEND;VALUE=DATE:20261204
 SUMMARY:Toruński Klub Poetów — spotkanie otwarte
@@ -191,7 +191,7 @@ URL:https://gra.fm/grudzien-pelen-atrakcji-w-ksiaznicy-kopernikanskiej-spr
 END:VEVENT
 BEGIN:VEVENT
 UID:e165-20261203@kultura-torun-demo
-DTSTAMP:20261126T151807Z
+DTSTAMP:20261126T164620Z
 DTSTART;VALUE=DATE:20261203
 DTEND;VALUE=DATE:20261204
 SUMMARY:Wieczór Toruński: prof. Bartosz Awianowicz o najstarszym toruńs
@@ -205,7 +205,7 @@ URL:https://gra.fm/grudzien-pelen-atrakcji-w-ksiaznicy-kopernikanskiej-spr
 END:VEVENT
 BEGIN:VEVENT
 UID:e166-20261204@kultura-torun-demo
-DTSTAMP:20261126T151807Z
+DTSTAMP:20261126T164620Z
 DTSTART;VALUE=DATE:20261204
 DTEND;VALUE=DATE:20261205
 SUMMARY:Debata „Od Kopernika do TikToka — jak popularyzować naukę w 
@@ -219,7 +219,7 @@ URL:https://gra.fm/grudzien-pelen-atrakcji-w-ksiaznicy-kopernikanskiej-spr
 END:VEVENT
 BEGIN:VEVENT
 UID:e155-20261205@kultura-torun-demo
-DTSTAMP:20261126T151807Z
+DTSTAMP:20261126T164620Z
 DTSTART;TZID=Europe/Warsaw:20261205T120000
 DTEND;TZID=Europe/Warsaw:20261205T180000
 SUMMARY:X-Mas Kram — świąteczne targi rękodzieła
@@ -231,7 +231,7 @@ URL:https://csw.torun.pl/sztuka/x-mas-kram-2026-swiateczne-targi-rekodziel
 END:VEVENT
 BEGIN:VEVENT
 UID:e167-20261205@kultura-torun-demo
-DTSTAMP:20261126T151807Z
+DTSTAMP:20261126T164620Z
 DTSTART;VALUE=DATE:20261205
 DTEND;VALUE=DATE:20261206
 SUMMARY:Mikograjki — gry planszowe i spotkanie ze świętym Mikołajem
@@ -244,7 +244,7 @@ URL:https://gra.fm/grudzien-pelen-atrakcji-w-ksiaznicy-kopernikanskiej-spr
 END:VEVENT
 BEGIN:VEVENT
 UID:e168-20261206@kultura-torun-demo
-DTSTAMP:20261126T151807Z
+DTSTAMP:20261126T164620Z
 DTSTART;VALUE=DATE:20261206
 DTEND;VALUE=DATE:20261207
 SUMMARY:Spotkanie z Agnieszką Lis („Marcepanowa miłość”) i seans 
@@ -258,7 +258,7 @@ URL:https://gra.fm/grudzien-pelen-atrakcji-w-ksiaznicy-kopernikanskiej-spr
 END:VEVENT
 BEGIN:VEVENT
 UID:e112-20261207@kultura-torun-demo
-DTSTAMP:20261126T151807Z
+DTSTAMP:20261126T164620Z
 DTSTART;TZID=Europe/Warsaw:20261207T180000
 DTEND;TZID=Europe/Warsaw:20261207T190000
 SUMMARY:Cykliczne warsztaty wokalne
@@ -270,7 +270,7 @@ URL:https://www.tak.torun.pl/hub/harmonogram/
 END:VEVENT
 BEGIN:VEVENT
 UID:e169-20261207@kultura-torun-demo
-DTSTAMP:20261126T151807Z
+DTSTAMP:20261126T164620Z
 DTSTART;VALUE=DATE:20261207
 DTEND;VALUE=DATE:20261208
 SUMMARY:Spotkanie z Agnieszką Dulębą-Kaszą — debiut powieściowy
@@ -283,7 +283,7 @@ URL:https://gra.fm/grudzien-pelen-atrakcji-w-ksiaznicy-kopernikanskiej-spr
 END:VEVENT
 BEGIN:VEVENT
 UID:e170-20261208@kultura-torun-demo
-DTSTAMP:20261126T151807Z
+DTSTAMP:20261126T164620Z
 DTSTART;VALUE=DATE:20261208
 DTEND;VALUE=DATE:20261209
 SUMMARY:Wykład Grzegorza Szychlińskiego o gdańskim zegarze astronomiczn
@@ -297,7 +297,7 @@ URL:https://gra.fm/grudzien-pelen-atrakcji-w-ksiaznicy-kopernikanskiej-spr
 END:VEVENT
 BEGIN:VEVENT
 UID:e117-20261210@kultura-torun-demo
-DTSTAMP:20261126T151807Z
+DTSTAMP:20261126T164620Z
 DTSTART;TZID=Europe/Warsaw:20261210T160000
 DTEND;TZID=Europe/Warsaw:20261210T190000
 SUMMARY:Kurs Brydża
@@ -309,7 +309,7 @@ URL:https://www.tak.torun.pl/hub/harmonogram/
 END:VEVENT
 BEGIN:VEVENT
 UID:e171-20261210@kultura-torun-demo
-DTSTAMP:20261126T151807Z
+DTSTAMP:20261126T164620Z
 DTSTART;VALUE=DATE:20261210
 DTEND;VALUE=DATE:20261211
 SUMMARY:Spotkanie z Dariuszem Gizakiem — autorem serii kryminalnej
@@ -322,7 +322,7 @@ URL:https://gra.fm/grudzien-pelen-atrakcji-w-ksiaznicy-kopernikanskiej-spr
 END:VEVENT
 BEGIN:VEVENT
 UID:e172-20261211@kultura-torun-demo
-DTSTAMP:20261126T151807Z
+DTSTAMP:20261126T164620Z
 DTSTART;VALUE=DATE:20261211
 DTEND;VALUE=DATE:20261212
 SUMMARY:Zofia Konicka z zespołem — slam poetycki z muzyką
@@ -335,7 +335,7 @@ URL:https://gra.fm/grudzien-pelen-atrakcji-w-ksiaznicy-kopernikanskiej-spr
 END:VEVENT
 BEGIN:VEVENT
 UID:e158-20261213@kultura-torun-demo
-DTSTAMP:20261126T151807Z
+DTSTAMP:20261126T164620Z
 DTSTART;TZID=Europe/Warsaw:20261213T100000
 DTEND;TZID=Europe/Warsaw:20261213T110000
 SUMMARY:Spacer tematyczny: Toruń i Solidarność w stanie wojennym
@@ -347,7 +347,7 @@ URL:https://csw.torun.pl/literatura/spacer-tematyczny-torun-i-solidarnosc-
 END:VEVENT
 BEGIN:VEVENT
 UID:e118-20261214@kultura-torun-demo
-DTSTAMP:20261126T151807Z
+DTSTAMP:20261126T164620Z
 DTSTART;TZID=Europe/Warsaw:20261214T180000
 DTEND;TZID=Europe/Warsaw:20261214T190000
 SUMMARY:Cykliczne warsztaty wokalne
@@ -359,7 +359,7 @@ URL:https://www.tak.torun.pl/hub/harmonogram/
 END:VEVENT
 BEGIN:VEVENT
 UID:e173-20261215@kultura-torun-demo
-DTSTAMP:20261126T151807Z
+DTSTAMP:20261126T164620Z
 DTSTART;VALUE=DATE:20261215
 DTEND;VALUE=DATE:20261216
 SUMMARY:Premiera książki Katarzyny Kluczwajd „Toruński Łuk Cezara i 
@@ -373,7 +373,7 @@ URL:https://gra.fm/grudzien-pelen-atrakcji-w-ksiaznicy-kopernikanskiej-spr
 END:VEVENT
 BEGIN:VEVENT
 UID:e123-20261217@kultura-torun-demo
-DTSTAMP:20261126T151807Z
+DTSTAMP:20261126T164620Z
 DTSTART;TZID=Europe/Warsaw:20261217T160000
 DTEND;TZID=Europe/Warsaw:20261217T190000
 SUMMARY:Kurs Brydża
@@ -385,7 +385,7 @@ URL:https://www.tak.torun.pl/hub/harmonogram/
 END:VEVENT
 BEGIN:VEVENT
 UID:e124-20261221@kultura-torun-demo
-DTSTAMP:20261126T151807Z
+DTSTAMP:20261126T164620Z
 DTSTART;TZID=Europe/Warsaw:20261221T180000
 DTEND;TZID=Europe/Warsaw:20261221T190000
 SUMMARY:Cykliczne warsztaty wokalne

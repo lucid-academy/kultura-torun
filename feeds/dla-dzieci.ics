@@ -25,7 +25,7 @@ END:DAYLIGHT
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:e8-20261122@kultura-torun-demo
-DTSTAMP:20261126T151807Z
+DTSTAMP:20261126T164620Z
 DTSTART;TZID=Europe/Warsaw:20261122T150000
 DTEND;TZID=Europe/Warsaw:20261122T160000
 SUMMARY:Tup tup idzie noc — koncert dla dzieci i rodziców
@@ -36,7 +36,7 @@ URL:https://torun.pl/pl/aktualnosc/weekend-w-toruniu-586
 END:VEVENT
 BEGIN:VEVENT
 UID:e9-20261122@kultura-torun-demo
-DTSTAMP:20261126T151807Z
+DTSTAMP:20261126T164620Z
 DTSTART;TZID=Europe/Warsaw:20261122T163000
 DTEND;TZID=Europe/Warsaw:20261122T173000
 SUMMARY:Tup tup idzie noc — koncert dla dzieci i rodziców
@@ -47,7 +47,7 @@ URL:https://torun.pl/pl/aktualnosc/weekend-w-toruniu-586
 END:VEVENT
 BEGIN:VEVENT
 UID:e87-20261124@kultura-torun-demo
-DTSTAMP:20261126T151807Z
+DTSTAMP:20261126T164620Z
 DTSTART;TZID=Europe/Warsaw:20261124T100000
 DTEND;TZID=Europe/Warsaw:20261124T110000
 SUMMARY:Puszek
@@ -58,7 +58,7 @@ URL:https://bajpomorski.pl/repertuar/
 END:VEVENT
 BEGIN:VEVENT
 UID:e88-20261125@kultura-torun-demo
-DTSTAMP:20261126T151807Z
+DTSTAMP:20261126T164620Z
 DTSTART;TZID=Europe/Warsaw:20261125T100000
 DTEND;TZID=Europe/Warsaw:20261125T110000
 SUMMARY:Puszek
@@ -69,7 +69,7 @@ URL:https://bajpomorski.pl/repertuar/
 END:VEVENT
 BEGIN:VEVENT
 UID:e89-20261126@kultura-torun-demo
-DTSTAMP:20261126T151807Z
+DTSTAMP:20261126T164620Z
 DTSTART;TZID=Europe/Warsaw:20261126T100000
 DTEND;TZID=Europe/Warsaw:20261126T110000
 SUMMARY:Puszek
@@ -80,7 +80,7 @@ URL:https://bajpomorski.pl/repertuar/
 END:VEVENT
 BEGIN:VEVENT
 UID:e144-20261126@kultura-torun-demo
-DTSTAMP:20261126T151807Z
+DTSTAMP:20261126T164620Z
 DTSTART;TZID=Europe/Warsaw:20261126T160000
 DTEND;TZID=Europe/Warsaw:20261126T171500
 SUMMARY:Zmysłoteka — warsztaty dla dzieci 3–6 lat z opiekunami
@@ -91,7 +91,7 @@ URL:https://csw.torun.pl/edukacja/zmysloteka-w-listopadzie-2026/
 END:VEVENT
 BEGIN:VEVENT
 UID:e91-20261128@kultura-torun-demo
-DTSTAMP:20261126T151807Z
+DTSTAMP:20261126T164620Z
 DTSTART;TZID=Europe/Warsaw:20261128T163000
 DTEND;TZID=Europe/Warsaw:20261128T173000
 SUMMARY:Elmer. Słoń w kratkę — premiera
@@ -102,7 +102,7 @@ URL:https://bajpomorski.pl/repertuar/
 END:VEVENT
 BEGIN:VEVENT
 UID:e92-20261129@kultura-torun-demo
-DTSTAMP:20261126T151807Z
+DTSTAMP:20261126T164620Z
 DTSTART;TZID=Europe/Warsaw:20261129T120000
 DTEND;TZID=Europe/Warsaw:20261129T130000
 SUMMARY:Elmer. Słoń w kratkę
@@ -112,7 +112,7 @@ URL:https://bajpomorski.pl/repertuar/
 END:VEVENT
 BEGIN:VEVENT
 UID:e93-20261129@kultura-torun-demo
-DTSTAMP:20261126T151807Z
+DTSTAMP:20261126T164620Z
 DTSTART;TZID=Europe/Warsaw:20261129T140000
 DTEND;TZID=Europe/Warsaw:20261129T150000
 SUMMARY:Elmer. Słoń w kratkę
@@ -122,7 +122,7 @@ URL:https://bajpomorski.pl/repertuar/
 END:VEVENT
 BEGIN:VEVENT
 UID:e153-20261203@kultura-torun-demo
-DTSTAMP:20261126T151807Z
+DTSTAMP:20261126T164620Z
 DTSTART;TZID=Europe/Warsaw:20261203T160000
 DTEND;TZID=Europe/Warsaw:20261203T170000
 SUMMARY:Zmysłoteka — warsztaty dla rodzin
@@ -132,7 +132,7 @@ URL:https://wydarzeniatorun.pl/
 END:VEVENT
 BEGIN:VEVENT
 UID:e22-20261205@kultura-torun-demo
-DTSTAMP:20261126T151807Z
+DTSTAMP:20261126T164620Z
 DTSTART;TZID=Europe/Warsaw:20261205T110000
 DTEND;TZID=Europe/Warsaw:20261205T120000
 SUMMARY:Poznaj teatr — mikołajkowe zwiedzanie teatru
@@ -142,7 +142,7 @@ URL:https://horzyca.pl/en/repertoire/
 END:VEVENT
 BEGIN:VEVENT
 UID:e155-20261205@kultura-torun-demo
-DTSTAMP:20261126T151807Z
+DTSTAMP:20261126T164620Z
 DTSTART;TZID=Europe/Warsaw:20261205T120000
 DTEND;TZID=Europe/Warsaw:20261205T180000
 SUMMARY:X-Mas Kram — świąteczne targi rękodzieła
@@ -154,7 +154,7 @@ URL:https://csw.torun.pl/sztuka/x-mas-kram-2026-swiateczne-targi-rekodziel
 END:VEVENT
 BEGIN:VEVENT
 UID:e156-20261205@kultura-torun-demo
-DTSTAMP:20261126T151807Z
+DTSTAMP:20261126T164620Z
 DTSTART;TZID=Europe/Warsaw:20261205T121500
 DTEND;TZID=Europe/Warsaw:20261205T131500
 SUMMARY:Świąteczne seanse dla rodzin (X-Mas Kram)
@@ -166,7 +166,7 @@ URL:https://csw.torun.pl/sztuka/x-mas-kram-2026-swiateczne-targi-rekodziel
 END:VEVENT
 BEGIN:VEVENT
 UID:e23-20261205@kultura-torun-demo
-DTSTAMP:20261126T151807Z
+DTSTAMP:20261126T164620Z
 DTSTART;TZID=Europe/Warsaw:20261205T130000
 DTEND;TZID=Europe/Warsaw:20261205T140000
 SUMMARY:Poznaj teatr — mikołajkowe zwiedzanie teatru
@@ -176,7 +176,7 @@ URL:https://horzyca.pl/en/repertoire/
 END:VEVENT
 BEGIN:VEVENT
 UID:e167-20261205@kultura-torun-demo
-DTSTAMP:20261126T151807Z
+DTSTAMP:20261126T164620Z
 DTSTART;VALUE=DATE:20261205
 DTEND;VALUE=DATE:20261206
 SUMMARY:Mikograjki — gry planszowe i spotkanie ze świętym Mikołajem
@@ -189,7 +189,7 @@ URL:https://gra.fm/grudzien-pelen-atrakcji-w-ksiaznicy-kopernikanskiej-spr
 END:VEVENT
 BEGIN:VEVENT
 UID:e26-20261206@kultura-torun-demo
-DTSTAMP:20261126T151807Z
+DTSTAMP:20261126T164620Z
 DTSTART;TZID=Europe/Warsaw:20261206T110000
 DTEND;TZID=Europe/Warsaw:20261206T120000
 SUMMARY:Niedziela w teatrze — mikołajkowo-piernikowa
@@ -199,7 +199,7 @@ URL:https://horzyca.pl/en/repertoire/
 END:VEVENT
 BEGIN:VEVENT
 UID:e157-20261206@kultura-torun-demo
-DTSTAMP:20261126T151807Z
+DTSTAMP:20261126T164620Z
 DTSTART;TZID=Europe/Warsaw:20261206T121500
 DTEND;TZID=Europe/Warsaw:20261206T131500
 SUMMARY:Świąteczne seanse dla rodzin (X-Mas Kram)
@@ -211,7 +211,7 @@ URL:https://csw.torun.pl/sztuka/x-mas-kram-2026-swiateczne-targi-rekodziel
 END:VEVENT
 BEGIN:VEVENT
 UID:e56-20261208@kultura-torun-demo
-DTSTAMP:20261126T151807Z
+DTSTAMP:20261126T164620Z
 DTSTART;TZID=Europe/Warsaw:20261208T120000
 DTEND;TZID=Europe/Warsaw:20261208T130000
 SUMMARY:Taneczna Mikołajkowa Misja — przeboje z „KPop Demon Hunters
@@ -222,7 +222,7 @@ URL:https://jordanki.torun.pl/event_type/koncert/feed/
 END:VEVENT
 BEGIN:VEVENT
 UID:e71-20261220@kultura-torun-demo
-DTSTAMP:20261126T151807Z
+DTSTAMP:20261126T164620Z
 DTSTART;TZID=Europe/Warsaw:20261220T150000
 DTEND;TZID=Europe/Warsaw:20261220T160000
 SUMMARY:„O sroczce\, która za morze odlecieć nie chciała”\, czyli k
@@ -234,7 +234,7 @@ URL:https://jordanki.torun.pl/ckk-jordanki/nadchodzace-wydarzenia/page/2/
 END:VEVENT
 BEGIN:VEVENT
 UID:e72-20261220@kultura-torun-demo
-DTSTAMP:20261126T151807Z
+DTSTAMP:20261126T164620Z
 DTSTART;TZID=Europe/Warsaw:20261220T163000
 DTEND;TZID=Europe/Warsaw:20261220T173000
 SUMMARY:„O sroczce\, która za morze odlecieć nie chciała”\, czyli k
