@@ -1197,6 +1197,7 @@ ul.clean li{margin:.25rem 0;font-size:.88rem}
 .cal .c.past{opacity:.55}
 .cal .c.dec::after{content:"";position:absolute;inset:0;border-radius:7px;background:repeating-linear-gradient(135deg,transparent 0 6px,color-mix(in srgb,var(--warn) 18%,transparent) 6px 7px);pointer-events:none}
 .cal .c:hover{outline:2px solid var(--text);outline-offset:-1px}
+@media (max-width:760px){.cal{grid-template-columns:1.7rem repeat(7,minmax(0,1fr));gap:3px}.cal .c{aspect-ratio:1/1;min-height:0;padding:.12rem .2rem;border-radius:5px}.cal .c .mm{display:none}.cal .c .dn{font-size:.56rem}.cal .c .ct{font-size:.7rem}.cal .wl{font-size:.48rem}.hm{grid-template-columns:1.4rem repeat(14,minmax(0,1fr));gap:2px}.hs-num{font-size:3.4rem}}
 .scale{display:flex;align-items:center;gap:.5rem;font-size:.68rem;color:var(--faint);margin-top:.6rem}
 .scale i{display:block;width:140px;height:8px;border-radius:4px;background:linear-gradient(90deg,var(--surface2),var(--violet-soft))}
 .scale.cyan i{background:linear-gradient(90deg,var(--surface2),var(--cyan))}
@@ -2957,7 +2958,7 @@ $('queue').innerHTML = REVIEW_QUEUE.map(q => '<div class="q-item"><b>'+esc(q.t)+
     const n = perD[d] || 0, p = n ? Math.round(14 + 86 * n / maxD) : 0;
     const titles = all.filter(e => e.d === d).sort((a, b) => (a.s ?? 9999) - (b.s ?? 9999)).slice(0, 4).map(e => (e.h || '--:--')+' '+e.t).join('\n');
     const decPart = d >= '2026-12-01';
-    cal += '<div class="c'+(p >= 60 ? ' hi' : '')+(d === TODAY && TODAY_REAL ? ' today' : '')+(TODAY_REAL && d < TODAY ? ' past' : '')+(decPart ? ' dec' : '')+'" style="--p:'+p+'%"'+tipAttr(cap(fmtLong(d))+' · '+n+' '+plW(n), (titles || 'Brak wydarzeń w bazie') + (decPart ? '\n\nGrudzień: program części instytucji jeszcze nieopublikowany.' : ''))+' aria-label="'+esc(fmtLong(d)+': '+n+' '+plW(n))+'"><span class="dn">'+pd(d).getDate()+'.'+String(pd(d).getMonth()+1).padStart(2,'0')+'</span><span class="ct">'+(n || '')+'</span></div>';
+    cal += '<div class="c'+(p >= 60 ? ' hi' : '')+(d === TODAY && TODAY_REAL ? ' today' : '')+(TODAY_REAL && d < TODAY ? ' past' : '')+(decPart ? ' dec' : '')+'" style="--p:'+p+'%"'+tipAttr(cap(fmtLong(d))+' · '+n+' '+plW(n), (titles || 'Brak wydarzeń w bazie') + (decPart ? '\n\nGrudzień: program części instytucji jeszcze nieopublikowany.' : ''))+' aria-label="'+esc(fmtLong(d)+': '+n+' '+plW(n))+'"><span class="dn">'+pd(d).getDate()+'<span class="mm">.'+String(pd(d).getMonth()+1).padStart(2,'0')+'</span></span><span class="ct">'+(n || '')+'</span></div>';
     tbl += '<tr><td>'+fmtShort(d)+'</td><td>'+n+'</td></tr>';
   }
   $('cal').innerHTML = cal; $('cal').setAttribute('aria-label', 'Kalendarz liczby wydarzeń od '+fmtDM(RANGE_START)+' do '+fmtDM(RANGE_END));
