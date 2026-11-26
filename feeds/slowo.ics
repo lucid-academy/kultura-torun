@@ -1,0 +1,435 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lucid Academy//Kultura w Toruniu (demo)//PL
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Kultura w Toruniu — literatura i spotkania
+X-WR-TIMEZONE:Europe/Warsaw
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+BEGIN:VTIMEZONE
+TZID:Europe/Warsaw
+BEGIN:STANDARD
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:e10-20261122@kultura-torun-demo
+DTSTAMP:20261126T151807Z
+DTSTART;TZID=Europe/Warsaw:20261122T120000
+DTEND;TZID=Europe/Warsaw:20261122T140000
+SUMMARY:RegeneracJA jesienna na wystawie „Tajemnice codzienności…” 
+ — spotkanie dla kobiet 16+
+LOCATION:Muzeum Etnograficzne\, Wały gen. Sikorskiego 19\, Toruń
+DESCRIPTION:Źródło: https://torun.pl/pl/aktualnosc/weekend-w-toruniu-58
+ 6
+URL:https://torun.pl/pl/aktualnosc/weekend-w-toruniu-586
+END:VEVENT
+BEGIN:VEVENT
+UID:e94-20261123@kultura-torun-demo
+DTSTAMP:20261126T151807Z
+DTSTART;TZID=Europe/Warsaw:20261123T180000
+DTEND;TZID=Europe/Warsaw:20261123T200000
+SUMMARY:Salonik Gamingowy w Kulturalnym hubie
+LOCATION:Kulturalny hub Bydgoskiego Przedmieścia\, ul. Bydgoska 50\, Toru
+ ń
+DESCRIPTION:Źródło: https://www.tak.torun.pl/hub/harmonogram/
+URL:https://www.tak.torun.pl/hub/harmonogram/
+END:VEVENT
+BEGIN:VEVENT
+UID:e125-20261123@kultura-torun-demo
+DTSTAMP:20261126T151807Z
+DTSTART;VALUE=DATE:20261123
+DTEND;VALUE=DATE:20261124
+SUMMARY:Dlaczego w trawie piszczy — o życiu Simony Kossak
+LOCATION:Ośrodek Czytelnictwa Chorych i Niepełnosprawnych\, Toruń
+DESCRIPTION:Godzina wg organizatora. Źródło: https://ksiaznica.torun.pl
+ /
+URL:https://ksiaznica.torun.pl/
+END:VEVENT
+BEGIN:VEVENT
+UID:e96-20261124@kultura-torun-demo
+DTSTAMP:20261126T151807Z
+DTSTART;TZID=Europe/Warsaw:20261124T113000
+DTEND;TZID=Europe/Warsaw:20261124T133000
+SUMMARY:Wtorek dla seniora
+LOCATION:Kulturalny hub Bydgoskiego Przedmieścia\, ul. Bydgoska 50\, Toru
+ ń
+DESCRIPTION:Źródło: https://www.tak.torun.pl/hub/harmonogram/
+URL:https://www.tak.torun.pl/hub/harmonogram/
+END:VEVENT
+BEGIN:VEVENT
+UID:e101-20261126@kultura-torun-demo
+DTSTAMP:20261126T151807Z
+DTSTART;TZID=Europe/Warsaw:20261126T160000
+DTEND;TZID=Europe/Warsaw:20261126T190000
+SUMMARY:Kurs Brydża
+LOCATION:Kulturalny hub Bydgoskiego Przedmieścia\, ul. Bydgoska 50\, Toru
+ ń
+DESCRIPTION:Wstęp wolny. Źródło: https://www.tak.torun.pl/hub/harmonog
+ ram/
+URL:https://www.tak.torun.pl/hub/harmonogram/
+END:VEVENT
+BEGIN:VEVENT
+UID:e159-20261126@kultura-torun-demo
+DTSTAMP:20261126T151807Z
+DTSTART;TZID=Europe/Warsaw:20261126T180000
+DTEND;TZID=Europe/Warsaw:20261126T193000
+SUMMARY:Samotność w Galaktyce — spotkanie z prof. Gracjanem Maciejewsk
+ im
+LOCATION:Książnica Kopernikańska\, ul. Słowackiego 8\, Toruń
+DESCRIPTION:wstęp wolny. Źródło: https://wydarzeniatorun.pl/
+URL:https://wydarzeniatorun.pl/
+END:VEVENT
+BEGIN:VEVENT
+UID:e128-20261126@kultura-torun-demo
+DTSTAMP:20261126T151807Z
+DTSTART;TZID=Europe/Warsaw:20261126T183000
+DTEND;TZID=Europe/Warsaw:20261126T200000
+SUMMARY:Spotkanie z Maciejem Płazą
+LOCATION:Książnica Kopernikańska\, ul. Słowackiego 8\, Toruń
+DESCRIPTION:Źródło: https://ksiaznica.torun.pl/
+URL:https://ksiaznica.torun.pl/
+END:VEVENT
+BEGIN:VEVENT
+UID:e130-20261127@kultura-torun-demo
+DTSTAMP:20261126T151807Z
+DTSTART;TZID=Europe/Warsaw:20261127T170000
+DTEND;TZID=Europe/Warsaw:20261127T183000
+SUMMARY:Spotkanie z Tomaszem Jastrunem
+LOCATION:Książnica Kopernikańska\, ul. Słowackiego 8\, Toruń
+DESCRIPTION:Źródło: https://ksiaznica.torun.pl/
+URL:https://ksiaznica.torun.pl/
+END:VEVENT
+BEGIN:VEVENT
+UID:e129-20261127@kultura-torun-demo
+DTSTAMP:20261126T151807Z
+DTSTART;TZID=Europe/Warsaw:20261127T173000
+DTEND;TZID=Europe/Warsaw:20261127T190000
+SUMMARY:Spotkanie z Bartkiem Kieżunem
+LOCATION:Książnica Kopernikańska\, ul. Słowackiego 8\, Toruń
+DESCRIPTION:Źródło: https://ksiaznica.torun.pl/
+URL:https://ksiaznica.torun.pl/
+END:VEVENT
+BEGIN:VEVENT
+UID:e145-20261127@kultura-torun-demo
+DTSTAMP:20261126T151807Z
+DTSTART;TZID=Europe/Warsaw:20261127T180000
+DTEND;TZID=Europe/Warsaw:20261127T193000
+SUMMARY:Na drogach duszy. Dźwiękowa podróż ze Stanisławem Przybyszews
+ kim — premiera słuchowiska
+LOCATION:CSW „Znaki Czasu”\, Wały gen. Sikorskiego 13\, Toruń
+DESCRIPTION:wstęp wolny. Źródło: https://csw.torun.pl/literatura/na-dr
+ ogach-duszy-dzwiekowa-podroz-ze-stanislawem-przybyszewskim/
+URL:https://csw.torun.pl/literatura/na-drogach-duszy-dzwiekowa-podroz-ze-s
+ tanislawem-przybyszewskim/
+END:VEVENT
+BEGIN:VEVENT
+UID:e160-20261127@kultura-torun-demo
+DTSTAMP:20261126T151807Z
+DTSTART;TZID=Europe/Warsaw:20261127T190000
+DTEND;TZID=Europe/Warsaw:20261127T203000
+SUMMARY:Dom\, w którym mieszkasz — spotkanie z Justyną Król-Filipiak
+LOCATION:Książnica Kopernikańska\, ul. Słowackiego 8\, Toruń
+DESCRIPTION:wstęp wolny. Źródło: https://wydarzeniatorun.pl/
+URL:https://wydarzeniatorun.pl/
+END:VEVENT
+BEGIN:VEVENT
+UID:e161-20261128@kultura-torun-demo
+DTSTAMP:20261126T151807Z
+DTSTART;TZID=Europe/Warsaw:20261128T140000
+DTEND;TZID=Europe/Warsaw:20261128T153000
+SUMMARY:Luźne rozmowy (nie tylko) o sporcie
+LOCATION:Książnica Kopernikańska\, ul. Słowackiego 8\, Toruń
+DESCRIPTION:Źródło: https://wydarzeniatorun.pl/
+URL:https://wydarzeniatorun.pl/
+END:VEVENT
+BEGIN:VEVENT
+UID:e147-20261128@kultura-torun-demo
+DTSTAMP:20261126T151807Z
+DTSTART;TZID=Europe/Warsaw:20261128T160000
+DTEND;TZID=Europe/Warsaw:20261128T173000
+SUMMARY:Toruński Festiwal Książki: spotkanie z Sylwią Zientek („Mela
+  Muter. Wierna sobie”)
+LOCATION:CSW „Znaki Czasu”\, Wały gen. Sikorskiego 13\, Toruń
+DESCRIPTION:wstęp wolny. Źródło: https://csw.torun.pl/literatura/torun
+ ski-festiwal-ksiazki-spotkania-w-csw/
+URL:https://csw.torun.pl/literatura/torunski-festiwal-ksiazki-spotkania-w-
+ csw/
+END:VEVENT
+BEGIN:VEVENT
+UID:e131-20261128@kultura-torun-demo
+DTSTAMP:20261126T151807Z
+DTSTART;TZID=Europe/Warsaw:20261128T190000
+DTEND;TZID=Europe/Warsaw:20261128T203000
+SUMMARY:Spotkanie z Barbarą Wysoczańską
+LOCATION:Książnica Kopernikańska\, ul. Słowackiego 8\, Toruń
+DESCRIPTION:Źródło: https://ksiaznica.torun.pl/
+URL:https://ksiaznica.torun.pl/
+END:VEVENT
+BEGIN:VEVENT
+UID:e132-20261129@kultura-torun-demo
+DTSTAMP:20261126T151807Z
+DTSTART;TZID=Europe/Warsaw:20261129T150000
+DTEND;TZID=Europe/Warsaw:20261129T163000
+SUMMARY:Spotkanie z Mikołajem Grynbergiem
+LOCATION:Książnica Kopernikańska\, ul. Słowackiego 8\, Toruń
+DESCRIPTION:Źródło: https://ksiaznica.torun.pl/
+URL:https://ksiaznica.torun.pl/
+END:VEVENT
+BEGIN:VEVENT
+UID:e133-20261129@kultura-torun-demo
+DTSTAMP:20261126T151807Z
+DTSTART;TZID=Europe/Warsaw:20261129T170000
+DTEND;TZID=Europe/Warsaw:20261129T183000
+SUMMARY:Spotkanie z Antoniną Tosiek
+LOCATION:Książnica Kopernikańska\, ul. Słowackiego 8\, Toruń
+DESCRIPTION:Źródło: https://ksiaznica.torun.pl/
+URL:https://ksiaznica.torun.pl/
+END:VEVENT
+BEGIN:VEVENT
+UID:e104-20261130@kultura-torun-demo
+DTSTAMP:20261126T151807Z
+DTSTART;TZID=Europe/Warsaw:20261130T180000
+DTEND;TZID=Europe/Warsaw:20261130T200000
+SUMMARY:Salonik Gamingowy w Kulturalnym hubie
+LOCATION:Kulturalny hub Bydgoskiego Przedmieścia\, ul. Bydgoska 50\, Toru
+ ń
+DESCRIPTION:Źródło: https://www.tak.torun.pl/hub/harmonogram/
+URL:https://www.tak.torun.pl/hub/harmonogram/
+END:VEVENT
+BEGIN:VEVENT
+UID:e106-20261201@kultura-torun-demo
+DTSTAMP:20261126T151807Z
+DTSTART;TZID=Europe/Warsaw:20261201T113000
+DTEND;TZID=Europe/Warsaw:20261201T133000
+SUMMARY:Wtorek dla seniora
+LOCATION:Kulturalny hub Bydgoskiego Przedmieścia\, ul. Bydgoska 50\, Toru
+ ń
+DESCRIPTION:Źródło: https://www.tak.torun.pl/hub/harmonogram/
+URL:https://www.tak.torun.pl/hub/harmonogram/
+END:VEVENT
+BEGIN:VEVENT
+UID:e150-20261201@kultura-torun-demo
+DTSTAMP:20261126T151807Z
+DTSTART;TZID=Europe/Warsaw:20261201T180000
+DTEND;TZID=Europe/Warsaw:20261201T193000
+SUMMARY:Do Dzieła: Suzanne Treister — „Różówka”
+LOCATION:CSW „Znaki Czasu”\, Wały gen. Sikorskiego 13\, Toruń
+DESCRIPTION:Źródło: https://wydarzeniatorun.pl/
+URL:https://wydarzeniatorun.pl/
+END:VEVENT
+BEGIN:VEVENT
+UID:e162-20261201@kultura-torun-demo
+DTSTAMP:20261126T151807Z
+DTSTART;TZID=Europe/Warsaw:20261201T180000
+DTEND;TZID=Europe/Warsaw:20261201T193000
+SUMMARY:Felieton jako sztuka patrzenia na świat z dystansem — spotkanie
+  z Agatą Passent
+LOCATION:Książnica Kopernikańska\, ul. Słowackiego 8\, Toruń
+DESCRIPTION:wstęp wolny. Źródło: https://wydarzeniatorun.pl/
+URL:https://wydarzeniatorun.pl/
+END:VEVENT
+BEGIN:VEVENT
+UID:e163-20261202@kultura-torun-demo
+DTSTAMP:20261126T151807Z
+DTSTART;TZID=Europe/Warsaw:20261202T180000
+DTEND;TZID=Europe/Warsaw:20261202T193000
+SUMMARY:Cierpliwe Genowefy\, bezwstydne Magdaleny — spotkanie z Anną Br
+ zezińską
+LOCATION:Książnica Kopernikańska\, ul. Słowackiego 8\, Toruń
+DESCRIPTION:wstęp wolny. Źródło: https://wydarzeniatorun.pl/
+URL:https://wydarzeniatorun.pl/
+END:VEVENT
+BEGIN:VEVENT
+UID:e110-20261203@kultura-torun-demo
+DTSTAMP:20261126T151807Z
+DTSTART;TZID=Europe/Warsaw:20261203T160000
+DTEND;TZID=Europe/Warsaw:20261203T190000
+SUMMARY:Kurs Brydża
+LOCATION:Kulturalny hub Bydgoskiego Przedmieścia\, ul. Bydgoska 50\, Toru
+ ń
+DESCRIPTION:Wstęp wolny. Źródło: https://www.tak.torun.pl/hub/harmonog
+ ram/
+URL:https://www.tak.torun.pl/hub/harmonogram/
+END:VEVENT
+BEGIN:VEVENT
+UID:e154-20261203@kultura-torun-demo
+DTSTAMP:20261126T151807Z
+DTSTART;TZID=Europe/Warsaw:20261203T180000
+DTEND;TZID=Europe/Warsaw:20261203T193000
+SUMMARY:Czym uwodzi dizajn — spotkanie z Małgorzatą Czyńską
+LOCATION:CSW „Znaki Czasu”\, Wały gen. Sikorskiego 13\, Toruń
+DESCRIPTION:wstęp wolny. Źródło: https://csw.torun.pl/literatura/czym-
+ uwodzi-dizajn-spotkanie-z-malgorzata-czynska/
+URL:https://csw.torun.pl/literatura/czym-uwodzi-dizajn-spotkanie-z-malgorz
+ ata-czynska/
+END:VEVENT
+BEGIN:VEVENT
+UID:e164-20261203@kultura-torun-demo
+DTSTAMP:20261126T151807Z
+DTSTART;VALUE=DATE:20261203
+DTEND;VALUE=DATE:20261204
+SUMMARY:Toruński Klub Poetów — spotkanie otwarte
+LOCATION:Książnica Kopernikańska\, ul. Słowackiego 8\, Toruń
+DESCRIPTION:wstęp wolny. Godzina wg organizatora. Źródło: https://gra.
+ fm/grudzien-pelen-atrakcji-w-ksiaznicy-kopernikanskiej-sprawdz-program-wy
+ darzen.html
+URL:https://gra.fm/grudzien-pelen-atrakcji-w-ksiaznicy-kopernikanskiej-spr
+ awdz-program-wydarzen.html
+END:VEVENT
+BEGIN:VEVENT
+UID:e165-20261203@kultura-torun-demo
+DTSTAMP:20261126T151807Z
+DTSTART;VALUE=DATE:20261203
+DTEND;VALUE=DATE:20261204
+SUMMARY:Wieczór Toruński: prof. Bartosz Awianowicz o najstarszym toruńs
+ kim czasopiśmie naukowym
+LOCATION:Książnica Kopernikańska\, ul. Słowackiego 8\, Toruń
+DESCRIPTION:wstęp wolny. Godzina wg organizatora. Źródło: https://gra.
+ fm/grudzien-pelen-atrakcji-w-ksiaznicy-kopernikanskiej-sprawdz-program-wy
+ darzen.html
+URL:https://gra.fm/grudzien-pelen-atrakcji-w-ksiaznicy-kopernikanskiej-spr
+ awdz-program-wydarzen.html
+END:VEVENT
+BEGIN:VEVENT
+UID:e166-20261204@kultura-torun-demo
+DTSTAMP:20261126T151807Z
+DTSTART;VALUE=DATE:20261204
+DTEND;VALUE=DATE:20261205
+SUMMARY:Debata „Od Kopernika do TikToka — jak popularyzować naukę w 
+ XXI wieku?”
+LOCATION:Książnica Kopernikańska\, ul. Słowackiego 8\, Toruń
+DESCRIPTION:wstęp wolny. Godzina wg organizatora. Źródło: https://gra.
+ fm/grudzien-pelen-atrakcji-w-ksiaznicy-kopernikanskiej-sprawdz-program-wy
+ darzen.html
+URL:https://gra.fm/grudzien-pelen-atrakcji-w-ksiaznicy-kopernikanskiej-spr
+ awdz-program-wydarzen.html
+END:VEVENT
+BEGIN:VEVENT
+UID:e167-20261205@kultura-torun-demo
+DTSTAMP:20261126T151807Z
+DTSTART;VALUE=DATE:20261205
+DTEND;VALUE=DATE:20261206
+SUMMARY:Mikograjki — gry planszowe i spotkanie ze świętym Mikołajem
+LOCATION:Książnica Kopernikańska\, ul. Słowackiego 8\, Toruń
+DESCRIPTION:wstęp wolny. Godzina wg organizatora. Źródło: https://gra.
+ fm/grudzien-pelen-atrakcji-w-ksiaznicy-kopernikanskiej-sprawdz-program-wy
+ darzen.html
+URL:https://gra.fm/grudzien-pelen-atrakcji-w-ksiaznicy-kopernikanskiej-spr
+ awdz-program-wydarzen.html
+END:VEVENT
+BEGIN:VEVENT
+UID:e168-20261206@kultura-torun-demo
+DTSTAMP:20261126T151807Z
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261207
+SUMMARY:Spotkanie z Agnieszką Lis („Marcepanowa miłość”) i seans 
+ „Piernikowe serce”
+LOCATION:Książnica Kopernikańska\, ul. Słowackiego 8\, Toruń
+DESCRIPTION:wstęp wolny. Godzina wg organizatora. Źródło: https://gra.
+ fm/grudzien-pelen-atrakcji-w-ksiaznicy-kopernikanskiej-sprawdz-program-wy
+ darzen.html
+URL:https://gra.fm/grudzien-pelen-atrakcji-w-ksiaznicy-kopernikanskiej-spr
+ awdz-program-wydarzen.html
+END:VEVENT
+BEGIN:VEVENT
+UID:e169-20261207@kultura-torun-demo
+DTSTAMP:20261126T151807Z
+DTSTART;VALUE=DATE:20261207
+DTEND;VALUE=DATE:20261208
+SUMMARY:Spotkanie z Agnieszką Dulębą-Kaszą — debiut powieściowy
+LOCATION:Książnica Kopernikańska\, ul. Słowackiego 8\, Toruń
+DESCRIPTION:wstęp wolny. Godzina wg organizatora. Źródło: https://gra.
+ fm/grudzien-pelen-atrakcji-w-ksiaznicy-kopernikanskiej-sprawdz-program-wy
+ darzen.html
+URL:https://gra.fm/grudzien-pelen-atrakcji-w-ksiaznicy-kopernikanskiej-spr
+ awdz-program-wydarzen.html
+END:VEVENT
+BEGIN:VEVENT
+UID:e170-20261208@kultura-torun-demo
+DTSTAMP:20261126T151807Z
+DTSTART;VALUE=DATE:20261208
+DTEND;VALUE=DATE:20261209
+SUMMARY:Wykład Grzegorza Szychlińskiego o gdańskim zegarze astronomiczn
+ ym
+LOCATION:Książnica Kopernikańska\, ul. Słowackiego 8\, Toruń
+DESCRIPTION:wstęp wolny. Godzina wg organizatora. Źródło: https://gra.
+ fm/grudzien-pelen-atrakcji-w-ksiaznicy-kopernikanskiej-sprawdz-program-wy
+ darzen.html
+URL:https://gra.fm/grudzien-pelen-atrakcji-w-ksiaznicy-kopernikanskiej-spr
+ awdz-program-wydarzen.html
+END:VEVENT
+BEGIN:VEVENT
+UID:e117-20261210@kultura-torun-demo
+DTSTAMP:20261126T151807Z
+DTSTART;TZID=Europe/Warsaw:20261210T160000
+DTEND;TZID=Europe/Warsaw:20261210T190000
+SUMMARY:Kurs Brydża
+LOCATION:Kulturalny hub Bydgoskiego Przedmieścia\, ul. Bydgoska 50\, Toru
+ ń
+DESCRIPTION:Wstęp wolny. Źródło: https://www.tak.torun.pl/hub/harmonog
+ ram/
+URL:https://www.tak.torun.pl/hub/harmonogram/
+END:VEVENT
+BEGIN:VEVENT
+UID:e84-20261210@kultura-torun-demo
+DTSTAMP:20261126T151807Z
+DTSTART;TZID=Europe/Warsaw:20261210T183000
+DTEND;TZID=Europe/Warsaw:20261210T200000
+SUMMARY:Czwartek z filozofią — Kierkegaard: mój geniusz jest moją mod
+ litwą. Rzecz o intymności ducha
+LOCATION:Dwór Artusa\, Rynek Staromiejski 6\, Toruń
+DESCRIPTION:Źródło: https://artus.torun.pl/wydarzenia/
+URL:https://artus.torun.pl/wydarzenia/
+END:VEVENT
+BEGIN:VEVENT
+UID:e171-20261210@kultura-torun-demo
+DTSTAMP:20261126T151807Z
+DTSTART;VALUE=DATE:20261210
+DTEND;VALUE=DATE:20261211
+SUMMARY:Spotkanie z Dariuszem Gizakiem — autorem serii kryminalnej
+LOCATION:Książnica Kopernikańska\, ul. Słowackiego 8\, Toruń
+DESCRIPTION:wstęp wolny. Godzina wg organizatora. Źródło: https://gra.
+ fm/grudzien-pelen-atrakcji-w-ksiaznicy-kopernikanskiej-sprawdz-program-wy
+ darzen.html
+URL:https://gra.fm/grudzien-pelen-atrakcji-w-ksiaznicy-kopernikanskiej-spr
+ awdz-program-wydarzen.html
+END:VEVENT
+BEGIN:VEVENT
+UID:e173-20261215@kultura-torun-demo
+DTSTAMP:20261126T151807Z
+DTSTART;VALUE=DATE:20261215
+DTEND;VALUE=DATE:20261216
+SUMMARY:Premiera książki Katarzyny Kluczwajd „Toruński Łuk Cezara i 
+ centralny plac nowoczesnego miasta”
+LOCATION:Książnica Kopernikańska\, ul. Słowackiego 8\, Toruń
+DESCRIPTION:wstęp wolny. Godzina wg organizatora. Źródło: https://gra.
+ fm/grudzien-pelen-atrakcji-w-ksiaznicy-kopernikanskiej-sprawdz-program-wy
+ darzen.html
+URL:https://gra.fm/grudzien-pelen-atrakcji-w-ksiaznicy-kopernikanskiej-spr
+ awdz-program-wydarzen.html
+END:VEVENT
+BEGIN:VEVENT
+UID:e123-20261217@kultura-torun-demo
+DTSTAMP:20261126T151807Z
+DTSTART;TZID=Europe/Warsaw:20261217T160000
+DTEND;TZID=Europe/Warsaw:20261217T190000
+SUMMARY:Kurs Brydża
+LOCATION:Kulturalny hub Bydgoskiego Przedmieścia\, ul. Bydgoska 50\, Toru
+ ń
+DESCRIPTION:Wstęp wolny. Źródło: https://www.tak.torun.pl/hub/harmonog
+ ram/
+URL:https://www.tak.torun.pl/hub/harmonogram/
+END:VEVENT
+END:VCALENDAR

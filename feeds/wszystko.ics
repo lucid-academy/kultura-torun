@@ -1,0 +1,1877 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lucid Academy//Kultura w Toruniu (demo)//PL
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Kultura w Toruniu — cały program
+X-WR-TIMEZONE:Europe/Warsaw
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+BEGIN:VTIMEZONE
+TZID:Europe/Warsaw
+BEGIN:STANDARD
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:e10-20261122@kultura-torun-demo
+DTSTAMP:20261126T151807Z
+DTSTART;TZID=Europe/Warsaw:20261122T120000
+DTEND;TZID=Europe/Warsaw:20261122T140000
+SUMMARY:RegeneracJA jesienna na wystawie „Tajemnice codzienności…” 
+ — spotkanie dla kobiet 16+
+LOCATION:Muzeum Etnograficzne\, Wały gen. Sikorskiego 19\, Toruń
+DESCRIPTION:Źródło: https://torun.pl/pl/aktualnosc/weekend-w-toruniu-58
+ 6
+URL:https://torun.pl/pl/aktualnosc/weekend-w-toruniu-586
+END:VEVENT
+BEGIN:VEVENT
+UID:e6-20261122@kultura-torun-demo
+DTSTAMP:20261126T151807Z
+DTSTART;TZID=Europe/Warsaw:20261122T150000
+DTEND;TZID=Europe/Warsaw:20261122T170000
+SUMMARY:Erotic-Zdrój\, czyli sanatorium nie wybacza
+LOCATION:CKK Jordanki\, al. Solidarności 1-3\, Toruń
+DESCRIPTION:bilety od 80 zł. Źródło: https://torun.pl/pl/teatr
+URL:https://torun.pl/pl/teatr
+END:VEVENT
+BEGIN:VEVENT
+UID:e8-20261122@kultura-torun-demo
+DTSTAMP:20261126T151807Z
+DTSTART;TZID=Europe/Warsaw:20261122T150000
+DTEND;TZID=Europe/Warsaw:20261122T160000
+SUMMARY:Tup tup idzie noc — koncert dla dzieci i rodziców
+LOCATION:CKK Jordanki\, al. Solidarności 1-3\, Toruń
+DESCRIPTION:Źródło: https://torun.pl/pl/aktualnosc/weekend-w-toruniu-58
+ 6
+URL:https://torun.pl/pl/aktualnosc/weekend-w-toruniu-586
+END:VEVENT
+BEGIN:VEVENT
+UID:e9-20261122@kultura-torun-demo
+DTSTAMP:20261126T151807Z
+DTSTART;TZID=Europe/Warsaw:20261122T163000
+DTEND;TZID=Europe/Warsaw:20261122T173000
+SUMMARY:Tup tup idzie noc — koncert dla dzieci i rodziców
+LOCATION:CKK Jordanki\, al. Solidarności 1-3\, Toruń
+DESCRIPTION:Źródło: https://torun.pl/pl/aktualnosc/weekend-w-toruniu-58
+ 6
+URL:https://torun.pl/pl/aktualnosc/weekend-w-toruniu-586
+END:VEVENT
+BEGIN:VEVENT
+UID:e4-20261122@kultura-torun-demo
+DTSTAMP:20261126T151807Z
+DTSTART;TZID=Europe/Warsaw:20261122T170000
+DTEND;TZID=Europe/Warsaw:20261122T190000
+SUMMARY:7 samotności
+LOCATION:Teatr im. Wilama Horzycy\, pl. Teatralny 1\, Toruń
+DESCRIPTION:Źródło: https://horzyca.pl/en/repertoire/
+URL:https://horzyca.pl/en/repertoire/
+END:VEVENT
+BEGIN:VEVENT
+UID:e5-20261122@kultura-torun-demo
+DTSTAMP:20261126T151807Z
+DTSTART;TZID=Europe/Warsaw:20261122T180000
+DTEND;TZID=Europe/Warsaw:20261122T200000
+SUMMARY:Klątwa
+LOCATION:Teatr im. Wilama Horzycy\, pl. Teatralny 1\, Toruń
+DESCRIPTION:Źródło: https://horzyca.pl/en/repertoire/
+URL:https://horzyca.pl/en/repertoire/
+END:VEVENT
+BEGIN:VEVENT
+UID:e7-20261122@kultura-torun-demo
+DTSTAMP:20261126T151807Z
+DTSTART;TZID=Europe/Warsaw:20261122T181500
+DTEND;TZID=Europe/Warsaw:20261122T201500
+SUMMARY:Erotic-Zdrój\, czyli sanatorium nie wybacza
+LOCATION:CKK Jordanki\, al. Solidarności 1-3\, Toruń
+DESCRIPTION:bilety od 80 zł. Źródło: https://torun.pl/pl/teatr
+URL:https://torun.pl/pl/teatr
+END:VEVENT
+BEGIN:VEVENT
+UID:e82-20261123@kultura-torun-demo
+DTSTAMP:20261126T151807Z
+DTSTART;TZID=Europe/Warsaw:20261123T180000
+DTEND;TZID=Europe/Warsaw:20261123T190000
+SUMMARY:Mam na imię Hybryda. O książkach nowych i najnowszych — werni
+ saż wystawy ilustracji i spotkanie z Iwoną Chmielewską
+LOCATION:Dwór Artusa\, Rynek Staromiejski 6\, Toruń
+DESCRIPTION:Źródło: https://artus.torun.pl/wydarzenia/
+URL:https://artus.torun.pl/wydarzenia/
+END:VEVENT
+BEGIN:VEVENT
+UID:e94-20261123@kultura-torun-demo
+DTSTAMP:20261126T151807Z
+DTSTART;TZID=Europe/Warsaw:20261123T180000
+DTEND;TZID=Europe/Warsaw:20261123T200000
+SUMMARY:Salonik Gamingowy w Kulturalnym hubie
+LOCATION:Kulturalny hub Bydgoskiego Przedmieścia\, ul. Bydgoska 50\, Toru
+ ń
+DESCRIPTION:Źródło: https://www.tak.torun.pl/hub/harmonogram/
+URL:https://www.tak.torun.pl/hub/harmonogram/
+END:VEVENT
+BEGIN:VEVENT
+UID:e95-20261123@kultura-torun-demo
+DTSTAMP:20261126T151807Z
+DTSTART;TZID=Europe/Warsaw:20261123T180000
+DTEND;TZID=Europe/Warsaw:20261123T190000
+SUMMARY:Cykliczne warsztaty wokalne
+LOCATION:Kulturalny hub Bydgoskiego Przedmieścia\, ul. Bydgoska 50\, Toru
+ ń
+DESCRIPTION:Wstęp wolny. Źródło: https://www.tak.torun.pl/hub/harmonog
+ ram/
+URL:https://www.tak.torun.pl/hub/harmonogram/
+END:VEVENT
+BEGIN:VEVENT
+UID:e125-20261123@kultura-torun-demo
+DTSTAMP:20261126T151807Z
+DTSTART;VALUE=DATE:20261123
+DTEND;VALUE=DATE:20261124
+SUMMARY:Dlaczego w trawie piszczy — o życiu Simony Kossak
+LOCATION:Ośrodek Czytelnictwa Chorych i Niepełnosprawnych\, Toruń
+DESCRIPTION:Godzina wg organizatora. Źródło: https://ksiaznica.torun.pl
+ /
+URL:https://ksiaznica.torun.pl/
+END:VEVENT
+BEGIN:VEVENT
+UID:e126-20261123@kultura-torun-demo
+DTSTAMP:20261126T151807Z
+DTSTART;VALUE=DATE:20261123
+DTEND;VALUE=DATE:20261124
+SUMMARY:Jesień z papierowych talerzyków — zajęcia plastyczne
+LOCATION:Biblioteka Lelewela\, ul. Lelewela 3\, Toruń
+DESCRIPTION:Godzina wg organizatora. Źródło: https://ksiaznica.torun.pl
+ /
+URL:https://ksiaznica.torun.pl/
+END:VEVENT
+BEGIN:VEVENT
+UID:e87-20261124@kultura-torun-demo
+DTSTAMP:20261126T151807Z
+DTSTART;TZID=Europe/Warsaw:20261124T100000
+DTEND;TZID=Europe/Warsaw:20261124T110000
+SUMMARY:Puszek
+LOCATION:Teatr Baj Pomorski\, ul. Piernikarska 9\, Toruń
+DESCRIPTION:Brak wolnych miejsc w dniu zbierania danych. Źródło: https:
+ //bajpomorski.pl/repertuar/
+URL:https://bajpomorski.pl/repertuar/
+END:VEVENT
+BEGIN:VEVENT
+UID:e96-20261124@kultura-torun-demo
+DTSTAMP:20261126T151807Z
+DTSTART;TZID=Europe/Warsaw:20261124T113000
+DTEND;TZID=Europe/Warsaw:20261124T133000
+SUMMARY:Wtorek dla seniora
+LOCATION:Kulturalny hub Bydgoskiego Przedmieścia\, ul. Bydgoska 50\, Toru
+ ń
+DESCRIPTION:Źródło: https://www.tak.torun.pl/hub/harmonogram/
+URL:https://www.tak.torun.pl/hub/harmonogram/
+END:VEVENT
+BEGIN:VEVENT
+UID:e97-20261124@kultura-torun-demo
+DTSTAMP:20261126T151807Z
+DTSTART;TZID=Europe/Warsaw:20261124T170000
+DTEND;TZID=Europe/Warsaw:20261124T190000
+SUMMARY:Warsztaty fotograficzne dla dorosłych
+LOCATION:Kulturalny hub Bydgoskiego Przedmieścia\, ul. Bydgoska 50\, Toru
+ ń
+DESCRIPTION:Źródło: https://www.tak.torun.pl/hub/harmonogram/
+URL:https://www.tak.torun.pl/hub/harmonogram/
+END:VEVENT
+BEGIN:VEVENT
+UID:e98-20261124@kultura-torun-demo
+DTSTAMP:20261126T151807Z
+DTSTART;TZID=Europe/Warsaw:20261124T180000
+DTEND;TZID=Europe/Warsaw:20261124T200000
+SUMMARY:Warsztaty literackie dla dorosłych
+LOCATION:Kulturalny hub Bydgoskiego Przedmieścia\, ul. Bydgoska 50\, Toru
+ ń
+DESCRIPTION:Wstęp wolny. Źródło: https://www.tak.torun.pl/hub/harmonog
+ ram/
+URL:https://www.tak.torun.pl/hub/harmonogram/
+END:VEVENT
+BEGIN:VEVENT
+UID:e127-20261124@kultura-torun-demo
+DTSTAMP:20261126T151807Z
+DTSTART;VALUE=DATE:20261124
+DTEND;VALUE=DATE:20261125
+SUMMARY:Dzień Pluszowego Misia — zajęcia plastyczne
+LOCATION:Biblioteka Stare Miasto\, ul. Jęczmienna 23\, Toruń
+DESCRIPTION:Godzina wg organizatora. Źródło: https://ksiaznica.torun.pl
+ /
+URL:https://ksiaznica.torun.pl/
+END:VEVENT
+BEGIN:VEVENT
+UID:e88-20261125@kultura-torun-demo
+DTSTAMP:20261126T151807Z
+DTSTART;TZID=Europe/Warsaw:20261125T100000
+DTEND;TZID=Europe/Warsaw:20261125T110000
+SUMMARY:Puszek
+LOCATION:Teatr Baj Pomorski\, ul. Piernikarska 9\, Toruń
+DESCRIPTION:Brak wolnych miejsc w dniu zbierania danych. Źródło: https:
+ //bajpomorski.pl/repertuar/
+URL:https://bajpomorski.pl/repertuar/
+END:VEVENT
+BEGIN:VEVENT
+UID:e99-20261125@kultura-torun-demo
+DTSTAMP:20261126T151807Z
+DTSTART;TZID=Europe/Warsaw:20261125T170000
+DTEND;TZID=Europe/Warsaw:20261125T190000
+SUMMARY:Krąg Kobiet — Taniec Dakini
+LOCATION:Kulturalny hub Bydgoskiego Przedmieścia\, ul. Bydgoska 50\, Toru
+ ń
+DESCRIPTION:Źródło: https://www.tak.torun.pl/hub/harmonogram/
+URL:https://www.tak.torun.pl/hub/harmonogram/
+END:VEVENT
+BEGIN:VEVENT
+UID:e89-20261126@kultura-torun-demo
+DTSTAMP:20261126T151807Z
+DTSTART;TZID=Europe/Warsaw:20261126T100000
+DTEND;TZID=Europe/Warsaw:20261126T110000
+SUMMARY:Puszek
+LOCATION:Teatr Baj Pomorski\, ul. Piernikarska 9\, Toruń
+DESCRIPTION:Brak wolnych miejsc w dniu zbierania danych. Źródło: https:
+ //bajpomorski.pl/repertuar/
+URL:https://bajpomorski.pl/repertuar/
+END:VEVENT
+BEGIN:VEVENT
+UID:e100-20261126@kultura-torun-demo
+DTSTAMP:20261126T151807Z
+DTSTART;TZID=Europe/Warsaw:20261126T150000
+DTEND;TZID=Europe/Warsaw:20261126T170000
+SUMMARY:Warsztaty muzyczne — Syntezatorownia w hubie
+LOCATION:Kulturalny hub Bydgoskiego Przedmieścia\, ul. Bydgoska 50\, Toru
+ ń
+DESCRIPTION:Źródło: https://www.tak.torun.pl/hub/harmonogram/
+URL:https://www.tak.torun.pl/hub/harmonogram/
+END:VEVENT
+BEGIN:VEVENT
+UID:e101-20261126@kultura-torun-demo
+DTSTAMP:20261126T151807Z
+DTSTART;TZID=Europe/Warsaw:20261126T160000
+DTEND;TZID=Europe/Warsaw:20261126T190000
+SUMMARY:Kurs Brydża
+LOCATION:Kulturalny hub Bydgoskiego Przedmieścia\, ul. Bydgoska 50\, Toru
+ ń
+DESCRIPTION:Wstęp wolny. Źródło: https://www.tak.torun.pl/hub/harmonog
+ ram/
+URL:https://www.tak.torun.pl/hub/harmonogram/
+END:VEVENT
+BEGIN:VEVENT
+UID:e144-20261126@kultura-torun-demo
+DTSTAMP:20261126T151807Z
+DTSTART;TZID=Europe/Warsaw:20261126T160000
+DTEND;TZID=Europe/Warsaw:20261126T171500
+SUMMARY:Zmysłoteka — warsztaty dla dzieci 3–6 lat z opiekunami
+LOCATION:CSW „Znaki Czasu”\, Wały gen. Sikorskiego 13\, Toruń
+DESCRIPTION:50 zł (dziecko z opiekunem)\, kolejne dziecko 30 zł. Źród
+ ło: https://csw.torun.pl/edukacja/zmysloteka-w-listopadzie-2026/
+URL:https://csw.torun.pl/edukacja/zmysloteka-w-listopadzie-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:e11-20261126@kultura-torun-demo
+DTSTAMP:20261126T151807Z
+DTSTART;TZID=Europe/Warsaw:20261126T180000
+DTEND;TZID=Europe/Warsaw:20261126T200000
+SUMMARY:Noce i dnie
+LOCATION:Teatr im. Wilama Horzycy\, pl. Teatralny 1\, Toruń
+DESCRIPTION:Brak wolnych miejsc w dniu zbierania danych. Źródło: https:
+ //horzyca.pl/en/repertoire/
+URL:https://horzyca.pl/en/repertoire/
+END:VEVENT
+BEGIN:VEVENT
+UID:e102-20261126@kultura-torun-demo
+DTSTAMP:20261126T151807Z
+DTSTART;TZID=Europe/Warsaw:20261126T180000
+DTEND;TZID=Europe/Warsaw:20261126T200000
+SUMMARY:Warsztaty Teatralne
+LOCATION:Kulturalny hub Bydgoskiego Przedmieścia\, ul. Bydgoska 50\, Toru
+ ń
+DESCRIPTION:Źródło: https://www.tak.torun.pl/hub/harmonogram/
+URL:https://www.tak.torun.pl/hub/harmonogram/
+END:VEVENT
+BEGIN:VEVENT
+UID:e159-20261126@kultura-torun-demo
+DTSTAMP:20261126T151807Z
+DTSTART;TZID=Europe/Warsaw:20261126T180000
+DTEND;TZID=Europe/Warsaw:20261126T193000
+SUMMARY:Samotność w Galaktyce — spotkanie z prof. Gracjanem Maciejewsk
+ im
+LOCATION:Książnica Kopernikańska\, ul. Słowackiego 8\, Toruń
+DESCRIPTION:wstęp wolny. Źródło: https://wydarzeniatorun.pl/
+URL:https://wydarzeniatorun.pl/
+END:VEVENT
+BEGIN:VEVENT
+UID:e128-20261126@kultura-torun-demo
+DTSTAMP:20261126T151807Z
+DTSTART;TZID=Europe/Warsaw:20261126T183000
+DTEND;TZID=Europe/Warsaw:20261126T200000
+SUMMARY:Spotkanie z Maciejem Płazą
+LOCATION:Książnica Kopernikańska\, ul. Słowackiego 8\, Toruń
+DESCRIPTION:Źródło: https://ksiaznica.torun.pl/
+URL:https://ksiaznica.torun.pl/
+END:VEVENT
+BEGIN:VEVENT
+UID:e12-20261127@kultura-torun-demo
+DTSTAMP:20261126T151807Z
+DTSTART;TZID=Europe/Warsaw:20261127T093000
+DTEND;TZID=Europe/Warsaw:20261127T113000
+SUMMARY:Ćwiczenia stylistyczne
+LOCATION:Teatr im. Wilama Horzycy\, pl. Teatralny 1\, Toruń
+DESCRIPTION:Źródło: https://horzyca.pl/en/repertoire/
+URL:https://horzyca.pl/en/repertoire/
+END:VEVENT
+BEGIN:VEVENT
+UID:e13-20261127@kultura-torun-demo
+DTSTAMP:20261126T151807Z
+DTSTART;TZID=Europe/Warsaw:20261127T123000
+DTEND;TZID=Europe/Warsaw:20261127T143000
+SUMMARY:Ćwiczenia stylistyczne
+LOCATION:Teatr im. Wilama Horzycy\, pl. Teatralny 1\, Toruń
+DESCRIPTION:Źródło: https://horzyca.pl/en/repertoire/
+URL:https://horzyca.pl/en/repertoire/
+END:VEVENT
+BEGIN:VEVENT
+UID:e130-20261127@kultura-torun-demo
+DTSTAMP:20261126T151807Z
+DTSTART;TZID=Europe/Warsaw:20261127T170000
+DTEND;TZID=Europe/Warsaw:20261127T183000
+SUMMARY:Spotkanie z Tomaszem Jastrunem
+LOCATION:Książnica Kopernikańska\, ul. Słowackiego 8\, Toruń
+DESCRIPTION:Źródło: https://ksiaznica.torun.pl/
+URL:https://ksiaznica.torun.pl/
+END:VEVENT
+BEGIN:VEVENT
+UID:e129-20261127@kultura-torun-demo
+DTSTAMP:20261126T151807Z
+DTSTART;TZID=Europe/Warsaw:20261127T173000
+DTEND;TZID=Europe/Warsaw:20261127T190000
+SUMMARY:Spotkanie z Bartkiem Kieżunem
+LOCATION:Książnica Kopernikańska\, ul. Słowackiego 8\, Toruń
+DESCRIPTION:Źródło: https://ksiaznica.torun.pl/
+URL:https://ksiaznica.torun.pl/
+END:VEVENT
+BEGIN:VEVENT
+UID:e14-20261127@kultura-torun-demo
+DTSTAMP:20261126T151807Z
+DTSTART;TZID=Europe/Warsaw:20261127T180000
+DTEND;TZID=Europe/Warsaw:20261127T200000
+SUMMARY:Noce i dnie
+LOCATION:Teatr im. Wilama Horzycy\, pl. Teatralny 1\, Toruń
+DESCRIPTION:Brak wolnych miejsc w dniu zbierania danych. Źródło: https:
+ //horzyca.pl/en/repertoire/
+URL:https://horzyca.pl/en/repertoire/
+END:VEVENT
+BEGIN:VEVENT
+UID:e145-20261127@kultura-torun-demo
+DTSTAMP:20261126T151807Z
+DTSTART;TZID=Europe/Warsaw:20261127T180000
+DTEND;TZID=Europe/Warsaw:20261127T193000
+SUMMARY:Na drogach duszy. Dźwiękowa podróż ze Stanisławem Przybyszews
+ kim — premiera słuchowiska
+LOCATION:CSW „Znaki Czasu”\, Wały gen. Sikorskiego 13\, Toruń
+DESCRIPTION:wstęp wolny. Źródło: https://csw.torun.pl/literatura/na-dr
+ ogach-duszy-dzwiekowa-podroz-ze-stanislawem-przybyszewskim/
+URL:https://csw.torun.pl/literatura/na-drogach-duszy-dzwiekowa-podroz-ze-s
+ tanislawem-przybyszewskim/
+END:VEVENT
+BEGIN:VEVENT
+UID:e90-20261127@kultura-torun-demo
+DTSTAMP:20261126T151807Z
+DTSTART;TZID=Europe/Warsaw:20261127T190000
+DTEND;TZID=Europe/Warsaw:20261127T210000
+SUMMARY:„Nebenan” / „Po sąsiedzku” — Deutsches Theater Götting
+ en
+LOCATION:Teatr Baj Pomorski\, ul. Piernikarska 9\, Toruń
+DESCRIPTION:40 zł w przedsprzedaży\, 50 zł od tygodnia przed spektaklem
+ . Źródło: https://bajpomorski.pl/repertuar/
+URL:https://bajpomorski.pl/repertuar/
+END:VEVENT
+BEGIN:VEVENT
+UID:e134-20261127@kultura-torun-demo
+DTSTAMP:20261126T151807Z
+DTSTART;TZID=Europe/Warsaw:20261127T190000
+DTEND;TZID=Europe/Warsaw:20261127T210000
+SUMMARY:Pink Floyd Tribute — The Echoes Project
+LOCATION:Od Nowa (ACKiS UMK)\, ul. Gagarina 37a\, Toruń
+DESCRIPTION:Źródło: https://odnowa.umk.pl/
+URL:https://odnowa.umk.pl/
+END:VEVENT
+BEGIN:VEVENT
+UID:e160-20261127@kultura-torun-demo
+DTSTAMP:20261126T151807Z
+DTSTART;TZID=Europe/Warsaw:20261127T190000
+DTEND;TZID=Europe/Warsaw:20261127T203000
+SUMMARY:Dom\, w którym mieszkasz — spotkanie z Justyną Król-Filipiak
+LOCATION:Książnica Kopernikańska\, ul. Słowackiego 8\, Toruń
+DESCRIPTION:wstęp wolny. Źródło: https://wydarzeniatorun.pl/
+URL:https://wydarzeniatorun.pl/
+END:VEVENT
+BEGIN:VEVENT
+UID:e15-20261128@kultura-torun-demo
+DTSTAMP:20261126T151807Z
+DTSTART;TZID=Europe/Warsaw:20261128T120000
+DTEND;TZID=Europe/Warsaw:20261128T130000
+SUMMARY:Poznaj teatr EXTREME!
+LOCATION:Teatr im. Wilama Horzycy\, pl. Teatralny 1\, Toruń
+DESCRIPTION:Brak wolnych miejsc w dniu zbierania danych. Źródło: https:
+ //horzyca.pl/en/repertoire/
+URL:https://horzyca.pl/en/repertoire/
+END:VEVENT
+BEGIN:VEVENT
+UID:e146-20261128@kultura-torun-demo
+DTSTAMP:20261126T151807Z
+DTSTART;TZID=Europe/Warsaw:20261128T120000
+DTEND;TZID=Europe/Warsaw:20261128T133000
+SUMMARY:Notatnik malarski — warsztaty dla młodzieży i dorosłych
+LOCATION:CSW „Znaki Czasu”\, Wały gen. Sikorskiego 13\, Toruń
+DESCRIPTION:Źródło: https://wydarzeniatorun.pl/
+URL:https://wydarzeniatorun.pl/
+END:VEVENT
+BEGIN:VEVENT
+UID:e16-20261128@kultura-torun-demo
+DTSTAMP:20261126T151807Z
+DTSTART;TZID=Europe/Warsaw:20261128T140000
+DTEND;TZID=Europe/Warsaw:20261128T150000
+SUMMARY:Poznaj teatr EXTREME!
+LOCATION:Teatr im. Wilama Horzycy\, pl. Teatralny 1\, Toruń
+DESCRIPTION:Brak wolnych miejsc w dniu zbierania danych. Źródło: https:
+ //horzyca.pl/en/repertoire/
+URL:https://horzyca.pl/en/repertoire/
+END:VEVENT
+BEGIN:VEVENT
+UID:e161-20261128@kultura-torun-demo
+DTSTAMP:20261126T151807Z
+DTSTART;TZID=Europe/Warsaw:20261128T140000
+DTEND;TZID=Europe/Warsaw:20261128T153000
+SUMMARY:Luźne rozmowy (nie tylko) o sporcie
+LOCATION:Książnica Kopernikańska\, ul. Słowackiego 8\, Toruń
+DESCRIPTION:Źródło: https://wydarzeniatorun.pl/
+URL:https://wydarzeniatorun.pl/
+END:VEVENT
+BEGIN:VEVENT
+UID:e147-20261128@kultura-torun-demo
+DTSTAMP:20261126T151807Z
+DTSTART;TZID=Europe/Warsaw:20261128T160000
+DTEND;TZID=Europe/Warsaw:20261128T173000
+SUMMARY:Toruński Festiwal Książki: spotkanie z Sylwią Zientek („Mela
+  Muter. Wierna sobie”)
+LOCATION:CSW „Znaki Czasu”\, Wały gen. Sikorskiego 13\, Toruń
+DESCRIPTION:wstęp wolny. Źródło: https://csw.torun.pl/literatura/torun
+ ski-festiwal-ksiazki-spotkania-w-csw/
+URL:https://csw.torun.pl/literatura/torunski-festiwal-ksiazki-spotkania-w-
+ csw/
+END:VEVENT
+BEGIN:VEVENT
+UID:e91-20261128@kultura-torun-demo
+DTSTAMP:20261126T151807Z
+DTSTART;TZID=Europe/Warsaw:20261128T163000
+DTEND;TZID=Europe/Warsaw:20261128T173000
+SUMMARY:Elmer. Słoń w kratkę — premiera
+LOCATION:Teatr Baj Pomorski\, ul. Piernikarska 9\, Toruń
+DESCRIPTION:Brak wolnych miejsc w dniu zbierania danych. Źródło: https:
+ //bajpomorski.pl/repertuar/
+URL:https://bajpomorski.pl/repertuar/
+END:VEVENT
+BEGIN:VEVENT
+UID:e17-20261128@kultura-torun-demo
+DTSTAMP:20261126T151807Z
+DTSTART;TZID=Europe/Warsaw:20261128T180000
+DTEND;TZID=Europe/Warsaw:20261128T200000
+SUMMARY:Noce i dnie
+LOCATION:Teatr im. Wilama Horzycy\, pl. Teatralny 1\, Toruń
+DESCRIPTION:Brak wolnych miejsc w dniu zbierania danych. Źródło: https:
+ //horzyca.pl/en/repertoire/
+URL:https://horzyca.pl/en/repertoire/
+END:VEVENT
+BEGIN:VEVENT
+UID:e53-20261128@kultura-torun-demo
+DTSTAMP:20261126T151807Z
+DTSTART;TZID=Europe/Warsaw:20261128T190000
+DTEND;TZID=Europe/Warsaw:20261128T210000
+SUMMARY:Klaps! 50 twarzy Greya
+LOCATION:CKK Jordanki\, al. Solidarności 1-3\, Toruń
+DESCRIPTION:bilety od 80 zł. Źródło: https://jordanki.torun.pl/event/k
+ laps-50-twarzy-greya-3/
+URL:https://jordanki.torun.pl/event/klaps-50-twarzy-greya-3/
+END:VEVENT
+BEGIN:VEVENT
+UID:e131-20261128@kultura-torun-demo
+DTSTAMP:20261126T151807Z
+DTSTART;TZID=Europe/Warsaw:20261128T190000
+DTEND;TZID=Europe/Warsaw:20261128T203000
+SUMMARY:Spotkanie z Barbarą Wysoczańską
+LOCATION:Książnica Kopernikańska\, ul. Słowackiego 8\, Toruń
+DESCRIPTION:Źródło: https://ksiaznica.torun.pl/
+URL:https://ksiaznica.torun.pl/
+END:VEVENT
+BEGIN:VEVENT
+UID:e135-20261128@kultura-torun-demo
+DTSTAMP:20261126T151807Z
+DTSTART;TZID=Europe/Warsaw:20261128T190000
+DTEND;TZID=Europe/Warsaw:20261128T210000
+SUMMARY:Meteroids
+LOCATION:Od Nowa (ACKiS UMK)\, ul. Gagarina 37a\, Toruń
+DESCRIPTION:Źródło: https://odnowa.umk.pl/
+URL:https://odnowa.umk.pl/
+END:VEVENT
+BEGIN:VEVENT
+UID:e92-20261129@kultura-torun-demo
+DTSTAMP:20261126T151807Z
+DTSTART;TZID=Europe/Warsaw:20261129T120000
+DTEND;TZID=Europe/Warsaw:20261129T130000
+SUMMARY:Elmer. Słoń w kratkę
+LOCATION:Teatr Baj Pomorski\, ul. Piernikarska 9\, Toruń
+DESCRIPTION:Źródło: https://bajpomorski.pl/repertuar/
+URL:https://bajpomorski.pl/repertuar/
+END:VEVENT
+BEGIN:VEVENT
+UID:e103-20261129@kultura-torun-demo
+DTSTAMP:20261126T151807Z
+DTSTART;TZID=Europe/Warsaw:20261129T130000
+DTEND;TZID=Europe/Warsaw:20261129T160000
+SUMMARY:Koncert Wokalistów Studia Wokalnego Działowa-Art
+LOCATION:Kulturalny hub Bydgoskiego Przedmieścia\, ul. Bydgoska 50\, Toru
+ ń
+DESCRIPTION:Źródło: https://www.tak.torun.pl/hub/harmonogram/
+URL:https://www.tak.torun.pl/hub/harmonogram/
+END:VEVENT
+BEGIN:VEVENT
+UID:e93-20261129@kultura-torun-demo
+DTSTAMP:20261126T151807Z
+DTSTART;TZID=Europe/Warsaw:20261129T140000
+DTEND;TZID=Europe/Warsaw:20261129T150000
+SUMMARY:Elmer. Słoń w kratkę
+LOCATION:Teatr Baj Pomorski\, ul. Piernikarska 9\, Toruń
+DESCRIPTION:Źródło: https://bajpomorski.pl/repertuar/
+URL:https://bajpomorski.pl/repertuar/
+END:VEVENT
+BEGIN:VEVENT
+UID:e132-20261129@kultura-torun-demo
+DTSTAMP:20261126T151807Z
+DTSTART;TZID=Europe/Warsaw:20261129T150000
+DTEND;TZID=Europe/Warsaw:20261129T163000
+SUMMARY:Spotkanie z Mikołajem Grynbergiem
+LOCATION:Książnica Kopernikańska\, ul. Słowackiego 8\, Toruń
+DESCRIPTION:Źródło: https://ksiaznica.torun.pl/
+URL:https://ksiaznica.torun.pl/
+END:VEVENT
+BEGIN:VEVENT
+UID:e18-20261129@kultura-torun-demo
+DTSTAMP:20261126T151807Z
+DTSTART;TZID=Europe/Warsaw:20261129T160000
+DTEND;TZID=Europe/Warsaw:20261129T180000
+SUMMARY:Noce i dnie
+LOCATION:Teatr im. Wilama Horzycy\, pl. Teatralny 1\, Toruń
+DESCRIPTION:Brak wolnych miejsc w dniu zbierania danych. Źródło: https:
+ //horzyca.pl/en/repertoire/
+URL:https://horzyca.pl/en/repertoire/
+END:VEVENT
+BEGIN:VEVENT
+UID:e133-20261129@kultura-torun-demo
+DTSTAMP:20261126T151807Z
+DTSTART;TZID=Europe/Warsaw:20261129T170000
+DTEND;TZID=Europe/Warsaw:20261129T183000
+SUMMARY:Spotkanie z Antoniną Tosiek
+LOCATION:Książnica Kopernikańska\, ul. Słowackiego 8\, Toruń
+DESCRIPTION:Źródło: https://ksiaznica.torun.pl/
+URL:https://ksiaznica.torun.pl/
+END:VEVENT
+BEGIN:VEVENT
+UID:e19-20261129@kultura-torun-demo
+DTSTAMP:20261126T151807Z
+DTSTART;TZID=Europe/Warsaw:20261129T200000
+DTEND;TZID=Europe/Warsaw:20261129T220000
+SUMMARY:Ćwiczenia stylistyczne
+LOCATION:Teatr im. Wilama Horzycy\, pl. Teatralny 1\, Toruń
+DESCRIPTION:Brak wolnych miejsc w dniu zbierania danych. Źródło: https:
+ //horzyca.pl/en/repertoire/
+URL:https://horzyca.pl/en/repertoire/
+END:VEVENT
+BEGIN:VEVENT
+UID:e104-20261130@kultura-torun-demo
+DTSTAMP:20261126T151807Z
+DTSTART;TZID=Europe/Warsaw:20261130T180000
+DTEND;TZID=Europe/Warsaw:20261130T200000
+SUMMARY:Salonik Gamingowy w Kulturalnym hubie
+LOCATION:Kulturalny hub Bydgoskiego Przedmieścia\, ul. Bydgoska 50\, Toru
+ ń
+DESCRIPTION:Źródło: https://www.tak.torun.pl/hub/harmonogram/
+URL:https://www.tak.torun.pl/hub/harmonogram/
+END:VEVENT
+BEGIN:VEVENT
+UID:e105-20261130@kultura-torun-demo
+DTSTAMP:20261126T151807Z
+DTSTART;TZID=Europe/Warsaw:20261130T180000
+DTEND;TZID=Europe/Warsaw:20261130T190000
+SUMMARY:Cykliczne warsztaty wokalne
+LOCATION:Kulturalny hub Bydgoskiego Przedmieścia\, ul. Bydgoska 50\, Toru
+ ń
+DESCRIPTION:Wstęp wolny. Źródło: https://www.tak.torun.pl/hub/harmonog
+ ram/
+URL:https://www.tak.torun.pl/hub/harmonogram/
+END:VEVENT
+BEGIN:VEVENT
+UID:e136-20261130@kultura-torun-demo
+DTSTAMP:20261126T151807Z
+DTSTART;TZID=Europe/Warsaw:20261130T190000
+DTEND;TZID=Europe/Warsaw:20261130T210000
+SUMMARY:Dom o Zielonych Progach
+LOCATION:Od Nowa (ACKiS UMK)\, ul. Gagarina 37a\, Toruń
+DESCRIPTION:Źródło: https://odnowa.umk.pl/
+URL:https://odnowa.umk.pl/
+END:VEVENT
+BEGIN:VEVENT
+UID:e106-20261201@kultura-torun-demo
+DTSTAMP:20261126T151807Z
+DTSTART;TZID=Europe/Warsaw:20261201T113000
+DTEND;TZID=Europe/Warsaw:20261201T133000
+SUMMARY:Wtorek dla seniora
+LOCATION:Kulturalny hub Bydgoskiego Przedmieścia\, ul. Bydgoska 50\, Toru
+ ń
+DESCRIPTION:Źródło: https://www.tak.torun.pl/hub/harmonogram/
+URL:https://www.tak.torun.pl/hub/harmonogram/
+END:VEVENT
+BEGIN:VEVENT
+UID:e148-20261201@kultura-torun-demo
+DTSTAMP:20261126T151807Z
+DTSTART;TZID=Europe/Warsaw:20261201T120000
+DTEND;TZID=Europe/Warsaw:20261201T130000
+SUMMARY:Dzień na plus — spacer dla seniorów po wystawie Przeglądu Szt
+ uki Książki
+LOCATION:CSW „Znaki Czasu”\, Wały gen. Sikorskiego 13\, Toruń
+DESCRIPTION:Źródło: https://wydarzeniatorun.pl/
+URL:https://wydarzeniatorun.pl/
+END:VEVENT
+BEGIN:VEVENT
+UID:e149-20261201@kultura-torun-demo
+DTSTAMP:20261126T151807Z
+DTSTART;TZID=Europe/Warsaw:20261201T120000
+DTEND;TZID=Europe/Warsaw:20261201T133000
+SUMMARY:Pracownia biżuterii UV — spinki do mankietów
+LOCATION:CSW „Znaki Czasu”\, Wały gen. Sikorskiego 13\, Toruń
+DESCRIPTION:45 zł. Źródło: https://csw.torun.pl/literatura/sztuka-uzyt
+ kowa-pracownia-bizuterii-uv-spinki-do-mankietow/
+URL:https://csw.torun.pl/literatura/sztuka-uzytkowa-pracownia-bizuterii-uv
+ -spinki-do-mankietow/
+END:VEVENT
+BEGIN:VEVENT
+UID:e137-20261201@kultura-torun-demo
+DTSTAMP:20261126T151807Z
+DTSTART;TZID=Europe/Warsaw:20261201T163000
+DTEND;TZID=Europe/Warsaw:20261201T183000
+SUMMARY:Lalka
+LOCATION:Od Nowa (ACKiS UMK)\, ul. Gagarina 37a\, Toruń
+DESCRIPTION:Źródło: https://odnowa.umk.pl/
+URL:https://odnowa.umk.pl/
+END:VEVENT
+BEGIN:VEVENT
+UID:e107-20261201@kultura-torun-demo
+DTSTAMP:20261126T151807Z
+DTSTART;TZID=Europe/Warsaw:20261201T170000
+DTEND;TZID=Europe/Warsaw:20261201T190000
+SUMMARY:Warsztaty fotograficzne dla dorosłych
+LOCATION:Kulturalny hub Bydgoskiego Przedmieścia\, ul. Bydgoska 50\, Toru
+ ń
+DESCRIPTION:Źródło: https://www.tak.torun.pl/hub/harmonogram/
+URL:https://www.tak.torun.pl/hub/harmonogram/
+END:VEVENT
+BEGIN:VEVENT
+UID:e108-20261201@kultura-torun-demo
+DTSTAMP:20261126T151807Z
+DTSTART;TZID=Europe/Warsaw:20261201T180000
+DTEND;TZID=Europe/Warsaw:20261201T200000
+SUMMARY:Warsztaty literackie dla dorosłych
+LOCATION:Kulturalny hub Bydgoskiego Przedmieścia\, ul. Bydgoska 50\, Toru
+ ń
+DESCRIPTION:Wstęp wolny. Źródło: https://www.tak.torun.pl/hub/harmonog
+ ram/
+URL:https://www.tak.torun.pl/hub/harmonogram/
+END:VEVENT
+BEGIN:VEVENT
+UID:e150-20261201@kultura-torun-demo
+DTSTAMP:20261126T151807Z
+DTSTART;TZID=Europe/Warsaw:20261201T180000
+DTEND;TZID=Europe/Warsaw:20261201T193000
+SUMMARY:Do Dzieła: Suzanne Treister — „Różówka”
+LOCATION:CSW „Znaki Czasu”\, Wały gen. Sikorskiego 13\, Toruń
+DESCRIPTION:Źródło: https://wydarzeniatorun.pl/
+URL:https://wydarzeniatorun.pl/
+END:VEVENT
+BEGIN:VEVENT
+UID:e162-20261201@kultura-torun-demo
+DTSTAMP:20261126T151807Z
+DTSTART;TZID=Europe/Warsaw:20261201T180000
+DTEND;TZID=Europe/Warsaw:20261201T193000
+SUMMARY:Felieton jako sztuka patrzenia na świat z dystansem — spotkanie
+  z Agatą Passent
+LOCATION:Książnica Kopernikańska\, ul. Słowackiego 8\, Toruń
+DESCRIPTION:wstęp wolny. Źródło: https://wydarzeniatorun.pl/
+URL:https://wydarzeniatorun.pl/
+END:VEVENT
+BEGIN:VEVENT
+UID:e138-20261201@kultura-torun-demo
+DTSTAMP:20261126T151807Z
+DTSTART;TZID=Europe/Warsaw:20261201T191500
+DTEND;TZID=Europe/Warsaw:20261201T211500
+SUMMARY:APF: Dybuk | Droga młodych (Mir Kumen On)
+LOCATION:Od Nowa (ACKiS UMK)\, ul. Gagarina 37a\, Toruń
+DESCRIPTION:Źródło: https://odnowa.umk.pl/
+URL:https://odnowa.umk.pl/
+END:VEVENT
+BEGIN:VEVENT
+UID:e151-20261202@kultura-torun-demo
+DTSTAMP:20261126T151807Z
+DTSTART;TZID=Europe/Warsaw:20261202T163000
+DTEND;TZID=Europe/Warsaw:20261202T180000
+SUMMARY:Pracownia biżuterii UV — spinki do mankietów
+LOCATION:CSW „Znaki Czasu”\, Wały gen. Sikorskiego 13\, Toruń
+DESCRIPTION:45 zł. Źródło: https://csw.torun.pl/literatura/sztuka-uzyt
+ kowa-pracownia-bizuterii-uv-spinki-do-mankietow/
+URL:https://csw.torun.pl/literatura/sztuka-uzytkowa-pracownia-bizuterii-uv
+ -spinki-do-mankietow/
+END:VEVENT
+BEGIN:VEVENT
+UID:e109-20261202@kultura-torun-demo
+DTSTAMP:20261126T151807Z
+DTSTART;TZID=Europe/Warsaw:20261202T170000
+DTEND;TZID=Europe/Warsaw:20261202T190000
+SUMMARY:Krąg Kobiet — Taniec Dakini
+LOCATION:Kulturalny hub Bydgoskiego Przedmieścia\, ul. Bydgoska 50\, Toru
+ ń
+DESCRIPTION:Źródło: https://www.tak.torun.pl/hub/harmonogram/
+URL:https://www.tak.torun.pl/hub/harmonogram/
+END:VEVENT
+BEGIN:VEVENT
+UID:e163-20261202@kultura-torun-demo
+DTSTAMP:20261126T151807Z
+DTSTART;TZID=Europe/Warsaw:20261202T180000
+DTEND;TZID=Europe/Warsaw:20261202T193000
+SUMMARY:Cierpliwe Genowefy\, bezwstydne Magdaleny — spotkanie z Anną Br
+ zezińską
+LOCATION:Książnica Kopernikańska\, ul. Słowackiego 8\, Toruń
+DESCRIPTION:wstęp wolny. Źródło: https://wydarzeniatorun.pl/
+URL:https://wydarzeniatorun.pl/
+END:VEVENT
+BEGIN:VEVENT
+UID:e152-20261203@kultura-torun-demo
+DTSTAMP:20261126T151807Z
+DTSTART;TZID=Europe/Warsaw:20261203T120000
+DTEND;TZID=Europe/Warsaw:20261203T130000
+SUMMARY:Oprowadzanie pierwszoczwartkowe po wystawie „Znikną wszystkie o
+ brazy”
+LOCATION:CSW „Znaki Czasu”\, Wały gen. Sikorskiego 13\, Toruń
+DESCRIPTION:Źródło: https://wydarzeniatorun.pl/
+URL:https://wydarzeniatorun.pl/
+END:VEVENT
+BEGIN:VEVENT
+UID:e110-20261203@kultura-torun-demo
+DTSTAMP:20261126T151807Z
+DTSTART;TZID=Europe/Warsaw:20261203T160000
+DTEND;TZID=Europe/Warsaw:20261203T190000
+SUMMARY:Kurs Brydża
+LOCATION:Kulturalny hub Bydgoskiego Przedmieścia\, ul. Bydgoska 50\, Toru
+ ń
+DESCRIPTION:Wstęp wolny. Źródło: https://www.tak.torun.pl/hub/harmonog
+ ram/
+URL:https://www.tak.torun.pl/hub/harmonogram/
+END:VEVENT
+BEGIN:VEVENT
+UID:e153-20261203@kultura-torun-demo
+DTSTAMP:20261126T151807Z
+DTSTART;TZID=Europe/Warsaw:20261203T160000
+DTEND;TZID=Europe/Warsaw:20261203T170000
+SUMMARY:Zmysłoteka — warsztaty dla rodzin
+LOCATION:CSW „Znaki Czasu”\, Wały gen. Sikorskiego 13\, Toruń
+DESCRIPTION:Źródło: https://wydarzeniatorun.pl/
+URL:https://wydarzeniatorun.pl/
+END:VEVENT
+BEGIN:VEVENT
+UID:e111-20261203@kultura-torun-demo
+DTSTAMP:20261126T151807Z
+DTSTART;TZID=Europe/Warsaw:20261203T180000
+DTEND;TZID=Europe/Warsaw:20261203T200000
+SUMMARY:Warsztaty Teatralne
+LOCATION:Kulturalny hub Bydgoskiego Przedmieścia\, ul. Bydgoska 50\, Toru
+ ń
+DESCRIPTION:Źródło: https://www.tak.torun.pl/hub/harmonogram/
+URL:https://www.tak.torun.pl/hub/harmonogram/
+END:VEVENT
+BEGIN:VEVENT
+UID:e154-20261203@kultura-torun-demo
+DTSTAMP:20261126T151807Z
+DTSTART;TZID=Europe/Warsaw:20261203T180000
+DTEND;TZID=Europe/Warsaw:20261203T193000
+SUMMARY:Czym uwodzi dizajn — spotkanie z Małgorzatą Czyńską
+LOCATION:CSW „Znaki Czasu”\, Wały gen. Sikorskiego 13\, Toruń
+DESCRIPTION:wstęp wolny. Źródło: https://csw.torun.pl/literatura/czym-
+ uwodzi-dizajn-spotkanie-z-malgorzata-czynska/
+URL:https://csw.torun.pl/literatura/czym-uwodzi-dizajn-spotkanie-z-malgorz
+ ata-czynska/
+END:VEVENT
+BEGIN:VEVENT
+UID:e20-20261203@kultura-torun-demo
+DTSTAMP:20261126T151807Z
+DTSTART;TZID=Europe/Warsaw:20261203T190000
+DTEND;TZID=Europe/Warsaw:20261203T210000
+SUMMARY:Kandyd\, czyli optymizm
+LOCATION:Teatr im. Wilama Horzycy\, pl. Teatralny 1\, Toruń
+DESCRIPTION:Źródło: https://horzyca.pl/en/repertoire/
+URL:https://horzyca.pl/en/repertoire/
+END:VEVENT
+BEGIN:VEVENT
+UID:e55-20261203@kultura-torun-demo
+DTSTAMP:20261126T151807Z
+DTSTART;TZID=Europe/Warsaw:20261203T190000
+DTEND;TZID=Europe/Warsaw:20261203T210000
+SUMMARY:Pod dachami Paryża 2
+LOCATION:CKK Jordanki\, al. Solidarności 1-3\, Toruń
+DESCRIPTION:Źródło: https://jordanki.torun.pl/event/pod-dachami-paryza/
+URL:https://jordanki.torun.pl/event/pod-dachami-paryza/
+END:VEVENT
+BEGIN:VEVENT
+UID:e139-20261203@kultura-torun-demo
+DTSTAMP:20261126T151807Z
+DTSTART;TZID=Europe/Warsaw:20261203T190000
+DTEND;TZID=Europe/Warsaw:20261203T210000
+SUMMARY:Daria ze Śląska — „Halo. Co jest grane?” Tour
+LOCATION:Od Nowa (ACKiS UMK)\, ul. Gagarina 37a\, Toruń
+DESCRIPTION:Źródło: https://odnowa.umk.pl/wydarzenie/daria-ze-slaska-2/
+URL:https://odnowa.umk.pl/wydarzenie/daria-ze-slaska-2/
+END:VEVENT
+BEGIN:VEVENT
+UID:e164-20261203@kultura-torun-demo
+DTSTAMP:20261126T151807Z
+DTSTART;VALUE=DATE:20261203
+DTEND;VALUE=DATE:20261204
+SUMMARY:Toruński Klub Poetów — spotkanie otwarte
+LOCATION:Książnica Kopernikańska\, ul. Słowackiego 8\, Toruń
+DESCRIPTION:wstęp wolny. Godzina wg organizatora. Źródło: https://gra.
+ fm/grudzien-pelen-atrakcji-w-ksiaznicy-kopernikanskiej-sprawdz-program-wy
+ darzen.html
+URL:https://gra.fm/grudzien-pelen-atrakcji-w-ksiaznicy-kopernikanskiej-spr
+ awdz-program-wydarzen.html
+END:VEVENT
+BEGIN:VEVENT
+UID:e165-20261203@kultura-torun-demo
+DTSTAMP:20261126T151807Z
+DTSTART;VALUE=DATE:20261203
+DTEND;VALUE=DATE:20261204
+SUMMARY:Wieczór Toruński: prof. Bartosz Awianowicz o najstarszym toruńs
+ kim czasopiśmie naukowym
+LOCATION:Książnica Kopernikańska\, ul. Słowackiego 8\, Toruń
+DESCRIPTION:wstęp wolny. Godzina wg organizatora. Źródło: https://gra.
+ fm/grudzien-pelen-atrakcji-w-ksiaznicy-kopernikanskiej-sprawdz-program-wy
+ darzen.html
+URL:https://gra.fm/grudzien-pelen-atrakcji-w-ksiaznicy-kopernikanskiej-spr
+ awdz-program-wydarzen.html
+END:VEVENT
+BEGIN:VEVENT
+UID:e21-20261204@kultura-torun-demo
+DTSTAMP:20261126T151807Z
+DTSTART;TZID=Europe/Warsaw:20261204T190000
+DTEND;TZID=Europe/Warsaw:20261204T210000
+SUMMARY:Kandyd\, czyli optymizm
+LOCATION:Teatr im. Wilama Horzycy\, pl. Teatralny 1\, Toruń
+DESCRIPTION:Źródło: https://horzyca.pl/en/repertoire/
+URL:https://horzyca.pl/en/repertoire/
+END:VEVENT
+BEGIN:VEVENT
+UID:e54-20261204@kultura-torun-demo
+DTSTAMP:20261126T151807Z
+DTSTART;TZID=Europe/Warsaw:20261204T190000
+DTEND;TZID=Europe/Warsaw:20261204T210000
+SUMMARY:Richard Bona — koncert z kwintetem
+LOCATION:CKK Jordanki\, al. Solidarności 1-3\, Toruń
+DESCRIPTION:Źródło: https://artus.torun.pl/wydarzenia/
+URL:https://artus.torun.pl/wydarzenia/
+END:VEVENT
+BEGIN:VEVENT
+UID:e166-20261204@kultura-torun-demo
+DTSTAMP:20261126T151807Z
+DTSTART;VALUE=DATE:20261204
+DTEND;VALUE=DATE:20261205
+SUMMARY:Debata „Od Kopernika do TikToka — jak popularyzować naukę w 
+ XXI wieku?”
+LOCATION:Książnica Kopernikańska\, ul. Słowackiego 8\, Toruń
+DESCRIPTION:wstęp wolny. Godzina wg organizatora. Źródło: https://gra.
+ fm/grudzien-pelen-atrakcji-w-ksiaznicy-kopernikanskiej-sprawdz-program-wy
+ darzen.html
+URL:https://gra.fm/grudzien-pelen-atrakcji-w-ksiaznicy-kopernikanskiej-spr
+ awdz-program-wydarzen.html
+END:VEVENT
+BEGIN:VEVENT
+UID:e22-20261205@kultura-torun-demo
+DTSTAMP:20261126T151807Z
+DTSTART;TZID=Europe/Warsaw:20261205T110000
+DTEND;TZID=Europe/Warsaw:20261205T120000
+SUMMARY:Poznaj teatr — mikołajkowe zwiedzanie teatru
+LOCATION:Teatr im. Wilama Horzycy\, pl. Teatralny 1\, Toruń
+DESCRIPTION:Źródło: https://horzyca.pl/en/repertoire/
+URL:https://horzyca.pl/en/repertoire/
+END:VEVENT
+BEGIN:VEVENT
+UID:e155-20261205@kultura-torun-demo
+DTSTAMP:20261126T151807Z
+DTSTART;TZID=Europe/Warsaw:20261205T120000
+DTEND;TZID=Europe/Warsaw:20261205T180000
+SUMMARY:X-Mas Kram — świąteczne targi rękodzieła
+LOCATION:CSW „Znaki Czasu”\, Wały gen. Sikorskiego 13\, Toruń
+DESCRIPTION:wstęp wolny na targi. Źródło: https://csw.torun.pl/sztuka/
+ x-mas-kram-2026-swiateczne-targi-rekodziela-w-csw/
+URL:https://csw.torun.pl/sztuka/x-mas-kram-2026-swiateczne-targi-rekodziel
+ a-w-csw/
+END:VEVENT
+BEGIN:VEVENT
+UID:e156-20261205@kultura-torun-demo
+DTSTAMP:20261126T151807Z
+DTSTART;TZID=Europe/Warsaw:20261205T121500
+DTEND;TZID=Europe/Warsaw:20261205T131500
+SUMMARY:Świąteczne seanse dla rodzin (X-Mas Kram)
+LOCATION:CSW „Znaki Czasu”\, Wały gen. Sikorskiego 13\, Toruń
+DESCRIPTION:10 zł. Źródło: https://csw.torun.pl/sztuka/x-mas-kram-2026
+ -swiateczne-targi-rekodziela-w-csw/
+URL:https://csw.torun.pl/sztuka/x-mas-kram-2026-swiateczne-targi-rekodziel
+ a-w-csw/
+END:VEVENT
+BEGIN:VEVENT
+UID:e23-20261205@kultura-torun-demo
+DTSTAMP:20261126T151807Z
+DTSTART;TZID=Europe/Warsaw:20261205T130000
+DTEND;TZID=Europe/Warsaw:20261205T140000
+SUMMARY:Poznaj teatr — mikołajkowe zwiedzanie teatru
+LOCATION:Teatr im. Wilama Horzycy\, pl. Teatralny 1\, Toruń
+DESCRIPTION:Źródło: https://horzyca.pl/en/repertoire/
+URL:https://horzyca.pl/en/repertoire/
+END:VEVENT
+BEGIN:VEVENT
+UID:e24-20261205@kultura-torun-demo
+DTSTAMP:20261126T151807Z
+DTSTART;TZID=Europe/Warsaw:20261205T160000
+DTEND;TZID=Europe/Warsaw:20261205T180000
+SUMMARY:Lekarz na telefon
+LOCATION:Teatr im. Wilama Horzycy\, pl. Teatralny 1\, Toruń
+DESCRIPTION:Brak wolnych miejsc w dniu zbierania danych. Źródło: https:
+ //horzyca.pl/en/repertoire/
+URL:https://horzyca.pl/en/repertoire/
+END:VEVENT
+BEGIN:VEVENT
+UID:e25-20261205@kultura-torun-demo
+DTSTAMP:20261126T151807Z
+DTSTART;TZID=Europe/Warsaw:20261205T180000
+DTEND;TZID=Europe/Warsaw:20261205T200000
+SUMMARY:Kandyd\, czyli optymizm
+LOCATION:Teatr im. Wilama Horzycy\, pl. Teatralny 1\, Toruń
+DESCRIPTION:Źródło: https://horzyca.pl/en/repertoire/
+URL:https://horzyca.pl/en/repertoire/
+END:VEVENT
+BEGIN:VEVENT
+UID:e167-20261205@kultura-torun-demo
+DTSTAMP:20261126T151807Z
+DTSTART;VALUE=DATE:20261205
+DTEND;VALUE=DATE:20261206
+SUMMARY:Mikograjki — gry planszowe i spotkanie ze świętym Mikołajem
+LOCATION:Książnica Kopernikańska\, ul. Słowackiego 8\, Toruń
+DESCRIPTION:wstęp wolny. Godzina wg organizatora. Źródło: https://gra.
+ fm/grudzien-pelen-atrakcji-w-ksiaznicy-kopernikanskiej-sprawdz-program-wy
+ darzen.html
+URL:https://gra.fm/grudzien-pelen-atrakcji-w-ksiaznicy-kopernikanskiej-spr
+ awdz-program-wydarzen.html
+END:VEVENT
+BEGIN:VEVENT
+UID:e26-20261206@kultura-torun-demo
+DTSTAMP:20261126T151807Z
+DTSTART;TZID=Europe/Warsaw:20261206T110000
+DTEND;TZID=Europe/Warsaw:20261206T120000
+SUMMARY:Niedziela w teatrze — mikołajkowo-piernikowa
+LOCATION:Teatr im. Wilama Horzycy\, pl. Teatralny 1\, Toruń
+DESCRIPTION:Źródło: https://horzyca.pl/en/repertoire/
+URL:https://horzyca.pl/en/repertoire/
+END:VEVENT
+BEGIN:VEVENT
+UID:e157-20261206@kultura-torun-demo
+DTSTAMP:20261126T151807Z
+DTSTART;TZID=Europe/Warsaw:20261206T121500
+DTEND;TZID=Europe/Warsaw:20261206T131500
+SUMMARY:Świąteczne seanse dla rodzin (X-Mas Kram)
+LOCATION:CSW „Znaki Czasu”\, Wały gen. Sikorskiego 13\, Toruń
+DESCRIPTION:10 zł. Źródło: https://csw.torun.pl/sztuka/x-mas-kram-2026
+ -swiateczne-targi-rekodziela-w-csw/
+URL:https://csw.torun.pl/sztuka/x-mas-kram-2026-swiateczne-targi-rekodziel
+ a-w-csw/
+END:VEVENT
+BEGIN:VEVENT
+UID:e27-20261206@kultura-torun-demo
+DTSTAMP:20261126T151807Z
+DTSTART;TZID=Europe/Warsaw:20261206T160000
+DTEND;TZID=Europe/Warsaw:20261206T180000
+SUMMARY:Lekarz na telefon
+LOCATION:Teatr im. Wilama Horzycy\, pl. Teatralny 1\, Toruń
+DESCRIPTION:Brak wolnych miejsc w dniu zbierania danych. Źródło: https:
+ //horzyca.pl/en/repertoire/
+URL:https://horzyca.pl/en/repertoire/
+END:VEVENT
+BEGIN:VEVENT
+UID:e28-20261206@kultura-torun-demo
+DTSTAMP:20261126T151807Z
+DTSTART;TZID=Europe/Warsaw:20261206T180000
+DTEND;TZID=Europe/Warsaw:20261206T200000
+SUMMARY:Kandyd\, czyli optymizm
+LOCATION:Teatr im. Wilama Horzycy\, pl. Teatralny 1\, Toruń
+DESCRIPTION:Źródło: https://horzyca.pl/en/repertoire/
+URL:https://horzyca.pl/en/repertoire/
+END:VEVENT
+BEGIN:VEVENT
+UID:e168-20261206@kultura-torun-demo
+DTSTAMP:20261126T151807Z
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261207
+SUMMARY:Spotkanie z Agnieszką Lis („Marcepanowa miłość”) i seans 
+ „Piernikowe serce”
+LOCATION:Książnica Kopernikańska\, ul. Słowackiego 8\, Toruń
+DESCRIPTION:wstęp wolny. Godzina wg organizatora. Źródło: https://gra.
+ fm/grudzien-pelen-atrakcji-w-ksiaznicy-kopernikanskiej-sprawdz-program-wy
+ darzen.html
+URL:https://gra.fm/grudzien-pelen-atrakcji-w-ksiaznicy-kopernikanskiej-spr
+ awdz-program-wydarzen.html
+END:VEVENT
+BEGIN:VEVENT
+UID:e83-20261207@kultura-torun-demo
+DTSTAMP:20261126T151807Z
+DTSTART;TZID=Europe/Warsaw:20261207T163000
+DTEND;TZID=Europe/Warsaw:20261207T183000
+SUMMARY:Filmowe poniedziałki
+LOCATION:Dwór Artusa\, Rynek Staromiejski 6\, Toruń
+DESCRIPTION:Źródło: https://artus.torun.pl/wydarzenia/
+URL:https://artus.torun.pl/wydarzenia/
+END:VEVENT
+BEGIN:VEVENT
+UID:e112-20261207@kultura-torun-demo
+DTSTAMP:20261126T151807Z
+DTSTART;TZID=Europe/Warsaw:20261207T180000
+DTEND;TZID=Europe/Warsaw:20261207T190000
+SUMMARY:Cykliczne warsztaty wokalne
+LOCATION:Kulturalny hub Bydgoskiego Przedmieścia\, ul. Bydgoska 50\, Toru
+ ń
+DESCRIPTION:Wstęp wolny. Źródło: https://www.tak.torun.pl/hub/harmonog
+ ram/
+URL:https://www.tak.torun.pl/hub/harmonogram/
+END:VEVENT
+BEGIN:VEVENT
+UID:e169-20261207@kultura-torun-demo
+DTSTAMP:20261126T151807Z
+DTSTART;VALUE=DATE:20261207
+DTEND;VALUE=DATE:20261208
+SUMMARY:Spotkanie z Agnieszką Dulębą-Kaszą — debiut powieściowy
+LOCATION:Książnica Kopernikańska\, ul. Słowackiego 8\, Toruń
+DESCRIPTION:wstęp wolny. Godzina wg organizatora. Źródło: https://gra.
+ fm/grudzien-pelen-atrakcji-w-ksiaznicy-kopernikanskiej-sprawdz-program-wy
+ darzen.html
+URL:https://gra.fm/grudzien-pelen-atrakcji-w-ksiaznicy-kopernikanskiej-spr
+ awdz-program-wydarzen.html
+END:VEVENT
+BEGIN:VEVENT
+UID:e56-20261208@kultura-torun-demo
+DTSTAMP:20261126T151807Z
+DTSTART;TZID=Europe/Warsaw:20261208T120000
+DTEND;TZID=Europe/Warsaw:20261208T130000
+SUMMARY:Taneczna Mikołajkowa Misja — przeboje z „KPop Demon Hunters
+ ” na żywo
+LOCATION:CKK Jordanki\, al. Solidarności 1-3\, Toruń
+DESCRIPTION:Źródło: https://jordanki.torun.pl/event_type/koncert/feed/
+URL:https://jordanki.torun.pl/event_type/koncert/feed/
+END:VEVENT
+BEGIN:VEVENT
+UID:e113-20261208@kultura-torun-demo
+DTSTAMP:20261126T151807Z
+DTSTART;TZID=Europe/Warsaw:20261208T170000
+DTEND;TZID=Europe/Warsaw:20261208T190000
+SUMMARY:Warsztaty fotograficzne dla dorosłych
+LOCATION:Kulturalny hub Bydgoskiego Przedmieścia\, ul. Bydgoska 50\, Toru
+ ń
+DESCRIPTION:Źródło: https://www.tak.torun.pl/hub/harmonogram/
+URL:https://www.tak.torun.pl/hub/harmonogram/
+END:VEVENT
+BEGIN:VEVENT
+UID:e114-20261208@kultura-torun-demo
+DTSTAMP:20261126T151807Z
+DTSTART;TZID=Europe/Warsaw:20261208T170000
+DTEND;TZID=Europe/Warsaw:20261208T183000
+SUMMARY:Warsztaty fotograficzne w ramach Dni Grzegorza Ciechowskiego
+LOCATION:Kulturalny hub Bydgoskiego Przedmieścia\, ul. Bydgoska 50\, Toru
+ ń
+DESCRIPTION:Źródło: https://www.tak.torun.pl/hub/harmonogram/
+URL:https://www.tak.torun.pl/hub/harmonogram/
+END:VEVENT
+BEGIN:VEVENT
+UID:e29-20261208@kultura-torun-demo
+DTSTAMP:20261126T151807Z
+DTSTART;TZID=Europe/Warsaw:20261208T180000
+DTEND;TZID=Europe/Warsaw:20261208T200000
+SUMMARY:Lekarz na telefon
+LOCATION:Teatr im. Wilama Horzycy\, pl. Teatralny 1\, Toruń
+DESCRIPTION:Brak wolnych miejsc w dniu zbierania danych. Źródło: https:
+ //horzyca.pl/en/repertoire/
+URL:https://horzyca.pl/en/repertoire/
+END:VEVENT
+BEGIN:VEVENT
+UID:e30-20261208@kultura-torun-demo
+DTSTAMP:20261126T151807Z
+DTSTART;TZID=Europe/Warsaw:20261208T190000
+DTEND;TZID=Europe/Warsaw:20261208T210000
+SUMMARY:Bez alko i dragów jestem nudna
+LOCATION:Teatr im. Wilama Horzycy\, pl. Teatralny 1\, Toruń
+DESCRIPTION:Źródło: https://horzyca.pl/en/repertoire/
+URL:https://horzyca.pl/en/repertoire/
+END:VEVENT
+BEGIN:VEVENT
+UID:e31-20261208@kultura-torun-demo
+DTSTAMP:20261126T151807Z
+DTSTART;TZID=Europe/Warsaw:20261208T200000
+DTEND;TZID=Europe/Warsaw:20261208T220000
+SUMMARY:Lekarz na telefon
+LOCATION:Teatr im. Wilama Horzycy\, pl. Teatralny 1\, Toruń
+DESCRIPTION:Brak wolnych miejsc w dniu zbierania danych. Źródło: https:
+ //horzyca.pl/en/repertoire/
+URL:https://horzyca.pl/en/repertoire/
+END:VEVENT
+BEGIN:VEVENT
+UID:e170-20261208@kultura-torun-demo
+DTSTAMP:20261126T151807Z
+DTSTART;VALUE=DATE:20261208
+DTEND;VALUE=DATE:20261209
+SUMMARY:Wykład Grzegorza Szychlińskiego o gdańskim zegarze astronomiczn
+ ym
+LOCATION:Książnica Kopernikańska\, ul. Słowackiego 8\, Toruń
+DESCRIPTION:wstęp wolny. Godzina wg organizatora. Źródło: https://gra.
+ fm/grudzien-pelen-atrakcji-w-ksiaznicy-kopernikanskiej-sprawdz-program-wy
+ darzen.html
+URL:https://gra.fm/grudzien-pelen-atrakcji-w-ksiaznicy-kopernikanskiej-spr
+ awdz-program-wydarzen.html
+END:VEVENT
+BEGIN:VEVENT
+UID:e32-20261209@kultura-torun-demo
+DTSTAMP:20261126T151807Z
+DTSTART;TZID=Europe/Warsaw:20261209T110000
+DTEND;TZID=Europe/Warsaw:20261209T130000
+SUMMARY:Bez alko i dragów jestem nudna
+LOCATION:Teatr im. Wilama Horzycy\, pl. Teatralny 1\, Toruń
+DESCRIPTION:Brak wolnych miejsc w dniu zbierania danych. Źródło: https:
+ //horzyca.pl/en/repertoire/
+URL:https://horzyca.pl/en/repertoire/
+END:VEVENT
+BEGIN:VEVENT
+UID:e115-20261209@kultura-torun-demo
+DTSTAMP:20261126T151807Z
+DTSTART;TZID=Europe/Warsaw:20261209T163000
+DTEND;TZID=Europe/Warsaw:20261209T180000
+SUMMARY:Warsztaty linorytu w ramach Dni Grzegorza Ciechowskiego
+LOCATION:Kulturalny hub Bydgoskiego Przedmieścia\, ul. Bydgoska 50\, Toru
+ ń
+DESCRIPTION:Źródło: https://www.tak.torun.pl/hub/harmonogram/
+URL:https://www.tak.torun.pl/hub/harmonogram/
+END:VEVENT
+BEGIN:VEVENT
+UID:e116-20261209@kultura-torun-demo
+DTSTAMP:20261126T151807Z
+DTSTART;TZID=Europe/Warsaw:20261209T170000
+DTEND;TZID=Europe/Warsaw:20261209T190000
+SUMMARY:Krąg Kobiet — Taniec Dakini
+LOCATION:Kulturalny hub Bydgoskiego Przedmieścia\, ul. Bydgoska 50\, Toru
+ ń
+DESCRIPTION:Źródło: https://www.tak.torun.pl/hub/harmonogram/
+URL:https://www.tak.torun.pl/hub/harmonogram/
+END:VEVENT
+BEGIN:VEVENT
+UID:e117-20261210@kultura-torun-demo
+DTSTAMP:20261126T151807Z
+DTSTART;TZID=Europe/Warsaw:20261210T160000
+DTEND;TZID=Europe/Warsaw:20261210T190000
+SUMMARY:Kurs Brydża
+LOCATION:Kulturalny hub Bydgoskiego Przedmieścia\, ul. Bydgoska 50\, Toru
+ ń
+DESCRIPTION:Wstęp wolny. Źródło: https://www.tak.torun.pl/hub/harmonog
+ ram/
+URL:https://www.tak.torun.pl/hub/harmonogram/
+END:VEVENT
+BEGIN:VEVENT
+UID:e57-20261210@kultura-torun-demo
+DTSTAMP:20261126T151807Z
+DTSTART;TZID=Europe/Warsaw:20261210T170000
+DTEND;TZID=Europe/Warsaw:20261210T190000
+SUMMARY:Męskie Brzmienia — mocne uderzenie
+LOCATION:CKK Jordanki\, al. Solidarności 1-3\, Toruń
+DESCRIPTION:Źródło: https://jordanki.torun.pl/event/meskie-brzmienia-mo
+ cne-uderzenie/
+URL:https://jordanki.torun.pl/event/meskie-brzmienia-mocne-uderzenie/
+END:VEVENT
+BEGIN:VEVENT
+UID:e84-20261210@kultura-torun-demo
+DTSTAMP:20261126T151807Z
+DTSTART;TZID=Europe/Warsaw:20261210T183000
+DTEND;TZID=Europe/Warsaw:20261210T200000
+SUMMARY:Czwartek z filozofią — Kierkegaard: mój geniusz jest moją mod
+ litwą. Rzecz o intymności ducha
+LOCATION:Dwór Artusa\, Rynek Staromiejski 6\, Toruń
+DESCRIPTION:Źródło: https://artus.torun.pl/wydarzenia/
+URL:https://artus.torun.pl/wydarzenia/
+END:VEVENT
+BEGIN:VEVENT
+UID:e33-20261210@kultura-torun-demo
+DTSTAMP:20261126T151807Z
+DTSTART;TZID=Europe/Warsaw:20261210T190000
+DTEND;TZID=Europe/Warsaw:20261210T210000
+SUMMARY:Kariera Nikodema Dyzmy
+LOCATION:Teatr im. Wilama Horzycy\, pl. Teatralny 1\, Toruń
+DESCRIPTION:Źródło: https://horzyca.pl/en/repertoire/
+URL:https://horzyca.pl/en/repertoire/
+END:VEVENT
+BEGIN:VEVENT
+UID:e171-20261210@kultura-torun-demo
+DTSTAMP:20261126T151807Z
+DTSTART;VALUE=DATE:20261210
+DTEND;VALUE=DATE:20261211
+SUMMARY:Spotkanie z Dariuszem Gizakiem — autorem serii kryminalnej
+LOCATION:Książnica Kopernikańska\, ul. Słowackiego 8\, Toruń
+DESCRIPTION:wstęp wolny. Godzina wg organizatora. Źródło: https://gra.
+ fm/grudzien-pelen-atrakcji-w-ksiaznicy-kopernikanskiej-sprawdz-program-wy
+ darzen.html
+URL:https://gra.fm/grudzien-pelen-atrakcji-w-ksiaznicy-kopernikanskiej-spr
+ awdz-program-wydarzen.html
+END:VEVENT
+BEGIN:VEVENT
+UID:e34-20261211@kultura-torun-demo
+DTSTAMP:20261126T151807Z
+DTSTART;TZID=Europe/Warsaw:20261211T110000
+DTEND;TZID=Europe/Warsaw:20261211T130000
+SUMMARY:Kariera Nikodema Dyzmy
+LOCATION:Teatr im. Wilama Horzycy\, pl. Teatralny 1\, Toruń
+DESCRIPTION:Źródło: https://horzyca.pl/en/repertoire/
+URL:https://horzyca.pl/en/repertoire/
+END:VEVENT
+BEGIN:VEVENT
+UID:e35-20261211@kultura-torun-demo
+DTSTAMP:20261126T151807Z
+DTSTART;TZID=Europe/Warsaw:20261211T190000
+DTEND;TZID=Europe/Warsaw:20261211T210000
+SUMMARY:Bez alko i dragów jestem nudna
+LOCATION:Teatr im. Wilama Horzycy\, pl. Teatralny 1\, Toruń
+DESCRIPTION:Brak wolnych miejsc w dniu zbierania danych. Źródło: https:
+ //horzyca.pl/en/repertoire/
+URL:https://horzyca.pl/en/repertoire/
+END:VEVENT
+BEGIN:VEVENT
+UID:e58-20261211@kultura-torun-demo
+DTSTAMP:20261126T151807Z
+DTSTART;TZID=Europe/Warsaw:20261211T200000
+DTEND;TZID=Europe/Warsaw:20261211T220000
+SUMMARY:Sąsiedzi z góry
+LOCATION:CKK Jordanki\, al. Solidarności 1-3\, Toruń
+DESCRIPTION:Źródło: https://jordanki.torun.pl/ckk-jordanki/nadchodzace-
+ wydarzenia/page/2/
+URL:https://jordanki.torun.pl/ckk-jordanki/nadchodzace-wydarzenia/page/2/
+END:VEVENT
+BEGIN:VEVENT
+UID:e172-20261211@kultura-torun-demo
+DTSTAMP:20261126T151807Z
+DTSTART;VALUE=DATE:20261211
+DTEND;VALUE=DATE:20261212
+SUMMARY:Zofia Konicka z zespołem — slam poetycki z muzyką
+LOCATION:Książnica Kopernikańska\, ul. Słowackiego 8\, Toruń
+DESCRIPTION:wstęp wolny. Godzina wg organizatora. Źródło: https://gra.
+ fm/grudzien-pelen-atrakcji-w-ksiaznicy-kopernikanskiej-sprawdz-program-wy
+ darzen.html
+URL:https://gra.fm/grudzien-pelen-atrakcji-w-ksiaznicy-kopernikanskiej-spr
+ awdz-program-wydarzen.html
+END:VEVENT
+BEGIN:VEVENT
+UID:e36-20261212@kultura-torun-demo
+DTSTAMP:20261126T151807Z
+DTSTART;TZID=Europe/Warsaw:20261212T180000
+DTEND;TZID=Europe/Warsaw:20261212T200000
+SUMMARY:Kariera Nikodema Dyzmy
+LOCATION:Teatr im. Wilama Horzycy\, pl. Teatralny 1\, Toruń
+DESCRIPTION:Źródło: https://horzyca.pl/en/repertoire/
+URL:https://horzyca.pl/en/repertoire/
+END:VEVENT
+BEGIN:VEVENT
+UID:e59-20261212@kultura-torun-demo
+DTSTAMP:20261126T151807Z
+DTSTART;TZID=Europe/Warsaw:20261212T180000
+DTEND;TZID=Europe/Warsaw:20261212T200000
+SUMMARY:Ciechowski symfonicznie
+LOCATION:CKK Jordanki\, al. Solidarności 1-3\, Toruń
+DESCRIPTION:Źródło: https://jordanki.torun.pl/ckk-jordanki/nadchodzace-
+ wydarzenia/page/2/
+URL:https://jordanki.torun.pl/ckk-jordanki/nadchodzace-wydarzenia/page/2/
+END:VEVENT
+BEGIN:VEVENT
+UID:e85-20261212@kultura-torun-demo
+DTSTAMP:20261126T151807Z
+DTSTART;TZID=Europe/Warsaw:20261212T190000
+DTEND;TZID=Europe/Warsaw:20261212T210000
+SUMMARY:14. urodziny Kolektywu Teraz
+LOCATION:Dwór Artusa\, Rynek Staromiejski 6\, Toruń
+DESCRIPTION:Źródło: https://artus.torun.pl/wydarzenia/
+URL:https://artus.torun.pl/wydarzenia/
+END:VEVENT
+BEGIN:VEVENT
+UID:e158-20261213@kultura-torun-demo
+DTSTAMP:20261126T151807Z
+DTSTART;TZID=Europe/Warsaw:20261213T100000
+DTEND;TZID=Europe/Warsaw:20261213T110000
+SUMMARY:Spacer tematyczny: Toruń i Solidarność w stanie wojennym
+LOCATION:CSW „Znaki Czasu”\, Wały gen. Sikorskiego 13\, Toruń
+DESCRIPTION:bezpłatne wejściówki. Źródło: https://csw.torun.pl/liter
+ atura/spacer-tematyczny-torun-i-solidarnosc-w-stanie-wojennym-2/
+URL:https://csw.torun.pl/literatura/spacer-tematyczny-torun-i-solidarnosc-
+ w-stanie-wojennym-2/
+END:VEVENT
+BEGIN:VEVENT
+UID:e60-20261213@kultura-torun-demo
+DTSTAMP:20261126T151807Z
+DTSTART;TZID=Europe/Warsaw:20261213T170000
+DTEND;TZID=Europe/Warsaw:20261213T190000
+SUMMARY:Alicja Majewska i Włodzimierz Korcz — „Jubileusz 50 lat”
+LOCATION:CKK Jordanki\, al. Solidarności 1-3\, Toruń
+DESCRIPTION:Źródło: https://jordanki.torun.pl/ckk-jordanki/nadchodzace-
+ wydarzenia/page/2/
+URL:https://jordanki.torun.pl/ckk-jordanki/nadchodzace-wydarzenia/page/2/
+END:VEVENT
+BEGIN:VEVENT
+UID:e37-20261213@kultura-torun-demo
+DTSTAMP:20261126T151807Z
+DTSTART;TZID=Europe/Warsaw:20261213T180000
+DTEND;TZID=Europe/Warsaw:20261213T200000
+SUMMARY:Kariera Nikodema Dyzmy
+LOCATION:Teatr im. Wilama Horzycy\, pl. Teatralny 1\, Toruń
+DESCRIPTION:Źródło: https://horzyca.pl/en/repertoire/
+URL:https://horzyca.pl/en/repertoire/
+END:VEVENT
+BEGIN:VEVENT
+UID:e86-20261214@kultura-torun-demo
+DTSTAMP:20261126T151807Z
+DTSTART;TZID=Europe/Warsaw:20261214T163000
+DTEND;TZID=Europe/Warsaw:20261214T183000
+SUMMARY:Filmowe poniedziałki
+LOCATION:Dwór Artusa\, Rynek Staromiejski 6\, Toruń
+DESCRIPTION:Źródło: https://artus.torun.pl/wydarzenia/
+URL:https://artus.torun.pl/wydarzenia/
+END:VEVENT
+BEGIN:VEVENT
+UID:e61-20261214@kultura-torun-demo
+DTSTAMP:20261126T151807Z
+DTSTART;TZID=Europe/Warsaw:20261214T173000
+DTEND;TZID=Europe/Warsaw:20261214T190000
+SUMMARY:Olka Szcześniak — „Wybryk natury”
+LOCATION:CKK Jordanki\, al. Solidarności 1-3\, Toruń
+DESCRIPTION:Źródło: https://jordanki.torun.pl/ckk-jordanki/nadchodzace-
+ wydarzenia/page/2/
+URL:https://jordanki.torun.pl/ckk-jordanki/nadchodzace-wydarzenia/page/2/
+END:VEVENT
+BEGIN:VEVENT
+UID:e62-20261214@kultura-torun-demo
+DTSTAMP:20261126T151807Z
+DTSTART;TZID=Europe/Warsaw:20261214T180000
+DTEND;TZID=Europe/Warsaw:20261214T200000
+SUMMARY:Poznaj muzykę. Muzyka Podhala — folklor i tradycja
+LOCATION:CKK Jordanki\, al. Solidarności 1-3\, Toruń
+DESCRIPTION:Źródło: https://jordanki.torun.pl/ckk-jordanki/nadchodzace-
+ wydarzenia/page/2/
+URL:https://jordanki.torun.pl/ckk-jordanki/nadchodzace-wydarzenia/page/2/
+END:VEVENT
+BEGIN:VEVENT
+UID:e118-20261214@kultura-torun-demo
+DTSTAMP:20261126T151807Z
+DTSTART;TZID=Europe/Warsaw:20261214T180000
+DTEND;TZID=Europe/Warsaw:20261214T190000
+SUMMARY:Cykliczne warsztaty wokalne
+LOCATION:Kulturalny hub Bydgoskiego Przedmieścia\, ul. Bydgoska 50\, Toru
+ ń
+DESCRIPTION:Wstęp wolny. Źródło: https://www.tak.torun.pl/hub/harmonog
+ ram/
+URL:https://www.tak.torun.pl/hub/harmonogram/
+END:VEVENT
+BEGIN:VEVENT
+UID:e63-20261214@kultura-torun-demo
+DTSTAMP:20261126T151807Z
+DTSTART;TZID=Europe/Warsaw:20261214T210000
+DTEND;TZID=Europe/Warsaw:20261214T223000
+SUMMARY:Olka Szcześniak — „Wybryk natury”
+LOCATION:CKK Jordanki\, al. Solidarności 1-3\, Toruń
+DESCRIPTION:Źródło: https://jordanki.torun.pl/ckk-jordanki/nadchodzace-
+ wydarzenia/page/2/
+URL:https://jordanki.torun.pl/ckk-jordanki/nadchodzace-wydarzenia/page/2/
+END:VEVENT
+BEGIN:VEVENT
+UID:e38-20261215@kultura-torun-demo
+DTSTAMP:20261126T151807Z
+DTSTART;TZID=Europe/Warsaw:20261215T110000
+DTEND;TZID=Europe/Warsaw:20261215T130000
+SUMMARY:Bez alko i dragów jestem nudna
+LOCATION:Teatr im. Wilama Horzycy\, pl. Teatralny 1\, Toruń
+DESCRIPTION:Brak wolnych miejsc w dniu zbierania danych. Źródło: https:
+ //horzyca.pl/en/repertoire/
+URL:https://horzyca.pl/en/repertoire/
+END:VEVENT
+BEGIN:VEVENT
+UID:e119-20261215@kultura-torun-demo
+DTSTAMP:20261126T151807Z
+DTSTART;TZID=Europe/Warsaw:20261215T170000
+DTEND;TZID=Europe/Warsaw:20261215T183000
+SUMMARY:Warsztaty fotograficzne w ramach Dni Grzegorza Ciechowskiego
+LOCATION:Kulturalny hub Bydgoskiego Przedmieścia\, ul. Bydgoska 50\, Toru
+ ń
+DESCRIPTION:Źródło: https://www.tak.torun.pl/hub/harmonogram/
+URL:https://www.tak.torun.pl/hub/harmonogram/
+END:VEVENT
+BEGIN:VEVENT
+UID:e140-20261215@kultura-torun-demo
+DTSTAMP:20261126T151807Z
+DTSTART;TZID=Europe/Warsaw:20261215T170000
+DTEND;TZID=Europe/Warsaw:20261215T190000
+SUMMARY:Nasza rewolucja
+LOCATION:Od Nowa (ACKiS UMK)\, ul. Gagarina 37a\, Toruń
+DESCRIPTION:Źródło: https://odnowa.umk.pl/
+URL:https://odnowa.umk.pl/
+END:VEVENT
+BEGIN:VEVENT
+UID:e64-20261215@kultura-torun-demo
+DTSTAMP:20261126T151807Z
+DTSTART;TZID=Europe/Warsaw:20261215T173000
+DTEND;TZID=Europe/Warsaw:20261215T190000
+SUMMARY:Olka Szcześniak — „Wybryk natury”
+LOCATION:CKK Jordanki\, al. Solidarności 1-3\, Toruń
+DESCRIPTION:Źródło: https://jordanki.torun.pl/ckk-jordanki/nadchodzace-
+ wydarzenia/page/2/
+URL:https://jordanki.torun.pl/ckk-jordanki/nadchodzace-wydarzenia/page/2/
+END:VEVENT
+BEGIN:VEVENT
+UID:e39-20261215@kultura-torun-demo
+DTSTAMP:20261126T151807Z
+DTSTART;TZID=Europe/Warsaw:20261215T180000
+DTEND;TZID=Europe/Warsaw:20261215T200000
+SUMMARY:Lekarz na telefon
+LOCATION:Teatr im. Wilama Horzycy\, pl. Teatralny 1\, Toruń
+DESCRIPTION:Brak wolnych miejsc w dniu zbierania danych. Źródło: https:
+ //horzyca.pl/en/repertoire/
+URL:https://horzyca.pl/en/repertoire/
+END:VEVENT
+BEGIN:VEVENT
+UID:e40-20261215@kultura-torun-demo
+DTSTAMP:20261126T151807Z
+DTSTART;TZID=Europe/Warsaw:20261215T190000
+DTEND;TZID=Europe/Warsaw:20261215T210000
+SUMMARY:Bez alko i dragów jestem nudna
+LOCATION:Teatr im. Wilama Horzycy\, pl. Teatralny 1\, Toruń
+DESCRIPTION:Źródło: https://horzyca.pl/en/repertoire/
+URL:https://horzyca.pl/en/repertoire/
+END:VEVENT
+BEGIN:VEVENT
+UID:e41-20261215@kultura-torun-demo
+DTSTAMP:20261126T151807Z
+DTSTART;TZID=Europe/Warsaw:20261215T200000
+DTEND;TZID=Europe/Warsaw:20261215T220000
+SUMMARY:Lekarz na telefon
+LOCATION:Teatr im. Wilama Horzycy\, pl. Teatralny 1\, Toruń
+DESCRIPTION:Brak wolnych miejsc w dniu zbierania danych. Źródło: https:
+ //horzyca.pl/en/repertoire/
+URL:https://horzyca.pl/en/repertoire/
+END:VEVENT
+BEGIN:VEVENT
+UID:e65-20261215@kultura-torun-demo
+DTSTAMP:20261126T151807Z
+DTSTART;TZID=Europe/Warsaw:20261215T210000
+DTEND;TZID=Europe/Warsaw:20261215T223000
+SUMMARY:Olka Szcześniak — „Wybryk natury”
+LOCATION:CKK Jordanki\, al. Solidarności 1-3\, Toruń
+DESCRIPTION:Źródło: https://jordanki.torun.pl/ckk-jordanki/nadchodzace-
+ wydarzenia/page/2/
+URL:https://jordanki.torun.pl/ckk-jordanki/nadchodzace-wydarzenia/page/2/
+END:VEVENT
+BEGIN:VEVENT
+UID:e173-20261215@kultura-torun-demo
+DTSTAMP:20261126T151807Z
+DTSTART;VALUE=DATE:20261215
+DTEND;VALUE=DATE:20261216
+SUMMARY:Premiera książki Katarzyny Kluczwajd „Toruński Łuk Cezara i 
+ centralny plac nowoczesnego miasta”
+LOCATION:Książnica Kopernikańska\, ul. Słowackiego 8\, Toruń
+DESCRIPTION:wstęp wolny. Godzina wg organizatora. Źródło: https://gra.
+ fm/grudzien-pelen-atrakcji-w-ksiaznicy-kopernikanskiej-sprawdz-program-wy
+ darzen.html
+URL:https://gra.fm/grudzien-pelen-atrakcji-w-ksiaznicy-kopernikanskiej-spr
+ awdz-program-wydarzen.html
+END:VEVENT
+BEGIN:VEVENT
+UID:e42-20261216@kultura-torun-demo
+DTSTAMP:20261126T151807Z
+DTSTART;TZID=Europe/Warsaw:20261216T110000
+DTEND;TZID=Europe/Warsaw:20261216T130000
+SUMMARY:Bez alko i dragów jestem nudna
+LOCATION:Teatr im. Wilama Horzycy\, pl. Teatralny 1\, Toruń
+DESCRIPTION:Brak wolnych miejsc w dniu zbierania danych. Źródło: https:
+ //horzyca.pl/en/repertoire/
+URL:https://horzyca.pl/en/repertoire/
+END:VEVENT
+BEGIN:VEVENT
+UID:e120-20261216@kultura-torun-demo
+DTSTAMP:20261126T151807Z
+DTSTART;TZID=Europe/Warsaw:20261216T163000
+DTEND;TZID=Europe/Warsaw:20261216T183000
+SUMMARY:Warsztaty graficzne w ramach Dni Grzegorza Ciechowskiego
+LOCATION:Kulturalny hub Bydgoskiego Przedmieścia\, ul. Bydgoska 50\, Toru
+ ń
+DESCRIPTION:Źródło: https://www.tak.torun.pl/hub/harmonogram/
+URL:https://www.tak.torun.pl/hub/harmonogram/
+END:VEVENT
+BEGIN:VEVENT
+UID:e121-20261216@kultura-torun-demo
+DTSTAMP:20261126T151807Z
+DTSTART;TZID=Europe/Warsaw:20261216T170000
+DTEND;TZID=Europe/Warsaw:20261216T190000
+SUMMARY:Krąg Kobiet — Taniec Dakini
+LOCATION:Kulturalny hub Bydgoskiego Przedmieścia\, ul. Bydgoska 50\, Toru
+ ń
+DESCRIPTION:Źródło: https://www.tak.torun.pl/hub/harmonogram/
+URL:https://www.tak.torun.pl/hub/harmonogram/
+END:VEVENT
+BEGIN:VEVENT
+UID:e122-20261217@kultura-torun-demo
+DTSTAMP:20261126T151807Z
+DTSTART;TZID=Europe/Warsaw:20261217T150000
+DTEND;TZID=Europe/Warsaw:20261217T170000
+SUMMARY:Warsztaty muzyczne — Syntezatorownia w hubie
+LOCATION:Kulturalny hub Bydgoskiego Przedmieścia\, ul. Bydgoska 50\, Toru
+ ń
+DESCRIPTION:Źródło: https://www.tak.torun.pl/hub/harmonogram/
+URL:https://www.tak.torun.pl/hub/harmonogram/
+END:VEVENT
+BEGIN:VEVENT
+UID:e123-20261217@kultura-torun-demo
+DTSTAMP:20261126T151807Z
+DTSTART;TZID=Europe/Warsaw:20261217T160000
+DTEND;TZID=Europe/Warsaw:20261217T190000
+SUMMARY:Kurs Brydża
+LOCATION:Kulturalny hub Bydgoskiego Przedmieścia\, ul. Bydgoska 50\, Toru
+ ń
+DESCRIPTION:Wstęp wolny. Źródło: https://www.tak.torun.pl/hub/harmonog
+ ram/
+URL:https://www.tak.torun.pl/hub/harmonogram/
+END:VEVENT
+BEGIN:VEVENT
+UID:e66-20261217@kultura-torun-demo
+DTSTAMP:20261126T151807Z
+DTSTART;TZID=Europe/Warsaw:20261217T180000
+DTEND;TZID=Europe/Warsaw:20261217T200000
+SUMMARY:Opowieść Wigilijna
+LOCATION:CKK Jordanki\, al. Solidarności 1-3\, Toruń
+DESCRIPTION:Źródło: https://jordanki.torun.pl/ckk-jordanki/nadchodzace-
+ wydarzenia/page/2/
+URL:https://jordanki.torun.pl/ckk-jordanki/nadchodzace-wydarzenia/page/2/
+END:VEVENT
+BEGIN:VEVENT
+UID:e43-20261217@kultura-torun-demo
+DTSTAMP:20261126T151807Z
+DTSTART;TZID=Europe/Warsaw:20261217T190000
+DTEND;TZID=Europe/Warsaw:20261217T210000
+SUMMARY:Tytus Andronikus
+LOCATION:Teatr im. Wilama Horzycy\, pl. Teatralny 1\, Toruń
+DESCRIPTION:Źródło: https://horzyca.pl/en/repertoire/
+URL:https://horzyca.pl/en/repertoire/
+END:VEVENT
+BEGIN:VEVENT
+UID:e67-20261218@kultura-torun-demo
+DTSTAMP:20261126T151807Z
+DTSTART;TZID=Europe/Warsaw:20261218T173000
+DTEND;TZID=Europe/Warsaw:20261218T193000
+SUMMARY:Koncert Królewski — Majestat Klasyki
+LOCATION:CKK Jordanki\, al. Solidarności 1-3\, Toruń
+DESCRIPTION:Źródło: https://jordanki.torun.pl/ckk-jordanki/nadchodzace-
+ wydarzenia/page/2/
+URL:https://jordanki.torun.pl/ckk-jordanki/nadchodzace-wydarzenia/page/2/
+END:VEVENT
+BEGIN:VEVENT
+UID:e44-20261218@kultura-torun-demo
+DTSTAMP:20261126T151807Z
+DTSTART;TZID=Europe/Warsaw:20261218T180000
+DTEND;TZID=Europe/Warsaw:20261218T200000
+SUMMARY:Tytus Andronikus
+LOCATION:Teatr im. Wilama Horzycy\, pl. Teatralny 1\, Toruń
+DESCRIPTION:Brak wolnych miejsc w dniu zbierania danych. Źródło: https:
+ //horzyca.pl/en/repertoire/
+URL:https://horzyca.pl/en/repertoire/
+END:VEVENT
+BEGIN:VEVENT
+UID:e68-20261218@kultura-torun-demo
+DTSTAMP:20261126T151807Z
+DTSTART;TZID=Europe/Warsaw:20261218T200000
+DTEND;TZID=Europe/Warsaw:20261218T220000
+SUMMARY:Pop Opera — od opery do musicalu
+LOCATION:CKK Jordanki\, al. Solidarności 1-3\, Toruń
+DESCRIPTION:Źródło: https://jordanki.torun.pl/ckk-jordanki/nadchodzace-
+ wydarzenia/page/2/
+URL:https://jordanki.torun.pl/ckk-jordanki/nadchodzace-wydarzenia/page/2/
+END:VEVENT
+BEGIN:VEVENT
+UID:e45-20261219@kultura-torun-demo
+DTSTAMP:20261126T151807Z
+DTSTART;TZID=Europe/Warsaw:20261219T110000
+DTEND;TZID=Europe/Warsaw:20261219T123000
+SUMMARY:O władzy\, rodzinie i zemście — warsztaty do spektaklu „Tytu
+ s Andronikus”
+LOCATION:Teatr im. Wilama Horzycy\, pl. Teatralny 1\, Toruń
+DESCRIPTION:Źródło: https://horzyca.pl/en/repertoire/
+URL:https://horzyca.pl/en/repertoire/
+END:VEVENT
+BEGIN:VEVENT
+UID:e46-20261219@kultura-torun-demo
+DTSTAMP:20261126T151807Z
+DTSTART;TZID=Europe/Warsaw:20261219T160000
+DTEND;TZID=Europe/Warsaw:20261219T180000
+SUMMARY:Lekarz na telefon
+LOCATION:Teatr im. Wilama Horzycy\, pl. Teatralny 1\, Toruń
+DESCRIPTION:Brak wolnych miejsc w dniu zbierania danych. Źródło: https:
+ //horzyca.pl/en/repertoire/
+URL:https://horzyca.pl/en/repertoire/
+END:VEVENT
+BEGIN:VEVENT
+UID:e69-20261219@kultura-torun-demo
+DTSTAMP:20261126T151807Z
+DTSTART;TZID=Europe/Warsaw:20261219T160000
+DTEND;TZID=Europe/Warsaw:20261219T180000
+SUMMARY:Dziadek do orzechów — Królewski Balet Klasyczny z orkiestrą
+LOCATION:CKK Jordanki\, al. Solidarności 1-3\, Toruń
+DESCRIPTION:Źródło: https://jordanki.torun.pl/ckk-jordanki/nadchodzace-
+ wydarzenia/page/2/
+URL:https://jordanki.torun.pl/ckk-jordanki/nadchodzace-wydarzenia/page/2/
+END:VEVENT
+BEGIN:VEVENT
+UID:e47-20261219@kultura-torun-demo
+DTSTAMP:20261126T151807Z
+DTSTART;TZID=Europe/Warsaw:20261219T180000
+DTEND;TZID=Europe/Warsaw:20261219T200000
+SUMMARY:Tytus Andronikus
+LOCATION:Teatr im. Wilama Horzycy\, pl. Teatralny 1\, Toruń
+DESCRIPTION:Źródło: https://horzyca.pl/en/repertoire/
+URL:https://horzyca.pl/en/repertoire/
+END:VEVENT
+BEGIN:VEVENT
+UID:e70-20261219@kultura-torun-demo
+DTSTAMP:20261126T151807Z
+DTSTART;TZID=Europe/Warsaw:20261219T190000
+DTEND;TZID=Europe/Warsaw:20261219T210000
+SUMMARY:Dziadek do orzechów — Królewski Balet Klasyczny z orkiestrą
+LOCATION:CKK Jordanki\, al. Solidarności 1-3\, Toruń
+DESCRIPTION:Źródło: https://jordanki.torun.pl/ckk-jordanki/nadchodzace-
+ wydarzenia/page/2/
+URL:https://jordanki.torun.pl/ckk-jordanki/nadchodzace-wydarzenia/page/2/
+END:VEVENT
+BEGIN:VEVENT
+UID:e141-20261219@kultura-torun-demo
+DTSTAMP:20261126T151807Z
+DTSTART;TZID=Europe/Warsaw:20261219T190000
+DTEND;TZID=Europe/Warsaw:20261219T210000
+SUMMARY:Koncert Specjalny Pamięci Grzegorza Ciechowskiego
+LOCATION:Od Nowa (ACKiS UMK)\, ul. Gagarina 37a\, Toruń
+DESCRIPTION:Źródło: https://odnowa.umk.pl/wydarzenie/koncert-specjalny-
+ pamieci-grzegorza-ciechowskiego-2/
+URL:https://odnowa.umk.pl/wydarzenie/koncert-specjalny-pamieci-grzegorza-c
+ iechowskiego-2/
+END:VEVENT
+BEGIN:VEVENT
+UID:e71-20261220@kultura-torun-demo
+DTSTAMP:20261126T151807Z
+DTSTART;TZID=Europe/Warsaw:20261220T150000
+DTEND;TZID=Europe/Warsaw:20261220T160000
+SUMMARY:„O sroczce\, która za morze odlecieć nie chciała”\, czyli k
+ oncert na powitanie zimy
+LOCATION:CKK Jordanki\, al. Solidarności 1-3\, Toruń
+DESCRIPTION:Źródło: https://jordanki.torun.pl/ckk-jordanki/nadchodzace-
+ wydarzenia/page/2/
+URL:https://jordanki.torun.pl/ckk-jordanki/nadchodzace-wydarzenia/page/2/
+END:VEVENT
+BEGIN:VEVENT
+UID:e48-20261220@kultura-torun-demo
+DTSTAMP:20261126T151807Z
+DTSTART;TZID=Europe/Warsaw:20261220T160000
+DTEND;TZID=Europe/Warsaw:20261220T180000
+SUMMARY:Lekarz na telefon
+LOCATION:Teatr im. Wilama Horzycy\, pl. Teatralny 1\, Toruń
+DESCRIPTION:Brak wolnych miejsc w dniu zbierania danych. Źródło: https:
+ //horzyca.pl/en/repertoire/
+URL:https://horzyca.pl/en/repertoire/
+END:VEVENT
+BEGIN:VEVENT
+UID:e72-20261220@kultura-torun-demo
+DTSTAMP:20261126T151807Z
+DTSTART;TZID=Europe/Warsaw:20261220T163000
+DTEND;TZID=Europe/Warsaw:20261220T173000
+SUMMARY:„O sroczce\, która za morze odlecieć nie chciała”\, czyli k
+ oncert na powitanie zimy
+LOCATION:CKK Jordanki\, al. Solidarności 1-3\, Toruń
+DESCRIPTION:Źródło: https://jordanki.torun.pl/ckk-jordanki/nadchodzace-
+ wydarzenia/page/2/
+URL:https://jordanki.torun.pl/ckk-jordanki/nadchodzace-wydarzenia/page/2/
+END:VEVENT
+BEGIN:VEVENT
+UID:e73-20261220@kultura-torun-demo
+DTSTAMP:20261126T151807Z
+DTSTART;TZID=Europe/Warsaw:20261220T170000
+DTEND;TZID=Europe/Warsaw:20261220T190000
+SUMMARY:Wszyscy kłamią
+LOCATION:CKK Jordanki\, al. Solidarności 1-3\, Toruń
+DESCRIPTION:Źródło: https://jordanki.torun.pl/ckk-jordanki/nadchodzace-
+ wydarzenia/page/2/
+URL:https://jordanki.torun.pl/ckk-jordanki/nadchodzace-wydarzenia/page/2/
+END:VEVENT
+BEGIN:VEVENT
+UID:e49-20261220@kultura-torun-demo
+DTSTAMP:20261126T151807Z
+DTSTART;TZID=Europe/Warsaw:20261220T180000
+DTEND;TZID=Europe/Warsaw:20261220T200000
+SUMMARY:Tytus Andronikus
+LOCATION:Teatr im. Wilama Horzycy\, pl. Teatralny 1\, Toruń
+DESCRIPTION:Źródło: https://horzyca.pl/en/repertoire/
+URL:https://horzyca.pl/en/repertoire/
+END:VEVENT
+BEGIN:VEVENT
+UID:e124-20261221@kultura-torun-demo
+DTSTAMP:20261126T151807Z
+DTSTART;TZID=Europe/Warsaw:20261221T180000
+DTEND;TZID=Europe/Warsaw:20261221T190000
+SUMMARY:Cykliczne warsztaty wokalne
+LOCATION:Kulturalny hub Bydgoskiego Przedmieścia\, ul. Bydgoska 50\, Toru
+ ń
+DESCRIPTION:Wstęp wolny. Źródło: https://www.tak.torun.pl/hub/harmonog
+ ram/
+URL:https://www.tak.torun.pl/hub/harmonogram/
+END:VEVENT
+BEGIN:VEVENT
+UID:e74-20261221@kultura-torun-demo
+DTSTAMP:20261126T151807Z
+DTSTART;TZID=Europe/Warsaw:20261221T190000
+DTEND;TZID=Europe/Warsaw:20261221T210000
+SUMMARY:Varius Manx & Kasia Stankiewicz — SUPER EGO TOUR
+LOCATION:CKK Jordanki\, al. Solidarności 1-3\, Toruń
+DESCRIPTION:Źródło: https://jordanki.torun.pl/ckk-jordanki/nadchodzace-
+ wydarzenia/page/2/
+URL:https://jordanki.torun.pl/ckk-jordanki/nadchodzace-wydarzenia/page/2/
+END:VEVENT
+BEGIN:VEVENT
+UID:e75-20261222@kultura-torun-demo
+DTSTAMP:20261126T151807Z
+DTSTART;TZID=Europe/Warsaw:20261222T193000
+DTEND;TZID=Europe/Warsaw:20261222T213000
+SUMMARY:Sławek Uniatowski — Magic Christmas Jazz Night
+LOCATION:CKK Jordanki\, al. Solidarności 1-3\, Toruń
+DESCRIPTION:Brak wolnych miejsc w dniu zbierania danych. Źródło: https:
+ //jordanki.torun.pl/ckk-jordanki/nadchodzace-wydarzenia/page/2/
+URL:https://jordanki.torun.pl/ckk-jordanki/nadchodzace-wydarzenia/page/2/
+END:VEVENT
+BEGIN:VEVENT
+UID:e76-20261227@kultura-torun-demo
+DTSTAMP:20261126T151807Z
+DTSTART;TZID=Europe/Warsaw:20261227T153000
+DTEND;TZID=Europe/Warsaw:20261227T173000
+SUMMARY:Noworoczny Koncert Wiedeński z Gwiazdami
+LOCATION:CKK Jordanki\, al. Solidarności 1-3\, Toruń
+DESCRIPTION:Źródło: https://jordanki.torun.pl/ckk-jordanki/nadchodzace-
+ wydarzenia/page/2/
+URL:https://jordanki.torun.pl/ckk-jordanki/nadchodzace-wydarzenia/page/2/
+END:VEVENT
+BEGIN:VEVENT
+UID:e77-20261228@kultura-torun-demo
+DTSTAMP:20261126T151807Z
+DTSTART;TZID=Europe/Warsaw:20261228T170000
+DTEND;TZID=Europe/Warsaw:20261228T190000
+SUMMARY:TGD Kolędy Świata — trasa 2026/2027
+LOCATION:CKK Jordanki\, al. Solidarności 1-3\, Toruń
+DESCRIPTION:Źródło: https://jordanki.torun.pl/ckk-jordanki/nadchodzace-
+ wydarzenia/page/2/
+URL:https://jordanki.torun.pl/ckk-jordanki/nadchodzace-wydarzenia/page/2/
+END:VEVENT
+BEGIN:VEVENT
+UID:e50-20261228@kultura-torun-demo
+DTSTAMP:20261126T151807Z
+DTSTART;TZID=Europe/Warsaw:20261228T180000
+DTEND;TZID=Europe/Warsaw:20261228T190000
+SUMMARY:Poznaj teatr
+LOCATION:Teatr im. Wilama Horzycy\, pl. Teatralny 1\, Toruń
+DESCRIPTION:Źródło: https://horzyca.pl/en/repertoire/
+URL:https://horzyca.pl/en/repertoire/
+END:VEVENT
+BEGIN:VEVENT
+UID:e78-20261228@kultura-torun-demo
+DTSTAMP:20261126T151807Z
+DTSTART;TZID=Europe/Warsaw:20261228T190000
+DTEND;TZID=Europe/Warsaw:20261228T210000
+SUMMARY:Bridgerton — muzyka instrumentalna przy świecach
+LOCATION:CKK Jordanki\, al. Solidarności 1-3\, Toruń
+DESCRIPTION:Źródło: https://jordanki.torun.pl/ckk-jordanki/nadchodzace-
+ wydarzenia/page/2/
+URL:https://jordanki.torun.pl/ckk-jordanki/nadchodzace-wydarzenia/page/2/
+END:VEVENT
+BEGIN:VEVENT
+UID:e79-20261229@kultura-torun-demo
+DTSTAMP:20261126T151807Z
+DTSTART;TZID=Europe/Warsaw:20261229T200000
+DTEND;TZID=Europe/Warsaw:20261229T220000
+SUMMARY:Piotr Cugowski — Koncert świąteczny
+LOCATION:CKK Jordanki\, al. Solidarności 1-3\, Toruń
+DESCRIPTION:Źródło: https://jordanki.torun.pl/ckk-jordanki/nadchodzace-
+ wydarzenia/page/2/
+URL:https://jordanki.torun.pl/ckk-jordanki/nadchodzace-wydarzenia/page/2/
+END:VEVENT
+BEGIN:VEVENT
+UID:e51-20261230@kultura-torun-demo
+DTSTAMP:20261126T151807Z
+DTSTART;TZID=Europe/Warsaw:20261230T190000
+DTEND;TZID=Europe/Warsaw:20261230T210000
+SUMMARY:Na ostrzu noża — spektakl z niespodzianką
+LOCATION:Teatr im. Wilama Horzycy\, pl. Teatralny 1\, Toruń
+DESCRIPTION:Źródło: https://horzyca.pl/en/repertoire/
+URL:https://horzyca.pl/en/repertoire/
+END:VEVENT
+BEGIN:VEVENT
+UID:e80-20261231@kultura-torun-demo
+DTSTAMP:20261126T151807Z
+DTSTART;TZID=Europe/Warsaw:20261231T170000
+DTEND;TZID=Europe/Warsaw:20261231T190000
+SUMMARY:Wielka Gala Sylwestrowa / Taneczne przeboje wszech czasów
+LOCATION:CKK Jordanki\, al. Solidarności 1-3\, Toruń
+DESCRIPTION:Źródło: https://jordanki.torun.pl/ckk-jordanki/nadchodzace-
+ wydarzenia/page/2/
+URL:https://jordanki.torun.pl/ckk-jordanki/nadchodzace-wydarzenia/page/2/
+END:VEVENT
+BEGIN:VEVENT
+UID:e52-20261231@kultura-torun-demo
+DTSTAMP:20261126T151807Z
+DTSTART;TZID=Europe/Warsaw:20261231T200000
+DTEND;TZID=Europe/Warsaw:20261231T220000
+SUMMARY:Na ostrzu noża — spektakl sylwestrowy
+LOCATION:Teatr im. Wilama Horzycy\, pl. Teatralny 1\, Toruń
+DESCRIPTION:Brak wolnych miejsc w dniu zbierania danych. Źródło: https:
+ //horzyca.pl/en/repertoire/
+URL:https://horzyca.pl/en/repertoire/
+END:VEVENT
+BEGIN:VEVENT
+UID:e81-20261231@kultura-torun-demo
+DTSTAMP:20261126T151807Z
+DTSTART;TZID=Europe/Warsaw:20261231T203000
+DTEND;TZID=Europe/Warsaw:20261231T223000
+SUMMARY:Wielka Gala Sylwestrowa / Taneczne przeboje wszech czasów
+LOCATION:CKK Jordanki\, al. Solidarności 1-3\, Toruń
+DESCRIPTION:Źródło: https://jordanki.torun.pl/ckk-jordanki/nadchodzace-
+ wydarzenia/page/2/
+URL:https://jordanki.torun.pl/ckk-jordanki/nadchodzace-wydarzenia/page/2/
+END:VEVENT
+END:VCALENDAR
